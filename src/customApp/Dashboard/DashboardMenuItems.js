@@ -38,5 +38,15 @@ export default [
   {
     key: 'lien-he',
     label: 'Liên hệ'
-  }
+  },
+  // {
+  //   key: 'components',
+  //   label: 'Components',
+  //   children: [
+  //     {
+  //       key: 'clock',
+  //       label: 'Clock'
+  //     },
+  //   ]
+  // }
 ]

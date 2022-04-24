@@ -5,7 +5,12 @@ import Loader from '../../components/utility/loader';
 const routes = [
   {
     path: '',
-    component: lazy(() => import('../TrangChu')),
+    component: lazy(() => import('../Clock')),
+    exact: true,
+  },
+  {
+    path: 'clock',
+    component: lazy(() => import('../Clock')),
     exact: true,
   },
 ];
