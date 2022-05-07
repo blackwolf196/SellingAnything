@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0258bd3.css",
+    "main.js": "/static/js/main.9b48b689.js",
+    "static/js/619.30278c2b.chunk.js": "/static/js/619.30278c2b.chunk.js",
+    "static/css/909.bdfb9366.chunk.css": "/static/css/909.bdfb9366.chunk.css",
+    "static/js/909.59ed3942.chunk.js": "/static/js/909.59ed3942.chunk.js",
+    "static/css/882.758a50f4.chunk.css": "/static/css/882.758a50f4.chunk.css",
+    "static/js/882.2349c901.chunk.js": "/static/js/882.2349c901.chunk.js",
+    "static/media/stardew valley text.png": "/static/media/stardew valley text.c9d2f8aceda8951186cb.png",
+    "static/media/uk.svg": "/static/media/uk.849699bef1cce0bd414a980c7575002a.svg",
+    "static/media/china.svg": "/static/media/china.d05a649b0fe3d1a2aab9550c24d594ed.svg",
+    "static/media/spain.svg": "/static/media/spain.6ae9e2f536f0c760f14d4d2e5c5865c1.svg",
+    "index.html": "/index.html",
+    "static/media/france.svg": "/static/media/france.f542aafb7eb53b837c7a9141b5b96463.svg",
+    "static/media/italy.svg": "/static/media/italy.9ef80c6c0e6c3ea2dd3069e18f35ada9.svg",
+    "main.d0258bd3.css.map": "/static/css/main.d0258bd3.css.map",
+    "main.9b48b689.js.map": "/static/js/main.9b48b689.js.map",
+    "619.30278c2b.chunk.js.map": "/static/js/619.30278c2b.chunk.js.map",
+    "909.bdfb9366.chunk.css.map": "/static/css/909.bdfb9366.chunk.css.map",
+    "909.59ed3942.chunk.js.map": "/static/js/909.59ed3942.chunk.js.map",
+    "882.758a50f4.chunk.css.map": "/static/css/882.758a50f4.chunk.css.map",
+    "882.2349c901.chunk.js.map": "/static/js/882.2349c901.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0258bd3.css",
+    "static/js/main.9b48b689.js"
+  ]
+}
