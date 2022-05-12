@@ -20,7 +20,7 @@ export default (props) => {
       setClock();
       setLoading(false);
     }, 1000);
-    newFunc();
+
     return () => {
       clearInterval(interVal);
     }
@@ -60,17 +60,6 @@ export default (props) => {
   while (listNumClock.length < 12) {
     listNumClock.push('');
   }
-
-  const newFunc = () => {
-    const arr = [];
-    for (let i = 0; i < 10; i++) {
-      arr.push(i);
-    }
-
-    arr.forEach(item => {
-      console.log('Item from ' + item);
-    })
-  };
 
   return <ClockWrapper>
     <Spin spinning={loading}>
