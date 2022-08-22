@@ -1,6 +1,4 @@
-import siteConfig from '../../config/site.config';
-
-export default [
+const menuItem = [
   {
     key: '',
     label: 'Trang chủ'
@@ -39,14 +37,20 @@ export default [
     key: 'lien-he',
     label: 'Liên hệ'
   },
-  // {
-  //   key: 'components',
-  //   label: 'Components',
-  //   children: [
-  //     {
-  //       key: 'clock',
-  //       label: 'Clock'
-  //     },
-  //   ]
-  // }
-]
+  {
+    key: 'components',
+    label: 'Components',
+    children: [
+      {
+        key: 'clock',
+        label: 'Clock'
+      },
+      {
+        key: 'magic-menu',
+        label: 'Magic menu'
+      },
+    ]
+  }
+];
+
+export default menuItem;
