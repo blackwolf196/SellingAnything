@@ -6,7 +6,7 @@ const BoxWrapper = styled.div`
   height: 100%;
   padding: 20px;
   background-color: #ffffff;
-  border: 1px solid ${palette('border', 0)};
+  //border: 1px solid ${palette('border', 0)};
   margin: 0 0 30px;
 
   &:last-child {
@@ -15,7 +15,6 @@ const BoxWrapper = styled.div`
 
   @media only screen and (max-width: 767px) {
     padding: 20px;
-    ${'' /* margin: 0 10px 30px; */};
   }
 
   &.half {

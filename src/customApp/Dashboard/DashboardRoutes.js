@@ -13,6 +13,11 @@ const routes = [
     component: lazy(() => import('../Clock')),
     exact: true,
   },
+  {
+    path: 'magic-menu',
+    component: lazy(() => import('../components/MagicNavigationMenu')),
+    exact: true,
+  },
 ];
 
 export default function AppRouter() {

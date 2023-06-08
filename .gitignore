@@ -107,5 +107,5 @@ dist
 .idea
 
 #build
-.build
-build/
+build/*
+!build/build.xml
