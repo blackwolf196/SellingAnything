@@ -4,6 +4,10 @@ import Loader from '../../components/utility/loader';
 
 const routes = [
   {
+    path: '*',
+    component: lazy(() => import('@iso/containers/Charts/ReactChart2'))
+  },
+  {
     path: '',
     component: lazy(() => import('../Clock')),
     exact: true,
@@ -12,12 +16,7 @@ const routes = [
     path: 'clock',
     component: lazy(() => import('../Clock')),
     exact: true,
-  },
-  {
-    path: 'magic-menu',
-    component: lazy(() => import('../components/MagicNavigationMenu')),
-    exact: true,
-  },
+  }
 ];
 
 export default function AppRouter() {
