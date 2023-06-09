@@ -4,10 +4,6 @@ import Loader from '../../components/utility/loader';
 
 const routes = [
   {
-    path: '*',
-    component: lazy(() => import('@iso/containers/Charts/ReactChart2'))
-  },
-  {
     path: '',
     component: lazy(() => import('../Clock')),
     exact: true,
@@ -19,6 +15,8 @@ const routes = [
   }
 ];
 
+const NotFoundComponent = lazy(() => import('@iso/containers/Charts/ReactChart2'));
+
 export default function AppRouter() {
   const {url} = useRouteMatch();
   return (
@@ -29,6 +27,10 @@ export default function AppRouter() {
             <route.component/>
           </Route>
         ))}
+        {/*Not found route*/}
+        <Route path={"*"}>
+          <NotFoundComponent/>
+        </Route>
       </Switch>
     </Suspense>
   );
