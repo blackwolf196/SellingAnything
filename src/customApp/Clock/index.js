@@ -1,6 +1,5 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import ClockWrapper from './clock.styled';
-import {changeFavicon} from "../../library/helpers/utility";
 import {Spin} from 'antd';
 
 export default (props) => {

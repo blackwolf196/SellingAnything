@@ -1,5 +1,5 @@
 {
-  "name": "stardew",
+  "name": "selling",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -129,5 +129,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackwolf196/SellingAnything.git"
+  },
+  "author": "ThanhDC <blackwolf196@gmail.com>",
+  "license": "MIT",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3c336a5f-cb57-4671-939e-43d2d87e2504/deploy-status)](https://app.netlify.com/sites/khongbietbangi/deploys)",
+  "bugs": {
+    "url": "https://github.com/blackwolf196/SellingAnything/issues"
+  },
+  "homepage": "https://github.com/blackwolf196/SellingAnything#readme"
 }

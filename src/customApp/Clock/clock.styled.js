@@ -4,7 +4,8 @@ import {transition} from "../../library/helpers/style_utils";
 const flexCenter = `
   display: flex;
   justify-content: center;
-  align-items: center`;
+  align-items: center;
+  `;
 
 export default styled.div`
   ${flexCenter};
@@ -185,10 +186,10 @@ export default styled.div`
   
   @keyframes animate {
     0% {
-      opacity: 1;
+      opacity: 0;
     }
     50% {
-      opacity: 0;
+      opacity: 1;
     }
   }
 `;
