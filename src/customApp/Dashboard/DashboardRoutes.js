@@ -15,7 +15,7 @@ const routes = [
   }
 ];
 
-const NotFoundComponent = lazy(() => import('@iso/containers/Charts/ReactChart2'));
+const NotFoundComponent = lazy(() => import('@iso/custom/AllChart'));
 
 export default function AppRouter() {
   const {url} = useRouteMatch();
