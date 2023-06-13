@@ -6,7 +6,8 @@
     "rootDir": "src",
     "outDir": "build",
     "lib": [
-      "ES2022"
+      "ES2022",
+      "dom"
     ],
     "strict": true,
     "esModuleInterop": true,
