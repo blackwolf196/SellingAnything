@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 import {transition} from "../../library/helpers/style_utils";
+import {DigitalClockProps} from "./Clock";
+
+interface StyledProps extends DigitalClockProps {
+
+}
 
 const flexCenter = `
   display: flex;
@@ -7,7 +12,7 @@ const flexCenter = `
   align-items: center;
   `;
 
-export default styled.div`
+export default styled.div<StyledProps>`
   ${flexCenter};
   min-height: 100%;
   background: #2f363e;
@@ -27,24 +32,24 @@ export default styled.div`
     flex-direction: column;
     ${transition()};
     
-    @media only screen and (max-width: 490px){
-      zoom: .9;
+    @media only screen and (max-width: 490px), (max-height: 749px){
+      zoom: .9 !important;
     }
     
-    @media only screen and (max-width: 450px){
-      zoom: .8;
+    @media only screen and (max-width: 450px), (max-height: 689px){
+      zoom: .8 !important;
     }
     
-    @media only screen and (max-width: 370px){
-      zoom: .7;
+    @media only screen and (max-width: 370px), (max-height: 629px){
+      zoom: .7 !important;
     }
     
-    @media only screen and (max-width: 320px){
-      zoom: .6;
+    @media only screen and (max-width: 320px), (max-height: 569px){
+      zoom: .6 !important;
     }
     
-    @media only screen and (max-width: 290px){
-      zoom: .5;
+    @media only screen and (max-width: 290px), (max-height: 509px){
+      zoom: .5 !important;
     }
        
     .clock {
@@ -99,17 +104,17 @@ export default styled.div`
         
         &:before {
           content: '';
-          background: var(--clr);
+          background: ${props => props.secondColor};
           width: 10px;
           height: 10px;
           position: absolute;
           top: -7px;
           border-radius: 50%;
-          box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
+          box-shadow: 0 0 20px ${props => props.secondColor}, 0 0 60px ${props => props.secondColor};
         }
         
         i {
-          background: var(--clr);
+          background: ${props => props.secondColor};
           position: absolute;
           width: 6px;
           height: 50%;
@@ -132,16 +137,34 @@ export default styled.div`
         }
       }
       
-      .circle2 {
+      .circle-mn {
         width: 240px;
         height: 240px;
         z-index: 9;
+
+        &:before {
+          background: ${props => props.minuteColor};
+          box-shadow: 0 0 20px ${props => props.minuteColor}, 0 0 60px ${props => props.minuteColor};
+        }
+
+        i {
+          background: ${props => props.minuteColor};
+        }
       }
       
-      .circle3 {
+      .circle-hr {
         width: 180px;
         height: 180px;
         z-index: 8;
+
+        &:before {
+          background: ${props => props.hourColor};
+          box-shadow: 0 0 20px ${props => props.hourColor}, 0 0 60px ${props => props.hourColor};
+        }
+
+        i {
+          background: ${props => props.hourColor};
+        }
       }
     }
     
@@ -162,12 +185,23 @@ export default styled.div`
         width: 60px;
         text-align: center;
         font-weight: 500;
-        color: var(--clr);
         
         &:nth-child(2):after, &:nth-child(3):after {
           content: ':';
           position: absolute;
           left: -4px;
+        }
+        
+        &#digital-hour {
+          color: ${props => props.hourColor};
+        }
+
+        &#digital-minute {
+          color: ${props => props.minuteColor};
+        }
+
+        &#digital-second{
+          color: ${props => props.secondColor};
         }
         
         &#digital-ampm {

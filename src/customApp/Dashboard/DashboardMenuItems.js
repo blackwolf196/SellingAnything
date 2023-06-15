@@ -44,11 +44,7 @@ const menuItem = [
       {
         key: 'clock',
         label: 'Clock'
-      },
-      {
-        key: 'magic-menu',
-        label: 'Magic menu'
-      },
+      }
     ]
   }
 ];
