@@ -2,9 +2,16 @@ import React, {lazy, Suspense} from 'react';
 import {Route, useRouteMatch, Switch} from 'react-router-dom';
 import Loader from '../../components/utility/loader';
 
-const NotFoundComponent = lazy(() => import('@iso/custom/AllChart'));
+const NotFoundComponent = lazy(() => import("../AllChart"));
 
-const routes = [
+interface routesProps {
+  path: string;
+  component: React.LazyExoticComponent<React.FC<any>>;
+  exact?: boolean;
+  initProps?: any;
+}
+
+const routes: routesProps[] = [
   // {
   //   path: '',
   //   component: NotFoundComponent,
@@ -15,12 +22,12 @@ const routes = [
     component: lazy(() => import('../Clock')),
     exact: true,
     initProps: {
-      fullTime: false
+      fullTime: true
     }
   }
 ];
 
-export default function AppRouter() {
+const AppRouter = () => {
   const {url} = useRouteMatch();
   return (
     <Suspense fallback={<Loader/>}>
@@ -37,4 +44,6 @@ export default function AppRouter() {
       </Switch>
     </Suspense>
   );
-}
+};
+
+export default AppRouter;

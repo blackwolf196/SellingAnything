@@ -7,20 +7,20 @@ import siteConfig from '../../config/site.config';
 import Sidebar from '../Sidebar';
 import Topbar from '../Topbar';
 import DashboardRoutes from './DashboardRoutes';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 import {DashboardContainer, DashboardGlobalStyles} from './Dashboard.styles';
 
 const {Content, Footer} = Layout;
 const {toggleAll} = appActions;
 
-export default () => {
+const Dashboard = () => {
   const dispatch = useDispatch();
   const appHeight = useSelector(state => state.App.height);
   const {width, height} = useWindowSize();
   React.useEffect(() => {
     dispatch(toggleAll(width, height));
   }, [width, height, dispatch]);
+
   return (
     <DashboardContainer>
       <DashboardGlobalStyles/>
@@ -35,10 +35,11 @@ export default () => {
           <Content className={'dashboard-content'}>
             <DashboardRoutes/>
           </Content>
-          {/*<MessengerCustomerChat pageId={''} appId={'516142433376694'}/>*/}
           <Footer className={'dashboard-footer'}>{siteConfig.footerText}</Footer>
         </Layout>
       </Layout>
     </DashboardContainer>
   );
 }
+
+export default Dashboard;

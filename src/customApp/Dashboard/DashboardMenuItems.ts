@@ -1,4 +1,6 @@
-const menuItem = [
+import {menuItemProps} from "./types";
+
+const menuItem: menuItemProps[] = [
   {
     key: '',
     label: 'Trang chủ'
