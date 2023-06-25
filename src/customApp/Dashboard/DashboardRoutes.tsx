@@ -24,6 +24,14 @@ const routes: routesProps[] = [
     initProps: {
       fullTime: true
     }
+  },
+  {
+    path: 'blank',
+    component: lazy(() => import('../BlankPage')),
+    exact: true,
+    initProps: {
+      fullTime: true
+    }
   }
 ];
 
