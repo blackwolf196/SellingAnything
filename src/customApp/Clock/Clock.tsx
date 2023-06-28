@@ -2,7 +2,20 @@ import React, {useEffect, useState} from 'react';
 import ClockWrapper from './clock.styled';
 import {Spin} from 'antd';
 
-export default () => {
+export interface DigitalClockProps {
+  hourColor?: string;
+  minuteColor?: string;
+  secondColor?: string;
+  fullTime?: boolean;
+}
+
+const DigitalClock: React.FC<DigitalClockProps> = (props) => {
+  const {
+    hourColor = "#ff2972",
+    minuteColor = "#fee800",
+    secondColor = "#04fc43",
+    fullTime = true
+  } = props;
   let interVal: any = null;
 
   const initDigital = {
@@ -41,7 +54,9 @@ export default () => {
     let m: number | string = today.getMinutes();
     let s: number | string = today.getSeconds();
     let am = h > 12 ? "pm" : 'am';
-    h = h > 12 ? h - 12 : h;
+    if (!fullTime) {
+      h = h > 12 ? h - 12 : h;
+    }
     h = h < 10 ? `0${h}` : h;
     m = m < 10 ? `0${m}` : m;
     s = s < 10 ? `0${s}` : s;
@@ -59,22 +74,23 @@ export default () => {
     listNumClock.push('');
   }
 
-  return <ClockWrapper>
+  return <ClockWrapper hourColor={hourColor} minuteColor={minuteColor} secondColor={secondColor}>
     <Spin spinning={loading}>
       <div className={'container'}>
         <div className={'clock'}>
-          <div className={'circle'} style={{['--clr' as string]: '#04fc43'}} id={'sc'}><i/></div>
-          <div className={'circle circle2'} style={{['--clr' as string]: '#fee800'}} id={'mn'}><i/></div>
-          <div className={'circle circle3'} style={{['--clr' as string]: '#ff2972'}} id={'hr'}><i/></div>
+          <div className={'circle circle-sc'} id={'sc'}><i/></div>
+          <div className={'circle circle-mn'} id={'mn'}><i/></div>
+          <div className={'circle circle-hr'} id={'hr'}><i/></div>
           {listNumClock.map((item, index) => <span style={{['--i' as string]: index + 1}}><b>{index + 1}</b></span>)}
         </div>
         <div id={'digital-clock'}>
-          <div id={'digital-hour'} style={{['--clr' as string]: '#ff2972'}}>{digitalClock.hours}</div>
-          <div id={'digital-minute'} style={{['--clr' as string]: '#fee800'}}>{digitalClock.minutes}</div>
-          <div id={'digital-second'} style={{['--clr' as string]: '#04fc43'}}>{digitalClock.seconds}</div>
-          <div id={'digital-ampm'}>{digitalClock.ampm}</div>
+          <div id={'digital-hour'}>{digitalClock.hours}</div>
+          <div id={'digital-minute'}>{digitalClock.minutes}</div>
+          <div id={'digital-second'}>{digitalClock.seconds}</div>
+          {!fullTime ? <div id={'digital-ampm'}>{digitalClock.ampm}</div> : ""}
         </div>
       </div>
     </Spin>
   </ClockWrapper>
 };
+export default DigitalClock;

@@ -1,4 +1,6 @@
-const menuItem = [
+import {menuItemProps} from "./types";
+
+const menuItem: menuItemProps[] = [
   {
     key: '',
     label: 'Trang chủ'
@@ -44,10 +46,9 @@ const menuItem = [
       {
         key: 'clock',
         label: 'Clock'
-      },
-      {
-        key: 'magic-menu',
-        label: 'Magic menu'
+      },{
+        key: 'blank',
+        label: 'Blank Page'
       },
     ]
   }

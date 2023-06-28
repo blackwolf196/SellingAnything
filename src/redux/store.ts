@@ -8,7 +8,7 @@ import rootSaga from './root-saga';
 const sagaMiddleware = createSagaMiddleware();
 const middlewares = [thunk, sagaMiddleware];
 
-const bindMiddleware = middleware => {
+const bindMiddleware = (middleware: any) => {
   if (process.env.NODE_ENV !== 'production') {
     const { composeWithDevTools } = require('redux-devtools-extension');
     return composeWithDevTools(applyMiddleware(...middleware));

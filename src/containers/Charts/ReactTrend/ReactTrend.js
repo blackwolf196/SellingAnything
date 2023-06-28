@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {useState} from 'react';
 import {
   data,
   autoDraw,
@@ -15,8 +15,22 @@ import LayoutWrapper from '@iso/components/utility/layoutWrapper';
 import Box from '@iso/components/utility/box';
 
 import Trend from 'react-trend';
+import useInterval from "../../../library/helpers/useInterval";
 
-export default function() {
+export default function () {
+  const [dynamicData, setDymamicData] = useState(data);
+  const generateDynamicData = () => {
+    const _dynamicData = [...dynamicData];
+    const randomNumber = Math.floor(Math.random() * 101);
+    _dynamicData.push(randomNumber);
+    const last100 = _dynamicData.slice(-100);
+    setDymamicData(last100);
+  }
+
+  const interval = useInterval(() => {
+    generateDynamicData();
+  }, 200);
+
   return (
     <LayoutWrapper className="isoMapPage">
       <PageHeader>React Trend</PageHeader>
@@ -27,9 +41,7 @@ export default function() {
           autoDraw={autoDraw}
           autoDrawDuration={parseInt(autoDrawDuration, 10)}
           autoDrawEasing={autoDrawEasing}
-          height={100}
-          width={600}
-          data={data}
+          data={dynamicData}
           gradient={gradient}
           radius={parseInt(radius, 10)}
           strokeWidth={strokeWidth}
