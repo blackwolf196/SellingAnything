@@ -46,7 +46,10 @@ const menuItem: menuItemProps[] = [
       {
         key: 'clock',
         label: 'Clock'
-      }
+      },{
+        key: 'blank',
+        label: 'Blank Page'
+      },
     ]
   }
 ];
