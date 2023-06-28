@@ -1,12 +1,13 @@
-export function getView(width) {
+export const getView = (width: number | undefined) => {
   let newView = 'MobileView';
-  if (width > 1220) {
+  if (width && width > 1220) {
     newView = 'DesktopView';
-  } else if (width > 767) {
+  } else if (width && width > 767) {
     newView = 'TabView';
   }
   return newView;
 }
+
 const actions = {
   COLLPSE_CHANGE: 'COLLPSE_CHANGE',
   COLLPSE_OPEN_DRAWER: 'COLLPSE_OPEN_DRAWER',
@@ -17,7 +18,7 @@ const actions = {
   toggleCollapsed: () => ({
     type: actions.COLLPSE_CHANGE,
   }),
-  toggleAll: (width, height) => {
+  toggleAll: (width: number | undefined, height?: number) => {
     const view = getView(width);
     const collapsed = view !== 'DesktopView';
     return {
@@ -30,14 +31,14 @@ const actions = {
   toggleOpenDrawer: () => ({
     type: actions.COLLPSE_OPEN_DRAWER,
   }),
-  changeOpenKeys: openKeys => ({
+  changeOpenKeys: (openKeys: string[]) => ({
     type: actions.CHANGE_OPEN_KEYS,
     openKeys,
   }),
-  changeCurrent: current => ({
+  changeCurrent: (current: string[]) => ({
     type: actions.CHANGE_CURRENT,
     current,
   }),
-  clearMenu: () => ({ type: actions.CLEAR_MENU }),
+  clearMenu: () => ({type: actions.CLEAR_MENU}),
 };
 export default actions;

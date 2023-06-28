@@ -4,9 +4,9 @@ import {Layout} from 'antd';
 import useWindowSize from '../../library/hooks/useWindowSize';
 import appActions from '../../redux/app/actions';
 import siteConfig from '../../config/site.config';
-import Sidebar from '../Sidebar';
 import Topbar from '../Topbar';
 import DashboardRoutes from './DashboardRoutes';
+import {RootState} from '../../redux/interface';
 
 import {DashboardContainer, DashboardGlobalStyles} from './Dashboard.styles';
 
@@ -15,7 +15,7 @@ const {toggleAll} = appActions;
 
 const Dashboard = () => {
   const dispatch = useDispatch();
-  const appHeight = useSelector(state => state.App.height);
+  const appHeight = useSelector((state: RootState) => state.App.height);
   const {width, height} = useWindowSize();
   React.useEffect(() => {
     dispatch(toggleAll(width, height));
@@ -29,7 +29,7 @@ const Dashboard = () => {
         <Layout
           className={'dashboard-mainlayout'}
           style={{
-            height: appHeight,
+            height: appHeight.toString(),
           }}
         >
           <Content className={'dashboard-content'}>

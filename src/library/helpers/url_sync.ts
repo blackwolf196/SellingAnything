@@ -1,10 +1,10 @@
 import qs from 'qs';
 import options from './options';
-import { isServer } from './isServer';
+import {isServer} from './isServer';
 
-export function getInitData() {
+export const getInitData = () => {
   if (!isServer) {
-    const initData = qs.parse(window.location.search.slice(1));
+    const initData: any = qs.parse(window.location.search.slice(1));
     if (initData.toggle)
       initData.toggle.free_shipping =
         initData.toggle.free_shipping === 'true' ? true : undefined;
@@ -12,19 +12,19 @@ export function getInitData() {
   }
   return false;
 }
-export function setUrl(searchState) {
+
+export const setUrl = (searchState: any) => {
   if (!isServer) {
     const search = searchState
       ? `${window.location.pathname}?${qs.stringify(searchState)}`
       : '';
-    window.history.pushState(searchState, null, search);
+    window.history.pushState(searchState, "", search);
   }
-  return;
 }
 
-export function getDefaultPath() {
-  const getParent = lastRoute => {
-    const parent = [];
+export const getDefaultPath = () => {
+  const getParent = (lastRoute: any) => {
+    const parent: any = [];
     if (!lastRoute) return parent;
     parent.push(lastRoute);
     options.forEach(option => {

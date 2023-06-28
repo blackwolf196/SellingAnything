@@ -1,9 +1,20 @@
-import { getDefaultPath } from '@iso/lib/helpers/url_sync';
-import actions, { getView } from './actions';
-import { isServer } from '@iso/lib/helpers/isServer';
+import {getDefaultPath} from '../../library/helpers/url_sync';
+import actions, {getView} from './actions';
+import {isServer} from '../../library/helpers/isServer';
+
+export interface AppReducerInterface {
+  collapsed: boolean;
+  view: string | boolean;
+  height: number | boolean;
+  openDrawer: boolean;
+  openKeys: string[];
+  current: string[];
+  type?: any;
+}
+
 const preKeys = getDefaultPath();
-const initState = {
-  collapsed: !isServer && window.innerWidth > 1220 ? false : true,
+const initState: AppReducerInterface = {
+  collapsed: !isServer && (window.innerWidth <= 1220),
   view: !isServer && getView(window.innerWidth),
   height: !isServer && window.innerHeight,
   openDrawer: false,
@@ -11,7 +22,7 @@ const initState = {
   current: preKeys,
 };
 
-export default function appReducer(state = initState, action) {
+const appReducer = (state = initState, action: AppReducerInterface) => {
   switch (action.type) {
     case actions.COLLPSE_CHANGE:
       return {
@@ -55,3 +66,5 @@ export default function appReducer(state = initState, action) {
   }
   return state;
 }
+
+export default appReducer;
