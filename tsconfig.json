@@ -16,7 +16,19 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "jsx": "react"
+    "jsx": "react",
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "paths": {
+      "@iso/assets/*": ["src/assets/*"],
+      "@iso/components/*": ["src/components/*"],
+      "@iso/config/*": ["src/config/*"],
+      "@iso/containers/*": ["src/containers/*"],
+      "@iso/redux/*": ["src/redux/*"],
+      "@iso/lib/*": ["src/library/*"],
+      "@iso/ui/*": ["src/UI/*"],
+      "@iso/custom/*": ["src/customApp/*"]
+    }
   },
   "include": [
     "src/**/*",
