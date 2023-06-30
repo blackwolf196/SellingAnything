@@ -1,10 +1,14 @@
 import React from "react";
 import LayoutWrapper from "../components/LayoutWrapper";
+import Styled from "./styled";
+import Button from "../../components/uielements/button";
 
 const BlankPage: React.FC = () => {
   return (
     <LayoutWrapper>
-      Blank Page
+      <Styled>
+        <Button>Click</Button>
+      </Styled>
     </LayoutWrapper>
   )
 };

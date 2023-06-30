@@ -2,7 +2,7 @@ import React, {lazy, Suspense} from 'react';
 import {Route, useRouteMatch, Switch} from 'react-router-dom';
 import Loader from '../../components/utility/loader';
 
-const NotFoundComponent = lazy(() => import("../AllChart"));
+const NotFoundComponent = lazy(() => import("../PageNotFound"));
 
 interface routesProps {
   path: string;
@@ -12,11 +12,11 @@ interface routesProps {
 }
 
 const routes: routesProps[] = [
-  // {
-  //   path: '',
-  //   component: NotFoundComponent,
-  //   exact: true
-  // },
+  {
+    path: '',
+    component: lazy(() => import('../AllChart')),
+    exact: true
+  },
   {
     path: 'clock',
     component: lazy(() => import('../Clock')),
