@@ -9,7 +9,7 @@ import ErrorBoundary from './ErrorBoundary';
 import Loader from './components/utility/loader';
 
 export default () => {
-  const DashboardPublic = lazy(() => import('./customApp/Dashboard/Dashboard'));
+  const DashboardPublic = lazy(() => import('@custom/Dashboard/Dashboard'));
 
   const PublicRoute = ({children, ...rest}) => {
     return <Route  {...rest} render={() => children}/>
