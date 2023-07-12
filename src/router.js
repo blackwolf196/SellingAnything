@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import ErrorBoundary from './ErrorBoundary';
 import Loader from './components/utility/loader';
+import IntroducePage from "@custom/IntroducePage";
 
 export default () => {
   const DashboardPublic = lazy(() => import('@custom/Dashboard/Dashboard'));
@@ -21,7 +22,7 @@ export default () => {
         <Router>
           <Switch>
             <Route key={''} path={'/'} exact>
-              <Redirect to={'trang-chu'}/>
+              <IntroducePage/>
             </Route>
             <PublicRoute path={"/trang-chu"}>
               <DashboardPublic/>
