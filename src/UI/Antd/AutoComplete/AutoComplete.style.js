@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { AutoComplete } from 'antd';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 
 const AntAutoComplete = styled(AutoComplete)`
   width: 100%;

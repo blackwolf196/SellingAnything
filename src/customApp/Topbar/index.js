@@ -34,7 +34,7 @@ export default props => {
   return (
     <TopbarWrapper>
       <Header className={'dashboard-topbar'}>
-        <Link to={`${siteConfig.dashboard}`}><img src={StardewText} className={'top-logo'}/></Link>
+        <Link to={`/`}><img src={StardewText} className={'top-logo'}/></Link>
         <Menu mode={'horizontal'} className={'top-menu'} onSelect={selectItemMenu}>
           {renderItemMenu()}
         </Menu>

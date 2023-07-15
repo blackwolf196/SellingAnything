@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette, font } from 'styled-theme';
+import { palette, font } from 'styled-tools';
 import WithDirection from '../../hocs/withDirection';
 
 const QuillEditor = styled.div`

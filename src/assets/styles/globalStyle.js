@@ -1,5 +1,6 @@
 import {createGlobalStyle} from 'styled-components';
-import {palette, font} from 'styled-theme';
+import {palette} from 'styled-tools';
+import {font} from "styled-theme";
 // import 'antd/dist/antd.css';
 
 const GlobalStyles = createGlobalStyle`
@@ -67,7 +68,6 @@ const GlobalStyles = createGlobalStyle`
 
         .ant-dropdown-menu-item {
           min-height: 54px;
-          line-height: auto;
           display: flex;
           align-items: center;
           padding: 10px 20px;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 import { transition, borderRadius } from '../@iso/lib/style-util';
 
 const AntDatePicker = ComponentName => styled(ComponentName)`

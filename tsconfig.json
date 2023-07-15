@@ -27,7 +27,7 @@
       "@iso/redux/*": ["src/redux/*"],
       "@iso/lib/*": ["src/library/*"],
       "@iso/ui/*": ["src/UI/*"],
-      "@iso/custom/*": ["src/customApp/*"]
+      "@custom/*": ["src/customApp/*"]
     }
   },
   "include": [

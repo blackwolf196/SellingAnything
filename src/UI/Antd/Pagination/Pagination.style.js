@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 import { transition } from '../@iso/lib/style-util';
 
 const Pagination = ComponentName => styled(ComponentName)`

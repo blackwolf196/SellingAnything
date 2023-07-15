@@ -7,9 +7,10 @@ import {
 } from 'react-router-dom';
 import ErrorBoundary from './ErrorBoundary';
 import Loader from './components/utility/loader';
+import IntroducePage from "@custom/IntroducePage";
 
 export default () => {
-  const DashboardPublic = lazy(() => import('./customApp/Dashboard/Dashboard'));
+  const DashboardPublic = lazy(() => import('@custom/Dashboard/Dashboard'));
 
   const PublicRoute = ({children, ...rest}) => {
     return <Route  {...rest} render={() => children}/>
@@ -21,7 +22,7 @@ export default () => {
         <Router>
           <Switch>
             <Route key={''} path={'/'} exact>
-              <Redirect to={'trang-chu'}/>
+              <DashboardPublic/>
             </Route>
             <PublicRoute path={"/trang-chu"}>
               <DashboardPublic/>

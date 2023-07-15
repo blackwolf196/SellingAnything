@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Imoji from "../../assets/CustomImages/emoji.png";
+import Imoji from "@iso/assets/CustomImages/emoji.png";
 
 const Styled = styled.div`
   #notfound {

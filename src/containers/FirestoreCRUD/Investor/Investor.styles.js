@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 import Buttons from '@iso/components/uielements/button';
 import Table from '../../Tables/AntTables/AntTables.styles';
 

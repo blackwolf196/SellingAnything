@@ -1,7 +1,7 @@
 import React from 'react';
 import Breadcrumbs from '@iso/components/uielements/breadcrumb';
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 
 const AnrBreadcrumb = props => <Breadcrumbs {...props} />;
 
