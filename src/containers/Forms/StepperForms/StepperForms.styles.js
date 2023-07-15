@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 
 const FormFieldTitle = styled.h3`
   font-size: 14px;

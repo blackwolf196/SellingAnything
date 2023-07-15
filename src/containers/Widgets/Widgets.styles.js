@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 
 const WidgetWrapper = styled.div`
   margin: 0 10px;

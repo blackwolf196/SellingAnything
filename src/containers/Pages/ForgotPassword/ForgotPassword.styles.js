@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 import bgImage from '@iso/assets/images/image3.jpg';
 import WithDirection from '@iso/lib/helpers/rtl';
 

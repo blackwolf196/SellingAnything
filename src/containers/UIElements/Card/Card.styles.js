@@ -1,7 +1,7 @@
 import React from 'react';
 import Cards from '@iso/components/uielements/card';
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 
 const CardComp = props => <Cards {...props} />;
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 // import Buttons from '@iso/components/uielements/button';
 import Inputs from '@iso/components/uielements/input';
 import { Textarea as Textareas } from '@iso/components/uielements/input';

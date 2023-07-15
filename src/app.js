@@ -1,16 +1,17 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import GlobalStyles from '@iso/assets/styles/globalStyle';
-import { store } from './redux/store';
-import Boot from './redux/boot';
+import Boot from '@iso/redux/boot';
 import Routes from './router';
 import AppProvider from './AppProvider';
+import {store} from "@iso/redux/store";
+import {theme} from "styled-tools";
 
 const App = () => (
   <Provider store={store}>
     <AppProvider>
       <>
-        <GlobalStyles />
+        <GlobalStyles theme={theme}/>
         <Routes />
       </>
     </AppProvider>

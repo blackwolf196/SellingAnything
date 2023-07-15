@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { palette } from 'styled-theme';
+import { palette } from 'styled-tools';
 import BoxComponent from '@iso/components/utility/box';
 import WithDirection from '@iso/lib/helpers/rtl';
 

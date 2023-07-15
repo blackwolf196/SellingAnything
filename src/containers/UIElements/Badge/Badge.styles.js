@@ -1,7 +1,8 @@
 import React from 'react';
 import Badges from '@iso/components/uielements/badge';
 import styled from 'styled-components';
-import { palette, font } from 'styled-theme';
+import { palette } from 'styled-tools';
+import {font} from "styled-theme";
 import { borderRadius, boxShadow } from '@iso/lib/helpers/style_utils';
 import WithDirection from '@iso/lib/helpers/rtl';
 
