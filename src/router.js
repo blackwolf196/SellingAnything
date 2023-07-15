@@ -22,7 +22,7 @@ export default () => {
         <Router>
           <Switch>
             <Route key={''} path={'/'} exact>
-              <IntroducePage/>
+              <DashboardPublic/>
             </Route>
             <PublicRoute path={"/trang-chu"}>
               <DashboardPublic/>
