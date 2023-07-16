@@ -1,6 +1,6 @@
 import styled, {createGlobalStyle} from 'styled-components';
 import {palette} from 'styled-tools';
-import {borderRadius} from "../../library/helpers/style_utils";
+import {borderRadius} from "@iso/lib/helpers/style_utils";
 
 export const DashboardGlobalStyles = createGlobalStyle`
 body {

@@ -28,3 +28,24 @@ export function boxShadow(shadow = 'none') {
       box-shadow: ${shadow};
   `;
 }
+
+export const changeFont = (font: string) => `
+  html h1,
+  html h2,
+  html h3,
+  html h4,
+  html h5,
+  html h6,
+  html a,
+  html p,
+  html li,
+  input,
+  textarea,
+  span,
+  div,
+  html,
+  body,
+  html a {
+    font-family: ${font};
+  }
+`;

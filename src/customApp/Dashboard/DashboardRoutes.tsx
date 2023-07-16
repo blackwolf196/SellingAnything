@@ -32,7 +32,12 @@ const routes: routesProps[] = [
     initProps: {
       fullTime: true
     }
-  }
+  },
+  {
+    path: 'my-cv',
+    component: lazy(() => import('@custom/MyCV')),
+    exact: true
+  },
 ];
 
 const AppRouter = () => {

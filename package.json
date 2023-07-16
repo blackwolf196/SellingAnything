@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/compatible": "^1.0.5",
+    "@ant-design/icons": "4.1.0",
     "@glidejs/glide": "^3.4.1",
     "@redq/js-info-bubble": "^0.8.1",
     "@types/jest": "^28.1.7",

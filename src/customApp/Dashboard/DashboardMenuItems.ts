@@ -6,6 +6,10 @@ const menuItem: menuItemProps[] = [
     label: 'Trang chủ'
   },
   {
+    key: 'my-cv',
+    label: 'My CV'
+  },
+  {
     key: 'gioi-thieu',
     label: 'Giới thiệu'
   },

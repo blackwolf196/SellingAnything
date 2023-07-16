@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {transition} from "../../library/helpers/style_utils";
+import {transition} from "@iso/lib/helpers/style_utils";
 import {DigitalClockProps} from "./Clock";
 
 interface StyledProps extends DigitalClockProps {

@@ -4,7 +4,7 @@ import {
   transition,
   borderRadius,
   boxShadow,
-} from '../../library/helpers/style_utils';
+} from '@iso/lib/helpers/style_utils';
 
 const TopbarWrapper = styled.div`
   .dashboard-topbar {

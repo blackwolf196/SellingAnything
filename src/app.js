@@ -5,13 +5,12 @@ import Boot from '@iso/redux/boot';
 import Routes from './router';
 import AppProvider from './AppProvider';
 import {store} from "@iso/redux/store";
-import {theme} from "styled-tools";
 
 const App = () => (
   <Provider store={store}>
     <AppProvider>
       <>
-        <GlobalStyles theme={theme}/>
+        <GlobalStyles/>
         <Routes />
       </>
     </AppProvider>
