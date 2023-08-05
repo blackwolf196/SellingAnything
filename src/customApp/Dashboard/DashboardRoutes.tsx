@@ -26,6 +26,11 @@ const routes: routesProps[] = [
     }
   },
   {
+    path: 'milkychu',
+    component: lazy(() => import('@custom/Milkychu')),
+    exact: true
+  },
+  {
     path: 'blank',
     component: lazy(() => import('@custom/BlankPage')),
     exact: true,
