@@ -1,11 +1,13 @@
-import React from "react";
+import React, {useRef} from "react";
 import Styled from "./styled";
 import {Col, Row} from "antd";
 import {MainCVProps} from "@custom/MyCV/types";
 import {EnvironmentFilled, MailFilled, PhoneFilled} from "@ant-design/icons";
+import Button from "@iso/components/uielements/button";
 
 const MainCV: React.FC<MainCVProps> = (props) => {
-  const {name, jobTitle, contact, education, skills} = props;
+  const {name, jobTitle, contact, education, skills, careerObjective} = props;
+
   return <Styled>
     <div className={"head-title"}>
       <div className={"name-frame"}>{name}</div>
@@ -48,16 +50,12 @@ const MainCV: React.FC<MainCVProps> = (props) => {
         </> : null}
       </Col>
       <Col lg={16} className={"col-right"}>
-        <div className={"info-block"}>
-          <div className={"info-title"}>Career Objective</div>
-          <div className={"info-row"}>
-            I've been a developer for five years. Almost all my time was spent on the Frontend, especially ReactJS.
-            <br/>
-            I learn a lot from working on projects. I'm heading to become a Fullstack Developer.
-            <br/>
-            I hope I will have a chance to work on more and more projects so I can upgrade myself.
+        {careerObjective ? <>
+          <div className={"info-block"}>
+            <div className={"info-title"}>Career Objective</div>
+            <div className={"info-row"} dangerouslySetInnerHTML={{__html: careerObjective}}/>
           </div>
-        </div>
+        </> : null}
         {/**/}
         <div className={"info-block"}>
           <div className={"info-title"}>Work Experience</div>

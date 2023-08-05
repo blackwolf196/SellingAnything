@@ -354,3 +354,18 @@ export const getShorten = (text, length = 100) => {
   if (!text) return "";
   return text.length > length ? text.slice(0, length) + '...' : text;
 };
+
+export const printPDF = (html)=>{
+  const iframe = document.createElement('iframe');
+  iframe.src = html;
+  iframe.style.display = 'none';
+  document.body.appendChild(iframe);
+
+  // Use onload to make pdf preview work on firefox
+  iframe.onload = () => {
+    iframe.contentWindow.focus();
+    iframe.contentWindow.print();
+  };
+};
+
+export const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));

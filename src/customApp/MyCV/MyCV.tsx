@@ -18,7 +18,8 @@ const MyCV = () => {
         "Typescript",
         "RESTful API",
         "GraphQL",
-      ]
+      ],
+      careerObjective: "I've been a developer for five years. Almost all my time was spent on the Frontend, especially ReactJS.<br/>I learn a lot from working on projects. I'm heading to become a Fullstack Developer.<br/>I hope I will have a chance to work on more and more projects so I can improve myself."
     }
 
     return <>

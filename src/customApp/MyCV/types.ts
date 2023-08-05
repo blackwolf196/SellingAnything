@@ -4,6 +4,7 @@ export interface MainCVProps {
   contact: contactProps;
   education?: educationProps[];
   skills?: string[];
+  careerObjective?: string;
 }
 
 interface contactProps {

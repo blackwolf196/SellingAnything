@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default styled.div`
   padding: 10px;
   background: #fff;
-
+  user-select: none;
   html h1,
   html h2,
   html h3,
