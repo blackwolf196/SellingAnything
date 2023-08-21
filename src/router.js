@@ -1,13 +1,11 @@
 import React, {lazy, Suspense} from 'react';
 import {
   Route,
-  Redirect,
   BrowserRouter as Router,
   Switch,
 } from 'react-router-dom';
 import ErrorBoundary from './ErrorBoundary';
 import Loader from './components/utility/loader';
-import IntroducePage from "@custom/IntroducePage";
 
 export default () => {
   const DashboardPublic = lazy(() => import('@custom/Dashboard/Dashboard'));
