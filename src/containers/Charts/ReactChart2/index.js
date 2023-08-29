@@ -1,2 +1,2 @@
-export {default} from "./ReactChart2";
-export * from "./ReactChart2";
+export { default } from './ReactChart2';
+export * from './ReactChart2';

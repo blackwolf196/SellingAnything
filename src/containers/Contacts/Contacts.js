@@ -13,13 +13,8 @@ import IntlMessages from '@iso/components/utility/intlMessages';
 import { ContactsWrapper } from './Contacts.styles';
 import Scrollbar from '@iso/components/utility/customScrollBar';
 
-const {
-  changeContact,
-  addContact,
-  editContact,
-  deleteContact,
-  viewChange,
-} = contactActions;
+const { changeContact, addContact, editContact, deleteContact, viewChange } =
+  contactActions;
 
 const { Content } = Layout;
 export default function Contacts() {

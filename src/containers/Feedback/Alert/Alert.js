@@ -8,12 +8,12 @@ import IntlMessages from '@iso/components/utility/intlMessages';
 import Alert from '@iso/components/Feedback/Alert';
 import basicStyle from '@iso/assets/styles/constants';
 
-export default function() {
-  const onClose = function(e) {};
+export default function () {
+  const onClose = function () {};
 
   const { rowStyle, colStyle, gutter } = basicStyle;
   const marginBot = {
-    marginBottom: '10px',
+    marginBottom: '10px'
   };
   return (
     <LayoutWrapper>

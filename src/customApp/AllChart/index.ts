@@ -1,2 +1,2 @@
-export * from "./AllChart";
-export {default} from "./AllChart";
+export * from './AllChart';
+export { default } from './AllChart';

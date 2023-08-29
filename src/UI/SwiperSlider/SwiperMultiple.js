@@ -8,8 +8,8 @@ export default function SwiperMultiple(props) {
     spaceBetween: 30,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true,
-    },
+      clickable: true
+    }
   };
   return <Swiper {...params}>{children}</Swiper>;
 }

@@ -8,7 +8,7 @@ export default function (props) {
     dataList: props.dataList.getAll(),
     filterDropdownVisible: false,
     searchText: '',
-    filtered: false,
+    filtered: false
   });
 
   function onSearch() {
@@ -21,7 +21,7 @@ export default function (props) {
       dataList,
       filterDropdownVisible: false,
       searchText: '',
-      filtered: false,
+      filtered: false
     });
   }
   function onInputChange(event) {
@@ -46,7 +46,7 @@ export default function (props) {
     onFilterDropdownVisibleChange: (visible) => {
       setState({ ...state, filterDropdownVisible: visible });
       document.getElementById('tableFilterInput').focus();
-    },
+    }
   };
   return (
     <TableWrapper

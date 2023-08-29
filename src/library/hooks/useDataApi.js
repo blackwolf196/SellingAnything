@@ -2,15 +2,11 @@ import { useState, useReducer, useEffect } from 'react';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
 
-function sleep(time) {
-  return new Promise(resolve => setTimeout(resolve, time));
-}
-
 async function SuperFetch(
   url,
   method = 'GET',
   headers = {
-    'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
   },
   body = {}
 ) {
@@ -18,7 +14,7 @@ async function SuperFetch(
   // await sleep(1000); // demo purpose only
   let options = {
     method,
-    headers,
+    headers
   };
   if (method === 'POST' || method === 'PUT') options = { ...options, body };
 
@@ -26,11 +22,11 @@ async function SuperFetch(
   // we will had custom headers here.
 
   return fetch(url, options)
-    .then(res => {
+    .then((res) => {
       NProgress.done();
       return Promise.resolve(res.json());
     })
-    .catch(error => Promise.reject(error));
+    .catch((error) => Promise.reject(error));
 }
 
 function dataFetchReducer(state, action) {
@@ -39,7 +35,7 @@ function dataFetchReducer(state, action) {
       return {
         ...state,
         loading: true,
-        error: false,
+        error: false
       };
     case 'FETCH_SUCCESS':
       return {
@@ -47,13 +43,13 @@ function dataFetchReducer(state, action) {
         data: action.payload.slice(0, state.limit),
         total: action.payload,
         loading: false,
-        error: false,
+        error: false
       };
     case 'FETCH_FAILURE':
       return {
         ...state,
         loading: false,
-        error: true,
+        error: true
       };
     case 'LOAD_MORE':
       return {
@@ -63,10 +59,10 @@ function dataFetchReducer(state, action) {
           ...state.total.slice(
             state.data.length,
             state.data.length + state.limit
-          ),
+          )
         ],
         loading: false,
-        error: false,
+        error: false
       };
     default:
       throw new Error();
@@ -81,7 +77,7 @@ const useDataApi = (initialUrl, limit = 12, initialData = []) => {
     error: false,
     data: initialData,
     total: initialData,
-    limit: limit,
+    limit: limit
   });
 
   useEffect(() => {
@@ -112,7 +108,7 @@ const useDataApi = (initialUrl, limit = 12, initialData = []) => {
     // dispatch({ type: 'FETCH_INIT' });
     dispatch({ type: 'LOAD_MORE' });
   };
-  const doFetch = url => {
+  const doFetch = (url) => {
     setUrl(url);
   };
 

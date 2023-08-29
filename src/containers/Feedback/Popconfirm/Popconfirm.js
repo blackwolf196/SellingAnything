@@ -17,11 +17,11 @@ const Popconfirm = (props) => (
 );
 const text = 'Are you sure delete this task?';
 
-function confirm(e) {
+function confirm() {
   message.success('Click on Yes');
 }
 
-function cancel(e) {
+function cancel() {
   message.error('Click on No');
 }
 

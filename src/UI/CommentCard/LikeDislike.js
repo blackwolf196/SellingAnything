@@ -6,14 +6,14 @@ class LikeDislike extends React.Component {
   state = {
     likes: 0,
     dislikes: 0,
-    action: null,
+    action: null
   };
 
   like = () => {
     this.setState({
       likes: 1,
       dislikes: 0,
-      action: 'liked',
+      action: 'liked'
     });
   };
 
@@ -21,7 +21,7 @@ class LikeDislike extends React.Component {
     this.setState({
       likes: 0,
       dislikes: 1,
-      action: 'disliked',
+      action: 'disliked'
     });
   };
   render() {

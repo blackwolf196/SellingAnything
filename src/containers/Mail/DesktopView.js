@@ -19,12 +19,12 @@ const {
   selectMail,
   changeComposeMail,
   changeReplyMail,
-  changeSearchString,
+  changeSearchString
 } = mailActions;
 
 export default function DesktopView(props) {
   const dispatch = useDispatch();
-  const mail = useSelector(state => state.Mails);
+  const mail = useSelector((state) => state.Mails);
   const filterMails = mailSelector(mail);
   const {
     allMails,
@@ -32,19 +32,19 @@ export default function DesktopView(props) {
     filterAttr,
     composeMail,
     replyMail,
-    searchString,
+    searchString
   } = mail;
   const [search, setSearch] = React.useState(searchString);
   const handleSelectMail = React.useCallback(
-    value => dispatch(selectMail(value)),
+    (value) => dispatch(selectMail(value)),
     [dispatch]
   );
   const handleChangeReplyMail = React.useCallback(
-    value => dispatch(changeReplyMail(value)),
+    (value) => dispatch(changeReplyMail(value)),
     [dispatch]
   );
   const handleFilterAction = React.useCallback(
-    value => dispatch(filterAction(value)),
+    (value) => dispatch(filterAction(value)),
     [dispatch]
   );
   //   selectMail,
@@ -58,7 +58,7 @@ export default function DesktopView(props) {
       <IntlMessages id="email.noMessage" />
     </p>
   );
-  const index = allMails.findIndex(mail => mail.id === selectedMail);
+  const index = allMails.findIndex((mail) => mail.id === selectedMail);
   if (index !== -1) {
     singleMailComponent = singleMail(
       allMails,
@@ -73,7 +73,7 @@ export default function DesktopView(props) {
     <MailBox className="isomorphicMailBox">
       <div className="isoLeftWrapper">
         <ComposeBtn
-          changeComposeMail={value => dispatch(changeComposeMail(value))}
+          changeComposeMail={(value) => dispatch(changeComposeMail(value))}
         />
         <div className="isoMailOptions">
           <Scrollbars style={{ height: props.height - 70 }}>
@@ -93,8 +93,8 @@ export default function DesktopView(props) {
               placeholder="Search Email"
               value={search}
               className="isoSearchEmail"
-              onChange={event => setSearch(event.target.value)}
-              onSearch={value => dispatch(changeSearchString(value))}
+              onChange={(event) => setSearch(event.target.value)}
+              onSearch={(value) => dispatch(changeSearchString(value))}
             />
           </div>
           <Scrollbars>

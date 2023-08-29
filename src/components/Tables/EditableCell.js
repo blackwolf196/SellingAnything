@@ -5,7 +5,7 @@ import { CheckOutlined, EditOutlined } from '@ant-design/icons';
 export default function (props) {
   const [state, setState] = React.useState({
     value: props.value,
-    editable: false,
+    editable: false
   });
   const handleChange = (event) => {
     const value = event.target.value;

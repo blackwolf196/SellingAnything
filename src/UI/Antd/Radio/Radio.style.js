@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 
-const AntRadiobox = ComponentName => styled(ComponentName)`
+const AntRadiobox = (ComponentName) => styled(ComponentName)`
   &.ant-radio-wrapper,
   .ant-radio-wrapper {
     font-size: 13px;

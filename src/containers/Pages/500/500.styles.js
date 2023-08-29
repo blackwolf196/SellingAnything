@@ -110,15 +110,17 @@ const FiveZeroZeroStyleWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: ${props =>
+    margin-left: ${(props) =>
       props['data-rtl'] === 'rtl' ? 'inherit' : '100px'};
-    margin-right: ${props =>
+    margin-right: ${(props) =>
       props['data-rtl'] === 'rtl' ? '100px' : 'inherit'};
     height: 500px;
 
     @media only screen and (max-width: 767px) {
-      margin-left: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-      margin-right: ${props => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
+      margin-left: ${(props) =>
+        props['data-rtl'] === 'rtl' ? 'inherit' : '0'};
+      margin-right: ${(props) =>
+        props['data-rtl'] === 'rtl' ? '0' : 'inherit'};
     }
 
     img {

@@ -7,17 +7,17 @@
         "destination": "/index.html"
       }
     ],
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "headers": [{
-      "source" : "**",
-      "headers" : [{
-        "key" : "Cache-Control",
-        "value" : "max-age=172800"
-      }]
-    }]
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=172800"
+          }
+        ]
+      }
+    ]
   }
 }

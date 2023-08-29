@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { palette } from 'styled-tools';
 import { transition, borderRadius } from '../@iso/lib/style-util';
 
-const AntDatePicker = ComponentName => styled(ComponentName)`
+const AntDatePicker = (ComponentName) => styled(ComponentName)`
   .ant-input {
     padding: 4px 10px;
     width: 100%;

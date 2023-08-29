@@ -5,7 +5,7 @@ const actions = {
 
   getList: (filterData) => ({
     type: actions.GETLIST_REQUEST,
-    payload: {filterData}
-  }),
+    payload: { filterData }
+  })
 };
 export default actions;

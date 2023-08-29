@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Row, Col} from 'antd';
+import React, { Component } from 'react';
+import { Row, Col } from 'antd';
 import PageHeader from '@iso/components/utility/pageHeader';
 import Box from '@iso/components/utility/box';
 import LayoutWrapper from '@iso/components/utility/layoutWrapper';
@@ -13,11 +13,10 @@ export default class ReCharts extends Component {
     const chartEvents = [
       {
         eventName: 'select',
-        callback(Chart) {
-        },
-      },
+        callback() {}
+      }
     ];
-    const {rowStyle, colStyle, gutter} = basicStyle;
+    const { rowStyle, colStyle, gutter } = basicStyle;
     return (
       <LayoutWrapper className="isoMapPage">
         <PageHeader>Google Charts</PageHeader>
@@ -25,7 +24,7 @@ export default class ReCharts extends Component {
           <Col md={12} xs={24} style={colStyle}>
             <Box title={configs.BarChart.title}>
               <ContentHolder>
-                <GoogleChart {...configs.BarChart} chartEvents={chartEvents}/>
+                <GoogleChart {...configs.BarChart} chartEvents={chartEvents} />
               </ContentHolder>
             </Box>
           </Col>
@@ -153,4 +152,4 @@ export default class ReCharts extends Component {
     );
   }
 }
-export {GoogleChart};
+export { GoogleChart };

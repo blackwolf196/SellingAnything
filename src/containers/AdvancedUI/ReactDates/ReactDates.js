@@ -10,7 +10,7 @@ import LayoutWrapper from '@iso/components/utility/layoutWrapper';
 import ContentHolder from '@iso/components/utility/contentHolder';
 import {
   DateRangePicker,
-  SingleDatePicker,
+  SingleDatePicker
 } from '@iso/components/uielements/reactDates';
 import basicStyle from '@iso/assets/styles/constants';
 import configs from './config';
@@ -31,7 +31,7 @@ class ReactDates extends React.Component {
       startDate: null,
       startDateId: 'your_unique_id',
       endDate: null,
-      endDateId: 'your_unique_id',
+      endDateId: 'your_unique_id'
     };
   }
   toggleOptions() {
@@ -74,7 +74,7 @@ class ReactDates extends React.Component {
       focusedInput,
       singleResult,
       singleFocused,
-      configsValue,
+      configsValue
     } = this.state;
     let options;
     if (isRangePicker) {
@@ -86,23 +86,23 @@ class ReactDates extends React.Component {
         onDatesChange: ({ startDate, endDate }) =>
           this.setState({ startDate, endDate }),
         focusedInput,
-        onFocusChange: focusedInput => {
+        onFocusChange: (focusedInput) => {
           this.setState({ focusedInput });
-        },
+        }
       };
     } else {
       options = {
         date: singleResult,
-        onDateChange: singleResult => this.setState({ singleResult }),
+        onDateChange: (singleResult) => this.setState({ singleResult }),
         focused: singleFocused,
         onFocusChange: ({ focused }) =>
-          this.setState({ singleFocused: focused }),
+          this.setState({ singleFocused: focused })
       };
     }
     const renderOptions = isRangePicker
       ? configsValue[1].options
       : configsValue[0].options;
-    renderOptions.forEach(option => {
+    renderOptions.forEach((option) => {
       options[option.id] = option.value;
     });
     if (this.props.view === 'MobileView') {
@@ -130,11 +130,11 @@ class ReactDates extends React.Component {
                 <Tabs
                   onChange={() => {
                     this.setState({
-                      isRangePicker: !this.state.isRangePicker,
+                      isRangePicker: !this.state.isRangePicker
                     });
                   }}
                 >
-                  {configs.map(config => (
+                  {configs.map((config) => (
                     <TabPane tab={config.title} key={config.id} />
                   ))}
                 </Tabs>
@@ -150,6 +150,6 @@ class ReactDates extends React.Component {
     );
   }
 }
-export default connect(state => ({
-  view: state.App.view,
+export default connect((state) => ({
+  view: state.App.view
 }))(ReactDates);

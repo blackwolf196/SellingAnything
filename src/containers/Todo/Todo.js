@@ -6,18 +6,13 @@ import todoAction from '@iso/redux/todos/actions';
 import TodoList from './TodoList';
 import { TodoWrapper } from './Todo.styles';
 
-const {
-  addTodo,
-  edittodo,
-  deleteTodo,
-  allCompleted,
-  deleteCompleted,
-} = todoAction;
+const { addTodo, edittodo, deleteTodo, allCompleted, deleteCompleted } =
+  todoAction;
 const { Header, Content } = Layout;
 
 export default function ToDo() {
   const [newTodo, setNewTodo] = React.useState('');
-  const { todos, colors } = useSelector(state => state.Todos);
+  const { todos, colors } = useSelector((state) => state.Todos);
   const dispatch = useDispatch();
 
   return (
@@ -28,8 +23,8 @@ export default function ToDo() {
             placeholder={'Type here for add a new todo'}
             value={newTodo}
             className="isoTodoInput"
-            onChange={event => setNewTodo(event.target.value)}
-            onPressEnter={event => {
+            onChange={(event) => setNewTodo(event.target.value)}
+            onPressEnter={(event) => {
               setNewTodo('');
               dispatch(addTodo(event.target.value));
             }}
@@ -38,8 +33,8 @@ export default function ToDo() {
         <Content className="isoTodoContentBody">
           <TodoList
             todos={todos}
-            deleteTodo={id => dispatch(deleteTodo(id))}
-            edittodo={todo => dispatch(edittodo(todo))}
+            deleteTodo={(id) => dispatch(deleteTodo(id))}
+            edittodo={(todo) => dispatch(edittodo(todo))}
             colors={colors}
             allCompleted={() => dispatch(allCompleted())}
             deleteCompleted={() => dispatch(deleteCompleted())}

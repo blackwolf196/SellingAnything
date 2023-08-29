@@ -1,6 +1,5 @@
 import React from 'react';
 import Upload from '../Antd/Upload/Upload';
-import Icon from '../Antd/Icon/Icon';
 import Modal from '../Antd/Modal/Modal';
 import { FaCamera } from 'react-icons/fa';
 import { ImageUpload } from './imageUploader.style';
@@ -13,18 +12,17 @@ export default class ImageUploader extends React.Component {
         uid: '-1',
         name: 'xxx.png',
         status: 'done',
-        url:
-          'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png',
-      },
-    ],
+        url: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png'
+      }
+    ]
   };
 
   handleCancel = () => this.setState({ previewVisible: false });
 
-  handlePreview = file => {
+  handlePreview = (file) => {
     this.setState({
       previewImage: file.url || file.thumbUrl,
-      previewVisible: true,
+      previewVisible: true
     });
   };
 

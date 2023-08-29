@@ -7,23 +7,23 @@ const initState = {
 };
 
 export default function authReducer(state = initState, action) {
-  const {type, payload} = action;
+  const { type, payload } = action;
   switch (type) {
     case actions.GETLIST_REQUEST:
       return {
         ...state,
-        LoadingData: true,
+        LoadingData: true
       };
     case actions.GETLIST_REQUEST_SUCCESS:
       return {
         ...state,
         DanhSachPhim: payload.DanhSachPhim,
-        LoadingData: false,
+        LoadingData: false
       };
     case actions.GETLIST_REQUEST_ERROR:
       return {
         ...state,
-        LoadingData: false,
+        LoadingData: false
       };
     default:
       return state;

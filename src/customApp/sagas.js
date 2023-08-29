@@ -1,5 +1,5 @@
 import TrangChu from './TrangChu/saga';
 
-export default [
-  TrangChu()
-]
+const sagas = [TrangChu()];
+
+export default sagas;

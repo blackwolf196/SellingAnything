@@ -2,7 +2,7 @@ import React from 'react';
 import { BackTop } from 'antd';
 import './BackToTop.css';
 
-export default function() {
+export default function () {
   return (
     <div>
       <div className="isoContent">

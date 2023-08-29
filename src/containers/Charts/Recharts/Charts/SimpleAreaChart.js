@@ -5,7 +5,7 @@ import {
   XAxis,
   YAxis,
   CartesianGrid,
-  Tooltip,
+  Tooltip
 } from 'recharts';
 import ChartWrapper from '../../Charts.styles';
 

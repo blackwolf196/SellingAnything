@@ -63,10 +63,9 @@ const AntRadiobox = (ComponentName) => styled(ComponentName)`
           border-color: ${palette('primary', 0)};
         }
       }
-
     }
-    :focus{
-      outline:none;
+    :focus {
+      outline: none;
     }
   }
 `;

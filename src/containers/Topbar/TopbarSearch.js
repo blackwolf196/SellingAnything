@@ -5,7 +5,9 @@ import TopbarSearchModal from './TopbarSearchModal.styles';
 
 export default function TopbarSearch() {
   const [visible, setVisiblity] = React.useState(false);
-  const customizedTheme = useSelector(state => state.ThemeSwitcher.topbarTheme);
+  const customizedTheme = useSelector(
+    (state) => state.ThemeSwitcher.topbarTheme
+  );
 
   const handleBlur = () => {
     setTimeout(() => {

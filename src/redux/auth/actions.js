@@ -7,10 +7,10 @@ const actions = {
   checkAuthorization: () => ({ type: actions.CHECK_AUTHORIZATION }),
   login: (token = false) => ({
     type: actions.LOGIN_REQUEST,
-    payload: { token },
+    payload: { token }
   }),
   logout: () => ({
-    type: actions.LOGOUT,
-  }),
+    type: actions.LOGOUT
+  })
 };
 export default actions;

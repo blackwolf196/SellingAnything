@@ -6,7 +6,7 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
+  Legend
 } from 'recharts';
 import ChartWrapper from '../../Charts.styles';
 

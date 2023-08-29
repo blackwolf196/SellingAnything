@@ -3,13 +3,13 @@ import styled, { css } from 'styled-components';
 const ContainerWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
-  ${props =>
+  ${(props) =>
     props.fullWidth &&
     css`
       width: 100%;
       max-width: none !important;
     `};
-  ${props =>
+  ${(props) =>
     (props.noGutter &&
       css`
         padding-left: 0;
@@ -25,7 +25,7 @@ const ContainerWrapper = styled.div`
       }
     `};
 
-  ${props =>
+  ${(props) =>
     props.fluid &&
     css`
       width: 100% !important;

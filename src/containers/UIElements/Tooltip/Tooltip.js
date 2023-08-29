@@ -12,7 +12,7 @@ const text = (
   <span>{<IntlMessages id="uiElements.tooltip.contentSpan" />}</span>
 );
 
-export default function() {
+export default function () {
   const { rowStyle, colStyle, gutter } = basicStyle;
 
   return (

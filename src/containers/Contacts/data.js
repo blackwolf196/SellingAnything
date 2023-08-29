@@ -3,7 +3,7 @@ export const otherAttributes = [
   { title: 'Home', value: 'home', type: 'phoneNumber' },
   { title: 'Company', value: 'company', type: 'company' },
   { title: 'Work', value: 'work', type: 'phoneNumber' },
-  { title: 'Notes', value: 'note', type: 'paragraph' },
+  { title: 'Notes', value: 'note', type: 'paragraph' }
 ];
 
 const contactList = JSON.parse(

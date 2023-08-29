@@ -5,7 +5,7 @@ const DesktopView = lazy(() => import('./DesktopView'));
 const MobileView = lazy(() => import('./MobileView'));
 
 export default function Chat() {
-  const { view, height } = useSelector(state => state.App);
+  const { view, height } = useSelector((state) => state.App);
   const ChatView = view === 'MobileView' ? MobileView : DesktopView;
   return (
     <ChatViewWrapper

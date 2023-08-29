@@ -20,7 +20,7 @@ class GridLayout extends Component {
     this.breakPointChange = this.breakPointChange.bind(this);
     this.autoHeight = this.autoHeight.bind(this);
     this.state = {
-      breakpoint: 'lg',
+      breakpoint: 'lg'
     };
   }
   componentWillMount() {
@@ -54,7 +54,7 @@ class GridLayout extends Component {
     if (height === 0) {
       return;
     }
-    allBox.map((singleBox) => {
+    allBox.map(() => {
       const indexOfBox = indexOfBoxfunc(allBox, uid);
       if (
         allBox[indexOfBox].size[breakpoint].h !==
@@ -83,12 +83,12 @@ class GridLayout extends Component {
               this.autoHeight(singleBox.i, data);
             }}
           >
-            {(data) => (
+            {() => (
               <div
                 className="isomorphicSingleCard"
                 style={{
                   paddingRight: `${Math.ceil(gutter.gutterWidth)}px`,
-                  paddingBottom: `${Math.ceil(gutter.gutterHeight)}px`,
+                  paddingBottom: `${Math.ceil(gutter.gutterHeight)}px`
                 }}
               >
                 <div className="isoCardBox">
@@ -126,7 +126,7 @@ class GridLayout extends Component {
       layouts: Layouts,
       onDragStop: this.onLayoutChange,
       onResizeStop: this.onLayoutChange,
-      onBreakpointChange: this.breakPointChange,
+      onBreakpointChange: this.breakPointChange
     };
     return (
       <div className="isoCardBoxContentWrapper">
@@ -141,10 +141,10 @@ class GridLayout extends Component {
 function mapStateToProps(state) {
   return {
     allBox: state.Box.allBox,
-    reload: state.Box.reload,
+    reload: state.Box.reload
   };
 }
 export default connect(mapStateToProps, {
   saveBox,
-  deleteBox,
+  deleteBox
 })(GridLayout);

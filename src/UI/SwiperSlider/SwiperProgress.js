@@ -6,12 +6,12 @@ export default function SwiperProgress(props) {
   const params = {
     pagination: {
       el: '.swiper-pagination',
-      type: 'progressbar',
+      type: 'progressbar'
     },
     navigation: {
       nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+      prevEl: '.swiper-button-prev'
+    }
   };
   return <Swiper {...params}>{children}</Swiper>;
 }

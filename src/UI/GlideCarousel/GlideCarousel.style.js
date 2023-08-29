@@ -59,6 +59,6 @@ export {
   ButtonWrapper,
   BulletControlWrapper,
   BulletButton,
-  DefaultBtn,
+  DefaultBtn
 };
 export default GlideWrapper;

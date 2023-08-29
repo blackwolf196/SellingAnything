@@ -8,7 +8,7 @@ import {
   SingleMailHeader,
   SingleMailInfo,
   SingleMailBody,
-  SingleMailReply,
+  SingleMailReply
 } from './SingleMail.style';
 
 export default function singleMail(
@@ -26,11 +26,11 @@ export default function singleMail(
     splitLet: recpName
       .match(/\b(\w)/g)
       .join('')
-      .split('', 2),
+      .split('', 2)
   };
 
   const labelColor = mail.tags
-    ? tagColor[tags.findIndex(tags => tags === mail.tags)]
+    ? tagColor[tags.findIndex((tags) => tags === mail.tags)]
     : '';
 
   return (
@@ -79,7 +79,7 @@ export default function singleMail(
             <ComposeMail allMail={allMail} />
           ) : (
             <div
-              onClick={event => changeReplyMail(true)}
+              onClick={() => changeReplyMail(true)}
               className="isoReplyMailBtn"
             >
               Click here to <span>Reply</span>

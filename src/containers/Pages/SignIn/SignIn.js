@@ -11,7 +11,7 @@ import appAction from '@iso/redux/app/actions';
 import Auth0 from '../../Authentication/Auth0/Auth0';
 import {
   signInWithGoogle,
-  signInWithFacebook,
+  signInWithFacebook
 } from '@iso/lib/firebase/firebase.authentication.util';
 import SignInStyleWrapper from './SignIn.styles';
 

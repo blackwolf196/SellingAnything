@@ -11,8 +11,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import profileActions from '@iso/redux/profile/actions';
 
 const MyProfile = () => {
-  const data = useSelector(state => state.profile.data);
-  const loading = useSelector(state => state.profile.loading);
+  const data = useSelector((state) => state.profile.data);
+  const loading = useSelector((state) => state.profile.loading);
   const dispatch = useDispatch();
   const getProfile = useCallback(
     () => dispatch(profileActions.fetchProfileDataStart()),
@@ -26,7 +26,7 @@ const MyProfile = () => {
     getProfile();
   }, [getProfile]);
 
-  const handleMenu = type => {
+  const handleMenu = (type) => {
     if (type === 'post') {
       setActive(type);
     }
@@ -112,7 +112,7 @@ const MyProfile = () => {
             minHeight: '150px',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'center',
+            justifyContent: 'center'
           }}
         >
           <Spin />

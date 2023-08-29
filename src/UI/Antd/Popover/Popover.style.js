@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 
-const PopoverWrapper = ComponentName => styled(ComponentName)`
+const PopoverWrapper = (ComponentName) => styled(ComponentName)`
   display: inline-block;
 
   .ant-popover {

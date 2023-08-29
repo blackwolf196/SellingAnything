@@ -18,14 +18,14 @@ export default () => {
     dictMaxFilesExceeded: 'You can only upload upto 2 images',
     dictRemoveFile: 'Delete',
     dictCancelUploadConfirmation: 'Are you sure to cancel upload?',
-    postUrl: 'no-url',
+    postUrl: 'no-url'
   };
   const djsConfig = { autoProcessQueue: false };
   const eventHandlers = {
-    addedfile: file => notification('success', `${file.name} added`),
-    success: file =>
+    addedfile: (file) => notification('success', `${file.name} added`),
+    success: (file) =>
       notification('success', `${file.name} successfully uploaded`),
-    error: error => notification('error', 'Server is not set in the demo'),
+    error: () => notification('error', 'Server is not set in the demo')
   };
   return (
     <LayoutWrapper>

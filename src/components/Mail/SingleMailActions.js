@@ -9,7 +9,7 @@ import {
   MailActionsWrapper,
   MailCategoryWrapper,
   MailPaginationWrapper,
-  MailActionDropdown,
+  MailActionDropdown
 } from './SingleMailActions.style';
 import { direction } from '@iso/lib/helpers/rtl';
 
@@ -31,7 +31,7 @@ function DeleteButton() {
 }
 
 function MoveMailButton() {
-  const bucketOptions = buckets.map(bucket => (
+  const bucketOptions = buckets.map((bucket) => (
     <li
       onClick={() => {
         notification('success', `Massage Moved Successfully`, '');
@@ -56,7 +56,7 @@ function MoveMailButton() {
 }
 
 function SelectTagButton() {
-  const tagOptions = tags.map(tag => (
+  const tagOptions = tags.map((tag) => (
     <li
       onClick={() => {
         notification('success', `Label Added`, '');
@@ -80,8 +80,10 @@ function SelectTagButton() {
   );
 }
 
-export default function({ mail, filterMails, selectMail, toggleListVisible }) {
-  const index = filterMails.findIndex(filterMail => filterMail.id === mail.id);
+export default function ({ mail, filterMails, selectMail, toggleListVisible }) {
+  const index = filterMails.findIndex(
+    (filterMail) => filterMail.id === mail.id
+  );
   const toggleView = () => {
     toggleListVisible();
   };

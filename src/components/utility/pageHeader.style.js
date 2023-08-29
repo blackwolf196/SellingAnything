@@ -23,7 +23,7 @@ const WDComponentTitleWrapper = styled.h1`
     height: 40px;
     background-color: ${palette('secondary', 3)};
     display: flex;
-    margin: ${props =>
+    margin: ${(props) =>
       props['data-rtl'] === 'rtl' ? '0 0 0 15px' : '0 15px 0 0'};
   }
 
@@ -33,7 +33,7 @@ const WDComponentTitleWrapper = styled.h1`
     height: 1px;
     background-color: ${palette('secondary', 3)};
     display: flex;
-    margin: ${props =>
+    margin: ${(props) =>
       props['data-rtl'] === 'rtl' ? '0 15px 0 0' : '0 0 0 15px'};
   }
 `;

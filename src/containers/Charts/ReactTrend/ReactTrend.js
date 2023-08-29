@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   data,
   autoDraw,
@@ -8,16 +8,16 @@ import {
   gradient,
   radius,
   strokeWidth,
-  strokeLinecap,
+  strokeLinecap
 } from './config';
 import PageHeader from '@iso/components/utility/pageHeader';
 import LayoutWrapper from '@iso/components/utility/layoutWrapper';
 import Box from '@iso/components/utility/box';
 
 import Trend from 'react-trend';
-import useInterval from "../../../library/helpers/useInterval";
+import useInterval from '../../../library/helpers/useInterval';
 
-export default function () {
+const TrendChart = () => {
   const [dynamicData, setDymamicData] = useState(data);
   const generateDynamicData = () => {
     const _dynamicData = [...dynamicData];
@@ -25,11 +25,20 @@ export default function () {
     _dynamicData.push(randomNumber);
     const last100 = _dynamicData.slice(-100);
     setDymamicData(last100);
-  }
+  };
 
   const interval = useInterval(() => {
     generateDynamicData();
   }, 200);
+
+  useEffect(() => {
+    // const interval = useInterval(() => {
+    //   generateDynamicData();
+    // }, 200);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
 
   return (
     <LayoutWrapper className="isoMapPage">
@@ -50,4 +59,6 @@ export default function () {
       </Box>
     </LayoutWrapper>
   );
-}
+};
+
+export default TrendChart;

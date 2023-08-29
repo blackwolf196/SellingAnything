@@ -23,8 +23,8 @@ const ResetPasswordStyleWrapper = styled.div`
     position: absolute;
     z-index: 1;
     top: 0;
-    left: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-    right: ${props => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
+    left: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
+    right: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
   }
 
   .isoFormContentWrapper {

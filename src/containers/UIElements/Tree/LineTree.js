@@ -16,19 +16,19 @@ const treeData = [
           {
             title: 'leaf',
             key: '0-0-0-0',
-            icon: <CarryOutOutlined />,
+            icon: <CarryOutOutlined />
           },
           {
             title: 'leaf',
             key: '0-0-0-1',
-            icon: <CarryOutOutlined />,
+            icon: <CarryOutOutlined />
           },
           {
             title: 'leaf',
             key: '0-0-0-2',
-            icon: <CarryOutOutlined />,
-          },
-        ],
+            icon: <CarryOutOutlined />
+          }
+        ]
       },
       {
         title: 'parent 1-1',
@@ -38,9 +38,9 @@ const treeData = [
           {
             title: 'leaf',
             key: '0-0-1-0',
-            icon: <CarryOutOutlined />,
-          },
-        ],
+            icon: <CarryOutOutlined />
+          }
+        ]
       },
       {
         title: 'parent 1-2',
@@ -50,18 +50,18 @@ const treeData = [
           {
             title: 'leaf',
             key: '0-0-2-0',
-            icon: <CarryOutOutlined />,
+            icon: <CarryOutOutlined />
           },
           {
             title: 'leaf',
             key: '0-0-2-1',
             icon: <CarryOutOutlined />,
-            switcherIcon: <FormOutlined />,
-          },
-        ],
-      },
-    ],
-  },
+            switcherIcon: <FormOutlined />
+          }
+        ]
+      }
+    ]
+  }
 ];
 
 const LineTree = () => {
@@ -76,7 +76,7 @@ const LineTree = () => {
     <div>
       <div
         style={{
-          marginBottom: 16,
+          marginBottom: 16
         }}
       >
         showLine: <Switch checked={showLine} onChange={setShowLine} />

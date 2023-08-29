@@ -1,24 +1,18 @@
 import styled from 'styled-components';
-import {palette} from 'styled-tools';
-import {
-  transition,
-  borderRadius,
-  boxShadow,
-} from '../../library/helpers/style_utils';
 
 const TopbarWrapper = styled.div`
   .dashboard-topbar {
-    background: #FFF;
+    background: #fff;
     width: 100%;
     height: 90px;
     display: flex;
     align-items: center;
     user-select: none;
-    
+
     .top-logo {
       height: 70px;
     }
-      
+
     .top-menu {
       width: 100%;
       height: 100%;

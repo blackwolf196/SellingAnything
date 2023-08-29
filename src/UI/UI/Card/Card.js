@@ -6,7 +6,7 @@ export default function Card({
   header,
   content,
   children,
-  footer,
+  footer
 }) {
   return (
     <Wrapper className={className}>

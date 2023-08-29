@@ -1,4 +1,4 @@
-import {Map} from 'immutable';
+import { Map } from 'immutable';
 
 export function clearToken() {
   localStorage.removeItem('id_token');
@@ -7,7 +7,7 @@ export function clearToken() {
 export function getToken() {
   try {
     const idToken = localStorage.getItem('id_token');
-    return new Map({idToken});
+    return new Map({ idToken });
   } catch (err) {
     clearToken();
     return new Map();
@@ -51,7 +51,7 @@ export function timeDifference(givenTime) {
           'Sep',
           'Oct',
           'Nov',
-          'Dec',
+          'Dec'
         ];
         const month = months[givenTime.getUTCMonth()];
         const day = number(givenTime.getUTCDate());
@@ -105,7 +105,11 @@ export const changeUrlFilter = (filter) => {
   if (filter !== undefined && filter !== null) {
     let property;
     for (property in filter) {
-      if (filter[property] !== undefined && filter[property] !== null && filter[property].toString().trim() !== '') {
+      if (
+        filter[property] !== undefined &&
+        filter[property] !== null &&
+        filter[property].toString().trim() !== ''
+      ) {
         _arr.push({
           key: property,
           value: filter[property].toString().trim()
@@ -115,9 +119,9 @@ export const changeUrlFilter = (filter) => {
   }
 
   if (_arr.length > 0) {
-    _arr.forEach(item => {
+    _arr.forEach((item) => {
       query_arr.push(item.key + '=' + item.value);
-    })
+    });
   }
 
   query_arr.sort();
@@ -132,7 +136,7 @@ export const getFilterData = (oldFilterData, onFilter, onOrder) => {
   const DefaultPageSize = 10;
   let filterData = oldFilterData;
   if (onFilter) {
-    let {value, property} = onFilter;
+    let { value, property } = onFilter;
     filterData[property] = value;
     //reset paging
     filterData.PageNumber = '';
@@ -140,7 +144,7 @@ export const getFilterData = (oldFilterData, onFilter, onOrder) => {
       filterData.PageNumber = 1;
     }
   } else {
-    let {pagination, sorter} = onOrder;
+    let { pagination, sorter } = onOrder;
     //paging --
     if (pagination !== {}) {
       let PageNumber = pagination.current;
@@ -164,18 +168,21 @@ export const getFilterData = (oldFilterData, onFilter, onOrder) => {
     if (sorter !== {}) {
       let OrderBy = '';
       let OrderValue = '';
-      if (sorter.field && (sorter.order === "ascend" || sorter.order === "descend")) {
+      if (
+        sorter.field &&
+        (sorter.order === 'ascend' || sorter.order === 'descend')
+      ) {
         OrderBy = sorter.field;
-        OrderValue = sorter.order === "ascend" ? "asc" : "desc";
+        OrderValue = sorter.order === 'ascend' ? 'asc' : 'desc';
       }
-      if (OrderValue !== "asc" && OrderValue !== "desc") {
+      if (OrderValue !== 'asc' && OrderValue !== 'desc') {
         delete filterData.OrderBy;
         delete filterData.OrderValue;
       } else {
         filterData = {
           ...filterData,
           OrderBy,
-          OrderValue,
+          OrderValue
         };
       }
     }
@@ -184,9 +191,14 @@ export const getFilterData = (oldFilterData, onFilter, onOrder) => {
   filterData = {
     ...filterData,
     PageNumber: filterData.PageNumber ? parseInt(filterData.PageNumber) : 1,
-    PageSize: filterData.PageSize ? parseInt(filterData.PageSize) : DefaultPageSize
+    PageSize: filterData.PageSize
+      ? parseInt(filterData.PageSize)
+      : DefaultPageSize
   };
-  if ((filterData.PageNumber === 1 && filterData.PageSize === DefaultPageSize) || !filterData.PageNumber) {
+  if (
+    (filterData.PageNumber === 1 && filterData.PageSize === DefaultPageSize) ||
+    !filterData.PageNumber
+  ) {
     delete filterData.PageNumber;
     delete filterData.PageSize;
   }
@@ -194,24 +206,24 @@ export const getFilterData = (oldFilterData, onFilter, onOrder) => {
 };
 
 export const getRoleByKey = (listRole, key) => {
-  let role = {view: 0, add: 0, edit: 0, delete: 0};
+  let role = { view: 0, add: 0, edit: 0, delete: 0 };
   if (!listRole) {
     let roleStore = localStorage.getItem('role');
     listRole = JSON.parse(roleStore);
   }
   if (listRole && listRole[key]) {
-    role = {...listRole[key]};
+    role = { ...listRole[key] };
   }
   return role;
 };
 
 export const upperFirstLetter = (word) => {
-  let newWord = word ? word.trim() : "";
+  let newWord = word ? word.trim() : '';
   let text = newWord.split(' ');
   let res = [];
   for (let i = 0; i < text.length; i++) {
     let text2 = text[i].split('');
-    text2[0] = text2[0] ? text2[0].toUpperCase() : "";
+    text2[0] = text2[0] ? text2[0].toUpperCase() : '';
     text2 = text2.join('');
     res[res.length] = text2;
   }
@@ -221,14 +233,14 @@ export const upperFirstLetter = (word) => {
 export const formatDataTreeToFlat = (TreeData) => {
   const DataFlat = [];
   if (TreeData && TreeData.length) {
-    TreeData.forEach(tree => {
+    TreeData.forEach((tree) => {
       DataFlat.push(tree);
-      const {Children} = tree;
+      const { Children } = tree;
       if (Children && Children.length) {
         const flatChildren = formatDataTreeToFlat(Children);
         DataFlat.push(...flatChildren);
       }
-    })
+    });
   }
   return DataFlat;
 };
@@ -263,7 +275,7 @@ export const formatDataTreeToFlat = (TreeData) => {
 export const exportExcel = (rawHtml, exportName) => {
   let html, link, blob, url;
   let preHtml = `<html><head><meta charset='utf-8'></head><body>`;
-  let postHtml = "</body></html>";
+  let postHtml = '</body></html>';
   html = preHtml + rawHtml + postHtml;
   blob = new Blob(['\ufeff', html], {
     type: 'application/vnd.ms-excel'
@@ -271,18 +283,21 @@ export const exportExcel = (rawHtml, exportName) => {
   url = URL.createObjectURL(blob);
   link = document.createElement('A');
   link.href = url;
-  link.download = `${exportName}.xls`;  // default name without extension
+  link.download = `${exportName}.xls`; // default name without extension
   document.body.appendChild(link);
-  if (navigator.msSaveOrOpenBlob) navigator.msSaveOrOpenBlob(blob, `${exportName}.xls`); // IE10-11
-  else link.click();  // other browsers
+  if (navigator.msSaveOrOpenBlob)
+    navigator.msSaveOrOpenBlob(blob, `${exportName}.xls`); // IE10-11
+  else link.click(); // other browsers
   document.body.removeChild(link);
 };
 
 export const exportWord = (rawHtml, exportName, orientation = 'portrait') => {
-  const css = (
+  const css =
     '@page divPrint' +
     '{size:595.3pt 841.9pt;' +
-    //'mso-page-orientation:' + orientation + ' !important;' +
+    'mso-page-orientation:' +
+    orientation +
+    ' !important;' +
     'margin:2cm 2cm 2cm 2.5cm;' +
     'mso-header-margin:2cm;' +
     'mso-footer-margin:2cm;' +
@@ -290,19 +305,19 @@ export const exportWord = (rawHtml, exportName, orientation = 'portrait') => {
     ' div.divPrint' +
     '{page:divPrint;} ' +
     '.page-break-before {page-break-before: always;} ' +
-    '.page-break-after {page-break-after: always;}'
-  );
+    '.page-break-after {page-break-after: always;}';
   const preHtml = `<html><head><style charset='utf-8'>${css}</style></head><body>`;
-  const postHtml = "</body></html>";
+  const postHtml = '</body></html>';
   const html = preHtml + rawHtml + postHtml;
-  const blob = new Blob(['\ufeff', html], {type: 'application/msword'});
+  const blob = new Blob(['\ufeff', html], { type: 'application/msword' });
   const url = URL.createObjectURL(blob);
   let link = document.createElement('A');
   link.href = url;
-  link.download = `${exportName}.doc`;  // default name without extension
+  link.download = `${exportName}.doc`; // default name without extension
   document.body.appendChild(link);
-  if (navigator.msSaveOrOpenBlob) navigator.msSaveOrOpenBlob(blob, `${exportName}.doc`); // IE10-11
-  else link.click();  // other browsers
+  if (navigator.msSaveOrOpenBlob)
+    navigator.msSaveOrOpenBlob(blob, `${exportName}.doc`); // IE10-11
+  else link.click(); // other browsers
   document.body.removeChild(link);
 };
 
@@ -311,7 +326,7 @@ export const getBase64Async = (file) => {
     const reader = new FileReader();
     reader.readAsDataURL(file);
     reader.onload = () => resolve(reader.result);
-    reader.onerror = error => reject(error);
+    reader.onerror = (error) => reject(error);
   });
 };
 
@@ -319,8 +334,8 @@ export const FlatToTreeData = (FlatData) => {
   const TreeData = [];
   const expandedKeys = [];
   const findAllChidren = (ChaID) => {
-    const children = FlatData.filter(item => item.ChaID === ChaID);
-    children.forEach(child => {
+    const children = FlatData.filter((item) => item.ChaID === ChaID);
+    children.forEach((child) => {
       child.title = child.Ten;
       child.key = child.ID;
       child.children = findAllChidren(child.ID);
@@ -333,10 +348,10 @@ export const FlatToTreeData = (FlatData) => {
     });
     return children;
   };
-  FlatData.forEach(item => {
+  FlatData.forEach((item) => {
     if (!item.ChaID) {
       //Parent
-      const parentItem = {...item, title: item.Ten, key: item.ID};
+      const parentItem = { ...item, title: item.Ten, key: item.ID };
       parentItem.children = findAllChidren(item.ID);
       if (parentItem.children.length) {
         expandedKeys.push(item.ID.toString());
@@ -347,10 +362,10 @@ export const FlatToTreeData = (FlatData) => {
       TreeData.push(parentItem);
     }
   });
-  return {TreeData, expandedKeys};
+  return { TreeData, expandedKeys };
 };
 
 export const getShorten = (text, length = 100) => {
-  if (!text) return "";
+  if (!text) return '';
   return text.length > length ? text.slice(0, length) + '...' : text;
 };

@@ -4,7 +4,7 @@ import {
   IoIosVideocam,
   IoIosPlay,
   IoIosHeart,
-  IoIosChatbubbles,
+  IoIosChatbubbles
 } from 'react-icons/io';
 import CardWrapper from './InstagramCard.style';
 
@@ -16,7 +16,7 @@ const InstagramCard = ({
   numberOfcomment,
   numberOflike,
   onClick,
-  className,
+  className
 }) => {
   return (
     <CardWrapper

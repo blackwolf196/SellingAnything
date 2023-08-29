@@ -1,10 +1,10 @@
-import {store} from '../redux/store';
-import axios from "axios";
-import auth_actions from "../redux/auth/actions";
-import {clearToken} from '@iso/lib/helpers/utility';
-import moment from "moment";
-import {message} from "antd";
-import {createBrowserHistory} from 'history';
+import { store } from '../redux/store';
+import axios from 'axios';
+import auth_actions from '../redux/auth/actions';
+import { clearToken } from '@iso/lib/helpers/utility';
+import moment from 'moment';
+import { message } from 'antd';
+import { createBrowserHistory } from 'history';
 
 const history = createBrowserHistory();
 
@@ -19,8 +19,7 @@ const refreshToken = async () => {
       type: auth_actions.LOGOUT
     });
     history.replace('/signin');
-  } catch (err) {
-  }
+  } catch (err) {}
 };
 
 const checkRefreshToken = () => {
@@ -28,8 +27,10 @@ const checkRefreshToken = () => {
   const userJsonCheck = localStorage.getItem('user');
   const userObjCheck = JSON.parse(userJsonCheck);
   if (userObjCheck.expires_at) {
-    let expires_at = moment(userObjCheck.expires_at).format("YYYY-MM-DD HH:m:s");
-    let today = moment().format("YYYY-MM-DD HH:m:s");
+    let expires_at = moment(userObjCheck.expires_at).format(
+      'YYYY-MM-DD HH:m:s'
+    );
+    let today = moment().format('YYYY-MM-DD HH:m:s');
     if (today > expires_at) {
       refresh = 1;
     }
@@ -52,8 +53,8 @@ const getConfig = async (headers = {}) => {
             reject('error');
           }
         }
-      })
-    })
+      });
+    });
   } else {
     if (!user().idToken) {
       auth_actions.logout();
@@ -75,12 +76,11 @@ const getConfig = async (headers = {}) => {
     //   }
     // }
 
-    if (!headers)
-      headers = {};
+    if (!headers) headers = {};
 
     return {
       ...headers,
-      'Authorization': `Bearer ${user_data.user.Token}`,
+      Authorization: `Bearer ${user_data.user.Token}`
     };
   } else {
     //await refreshToken();
@@ -88,14 +88,19 @@ const getConfig = async (headers = {}) => {
   }
 };
 
-const callApi = (url, data = null, headers = {}, method = 'GET', responseType = 'json') => {
-  if (!headers)
-    headers = {};
+const callApi = (
+  url,
+  data = null,
+  headers = {},
+  method = 'GET',
+  responseType = 'json'
+) => {
+  if (!headers) headers = {};
 
   headers = {
-    'Accept': 'application/json',
+    Accept: 'application/json',
     'Content-Type': 'application/json',
-    ...headers,
+    ...headers
   };
   let params = {};
   if (typeof data === 'object') {
@@ -129,47 +134,48 @@ const callApi = (url, data = null, headers = {}, method = 'GET', responseType = 
     params,
     headers,
     responseType: responseType
-  }).then(function (response) {
-    // if(response.data.Status && response.data.Status === -1 && headers.Authorization){ //het han token
-    //   clearToken();
-    //   store.dispatch({type: auth_actions.LOGOUT});
-    //   history.replace('/signin');
-    // }
-    return response || {};
-  }).catch(function (error) {
-    if (error.response) {
-      const {status, statusText} = error.response;
-      // The request was made and the server responded with a status code
-      if (status === 401) {
-        auth_actions.logout();
-        message.error(statusText);
-        return error.response;
+  })
+    .then(function (response) {
+      // if(response.data.Status && response.data.Status === -1 && headers.Authorization){ //het han token
+      //   clearToken();
+      //   store.dispatch({type: auth_actions.LOGOUT});
+      //   history.replace('/signin');
+      // }
+      return response || {};
+    })
+    .catch(function (error) {
+      if (error.response) {
+        const { status, statusText } = error.response;
+        // The request was made and the server responded with a status code
+        if (status === 401) {
+          auth_actions.logout();
+          message.error(statusText);
+          return error.response;
+        }
+        // environment should not be used
+        if (status === 403) {
+          message.error(statusText);
+          return error.response;
+        }
+        if (status <= 504 && status >= 500) {
+          message.error(statusText);
+          return error.response;
+        }
+        if (status >= 404 && status < 422) {
+          message.error(statusText);
+          return error.response;
+        }
+      } else if (error.request) {
+        // The request was made but no response was received
+        // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+        // http.ClientRequest in node.js
+      } else {
+        // Something happened in setting up the request that triggered an Error
+        console.log('Api error', error.message);
       }
-      // environment should not be used
-      if (status === 403) {
-        message.error(statusText);
-        return error.response;
-      }
-      if (status <= 504 && status >= 500) {
-        message.error(statusText);
-        return error.response;
-      }
-      if (status >= 404 && status < 422) {
-        message.error(statusText);
-        return error.response;
-      }
-    } else if (error.request) {
-      // The request was made but no response was received
-      // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
-      // http.ClientRequest in node.js
-    } else {
-      // Something happened in setting up the request that triggered an Error
-      console.log('Api error', error.message);
-    }
-    //Error config
-    console.log('Api default error', error.config);
-
-  });
+      //Error config
+      console.log('Api default error', error.config);
+    });
 };
 
 export const apiGet = async (url, params = null, headers = {}) => {
@@ -192,8 +198,8 @@ export const apiDelete = async (url, params = null, headers = {}) => {
   return await callApi(url, params, headers, 'DELETE', 'json');
 };
 
-function b64toBlob(dataURI) {
-  let fileType = dataURI.split(";")[0].replace("data:", "");
+export const b64toBlob = (dataURI) => {
+  let fileType = dataURI.split(';')[0].replace('data:', '');
   let byteString = atob(dataURI.split(',')[1]);
   let ab = new ArrayBuffer(byteString.length);
   let ia = new Uint8Array(ab);
@@ -201,8 +207,8 @@ function b64toBlob(dataURI) {
   for (let i = 0; i < byteString.length; i++) {
     ia[i] = byteString.charCodeAt(i);
   }
-  return new Blob([ab], {type: fileType}); //eg: image/jpg
-}
+  return new Blob([ab], { type: fileType }); //eg: image/jpg
+};
 
 export const apiGetUser = async (url, params = null, headers = {}) => {
   //check token expires
@@ -213,9 +219,9 @@ export const apiGetUser = async (url, params = null, headers = {}) => {
   } else {
     const _headers = {
       ...headers,
-      'Authorization': `Bearer ${params.Token}`,
+      Authorization: `Bearer ${params.Token}`
     };
-    return apiGet(url, {NguoiDungID: params.NguoiDungID}, _headers);
+    return apiGet(url, { NguoiDungID: params.NguoiDungID }, _headers);
   }
 };
 
@@ -239,7 +245,12 @@ export const apiPatchAuth = async (url, params = null, headers = {}) => {
   return apiPatch(url, params, _headers);
 };
 
-export const apiPostPatchAuth = async (url, id = null, params = null, headers = {}) => {
+export const apiPostPatchAuth = async (
+  url,
+  id = null,
+  params = null,
+  headers = {}
+) => {
   const _headers = await getConfig(headers);
   let _url = id ? url + '/' + id : url;
   if (id) {
@@ -257,10 +268,14 @@ export const apiDeleteAuth = async (url, params = null, headers = {}) => {
 export const genFilterQuery = (filter) => {
   let filterArr = [];
   let filterQuery = '';
-  if (filter && typeof (filter) === 'object') {
+  if (filter && typeof filter === 'object') {
     let property;
     for (property in filter) {
-      if (filter[property] !== undefined && filter[property] !== null && filter[property].toString().trim() !== '') {
+      if (
+        filter[property] !== undefined &&
+        filter[property] !== null &&
+        filter[property].toString().trim() !== ''
+      ) {
         filterArr.push(`${property}(${filter[property]})`);
       }
     }

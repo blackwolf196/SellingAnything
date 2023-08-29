@@ -1,2 +1,2 @@
-export * from "./IntroducePage";
-export {default} from "./IntroducePage";
+export * from './IntroducePage';
+export { default } from './IntroducePage';

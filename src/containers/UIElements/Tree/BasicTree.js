@@ -14,13 +14,13 @@ const treeData = [
           {
             title: 'leaf',
             key: '0-0-0-0',
-            disableCheckbox: true,
+            disableCheckbox: true
           },
           {
             title: 'leaf',
-            key: '0-0-0-1',
-          },
-        ],
+            key: '0-0-0-1'
+          }
+        ]
       },
       {
         title: 'parent 1-1',
@@ -30,18 +30,18 @@ const treeData = [
             title: (
               <span
                 style={{
-                  color: '#1890ff',
+                  color: '#1890ff'
                 }}
               >
                 sss
               </span>
             ),
-            key: '0-0-1-0',
-          },
-        ],
-      },
-    ],
-  },
+            key: '0-0-1-0'
+          }
+        ]
+      }
+    ]
+  }
 ];
 
 const BasicTree = () => {

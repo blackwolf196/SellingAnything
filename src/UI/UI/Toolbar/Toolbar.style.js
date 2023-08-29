@@ -5,7 +5,7 @@ export const ToolbarWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   min-height: 70px;
-  background: ${props => (props.bg ? props.bg : '#fff')};
+  background: ${(props) => (props.bg ? props.bg : '#fff')};
 `;
 export const LeftSide = styled.div``;
 export const RightSide = styled.div``;

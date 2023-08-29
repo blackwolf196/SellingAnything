@@ -59,15 +59,15 @@ Editor.modules = {
       { list: 'ordered' },
       { list: 'bullet' },
       { indent: '-1' },
-      { indent: '+1' },
+      { indent: '+1' }
     ],
     ['link', 'image', 'video'],
-    ['clean'],
+    ['clean']
   ],
   clipboard: {
     // toggle to add extra line breaks when pasting HTML:
-    matchVisual: false,
-  },
+    matchVisual: false
+  }
 };
 /*
  * Quill editor formats
@@ -87,14 +87,14 @@ Editor.formats = [
   'indent',
   'link',
   'image',
-  'video',
+  'video'
 ];
 
 /*
  * PropType validation
  */
 Editor.propTypes = {
-  placeholder: PropTypes.string,
+  placeholder: PropTypes.string
 };
 
 export default Editor;

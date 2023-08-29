@@ -2,12 +2,12 @@ const options = [
   {
     key: 'mailbox',
     label: 'sidebar.email',
-    leftIcon: 'ion-android-mail',
+    leftIcon: 'ion-android-mail'
   },
   {
     key: 'chat',
     label: 'sidebar.chat',
-    leftIcon: 'ion-chatbubbles',
+    leftIcon: 'ion-chatbubbles'
   },
   {
     key: 'ecommerce',
@@ -16,21 +16,21 @@ const options = [
     children: [
       {
         key: 'shop',
-        label: 'sidebar.shop',
+        label: 'sidebar.shop'
       },
       {
         key: 'cart',
-        label: 'sidebar.cart',
+        label: 'sidebar.cart'
       },
       {
         key: 'checkout',
-        label: 'sidebar.checkout',
+        label: 'sidebar.checkout'
       },
       {
         key: 'card',
-        label: 'sidebar.cards',
-      },
-    ],
+        label: 'sidebar.cards'
+      }
+    ]
   },
   {
     key: 'maps',
@@ -39,48 +39,48 @@ const options = [
     children: [
       {
         key: 'googlemap',
-        label: 'sidebar.googleMap',
+        label: 'sidebar.googleMap'
       },
       {
         key: 'leafletmap',
-        label: 'sidebar.leafletMap',
-      },
-    ],
+        label: 'sidebar.leafletMap'
+      }
+    ]
   },
   {
     key: 'my-profile',
     label: 'sidebar.profile',
-    leftIcon: 'ion-person',
+    leftIcon: 'ion-person'
   },
   {
     key: 'scrum-board',
     label: 'sidebar.scrumboard',
-    leftIcon: 'ion-android-checkbox-outline',
+    leftIcon: 'ion-android-checkbox-outline'
   },
   {
     key: 'invoice',
     label: 'sidebar.invoice',
-    leftIcon: 'ion-clipboard',
+    leftIcon: 'ion-clipboard'
   },
   {
     key: 'youtubeSearch',
     label: 'sidebar.youtubeSearch',
-    leftIcon: 'ion-social-youtube',
+    leftIcon: 'ion-social-youtube'
   },
   {
     key: 'calendar',
     label: 'sidebar.calendar',
-    leftIcon: 'ion-calendar',
+    leftIcon: 'ion-calendar'
   },
   {
     key: 'notes',
     label: 'sidebar.notes',
-    leftIcon: 'ion-ios-paper',
+    leftIcon: 'ion-ios-paper'
   },
   {
     key: 'todo',
     label: 'sidebar.todos',
-    leftIcon: 'ion-android-checkbox-outline',
+    leftIcon: 'ion-android-checkbox-outline'
   },
   {
     key: 'firestorecrud',
@@ -90,23 +90,23 @@ const options = [
     children: [
       {
         key: 'articles',
-        label: 'sidebar.firestorecrudarticle',
+        label: 'sidebar.firestorecrudarticle'
       },
       {
         key: 'investors',
-        label: 'sidebar.firestorecrudinvestor',
-      },
-    ],
+        label: 'sidebar.firestorecrudinvestor'
+      }
+    ]
   },
   {
     key: 'contacts',
     label: 'sidebar.contacts',
-    leftIcon: 'ion-android-person-add',
+    leftIcon: 'ion-android-person-add'
   },
   {
     key: 'shuffle',
     label: 'sidebar.shuffle',
-    leftIcon: 'ion-grid',
+    leftIcon: 'ion-grid'
   },
   {
     key: 'charts',
@@ -115,21 +115,21 @@ const options = [
     children: [
       {
         key: 'googleChart',
-        label: 'sidebar.googleCharts',
+        label: 'sidebar.googleCharts'
       },
       {
         key: 'reecharts',
-        label: 'sidebar.recharts',
+        label: 'sidebar.recharts'
       },
       {
         key: 'reactChart2',
-        label: 'sidebar.reactChart2',
+        label: 'sidebar.reactChart2'
       },
       {
         key: 'frappeChart',
-        label: 'sidebar.frappeChart',
-      },
-    ],
+        label: 'sidebar.frappeChart'
+      }
+    ]
   },
   {
     key: 'Forms',
@@ -138,49 +138,49 @@ const options = [
     children: [
       {
         key: 'InputField',
-        label: 'sidebar.input',
+        label: 'sidebar.input'
       },
       {
         key: 'editor',
-        label: 'sidebar.editor',
+        label: 'sidebar.editor'
       },
       {
         key: 'FormsWithValidation',
-        label: 'sidebar.formsWithValidation',
+        label: 'sidebar.formsWithValidation'
       },
       {
         key: 'progress',
-        label: 'sidebar.progress',
+        label: 'sidebar.progress'
       },
       {
         key: 'button',
-        label: 'sidebar.button',
+        label: 'sidebar.button'
       },
       {
         key: 'tab',
-        label: 'sidebar.tab',
+        label: 'sidebar.tab'
       },
       {
         key: 'checkbox',
-        label: 'sidebar.checkbox',
+        label: 'sidebar.checkbox'
       },
       {
         key: 'radiobox',
-        label: 'sidebar.radiobox',
+        label: 'sidebar.radiobox'
       },
       {
         key: 'selectbox',
-        label: 'sidebar.selectbox',
+        label: 'sidebar.selectbox'
       },
       {
         key: 'transfer',
-        label: 'sidebar.transfer',
+        label: 'sidebar.transfer'
       },
       {
         key: 'autocomplete',
-        label: 'sidebar.autocomplete',
-      },
-    ],
+        label: 'sidebar.autocomplete'
+      }
+    ]
   },
   // {
   //   key: 'gridLayout',
@@ -194,57 +194,57 @@ const options = [
     children: [
       {
         key: 'op_badge',
-        label: 'sidebar.badge',
+        label: 'sidebar.badge'
       },
       {
         key: 'op_card',
-        label: 'sidebar.card2',
+        label: 'sidebar.card2'
       },
       {
         key: 'op_carousel',
-        label: 'sidebar.corusel',
+        label: 'sidebar.corusel'
       },
       {
         key: 'op_collapse',
-        label: 'sidebar.collapse',
+        label: 'sidebar.collapse'
       },
       {
         key: 'op_popover',
-        label: 'sidebar.popover',
+        label: 'sidebar.popover'
       },
       {
         key: 'op_tooltip',
-        label: 'sidebar.tooltip',
+        label: 'sidebar.tooltip'
       },
       {
         key: 'op_tag',
-        label: 'sidebar.tag',
+        label: 'sidebar.tag'
       },
       {
         key: 'op_timeline',
-        label: 'sidebar.timeline',
+        label: 'sidebar.timeline'
       },
       {
         key: 'dropdown',
-        label: 'sidebar.dropdown',
+        label: 'sidebar.dropdown'
       },
       {
         key: 'pagination',
-        label: 'sidebar.pagination',
+        label: 'sidebar.pagination'
       },
       {
         key: 'rating',
-        label: 'sidebar.rating',
+        label: 'sidebar.rating'
       },
       {
         key: 'tree',
-        label: 'sidebar.tree',
+        label: 'sidebar.tree'
       },
       {
         key: 'swiperslider',
-        label: 'sidebar.swiperslider',
-      },
-    ],
+        label: 'sidebar.swiperslider'
+      }
+    ]
   },
   {
     key: 'advancedUielements',
@@ -253,21 +253,21 @@ const options = [
     children: [
       {
         key: 'reactDates',
-        label: 'sidebar.reactDates',
+        label: 'sidebar.reactDates'
       },
       {
         key: 'codeMirror',
-        label: 'sidebar.codeMirror',
+        label: 'sidebar.codeMirror'
       },
       {
         key: 'uppy',
-        label: 'sidebar.uppy',
+        label: 'sidebar.uppy'
       },
       {
         key: 'dropzone',
-        label: 'sidebar.dropzone',
-      },
-    ],
+        label: 'sidebar.dropzone'
+      }
+    ]
   },
   {
     key: 'feedback',
@@ -276,29 +276,29 @@ const options = [
     children: [
       {
         key: 'alert',
-        label: 'sidebar.alert',
+        label: 'sidebar.alert'
       },
       {
         key: 'modal',
-        label: 'sidebar.modal',
+        label: 'sidebar.modal'
       },
       {
         key: 'message',
-        label: 'sidebar.message',
+        label: 'sidebar.message'
       },
       {
         key: 'notification',
-        label: 'sidebar.notification',
+        label: 'sidebar.notification'
       },
       {
         key: 'popConfirm',
-        label: 'sidebar.popConfirm',
+        label: 'sidebar.popConfirm'
       },
       {
         key: 'spin',
-        label: 'sidebar.spin',
-      },
-    ],
+        label: 'sidebar.spin'
+      }
+    ]
   },
   {
     key: 'table',
@@ -307,9 +307,9 @@ const options = [
     children: [
       {
         key: 'table_ant',
-        label: 'sidebar.antTables',
-      },
-    ],
+        label: 'sidebar.antTables'
+      }
+    ]
   },
   {
     key: 'pages',
@@ -319,50 +319,50 @@ const options = [
       {
         key: '404',
         label: 'sidebar.404',
-        withoutDashboard: true,
+        withoutDashboard: true
       },
       {
         key: '500',
         label: 'sidebar.500',
-        withoutDashboard: true,
+        withoutDashboard: true
       },
       {
         key: 'signin',
         label: 'sidebar.signIn',
-        withoutDashboard: true,
+        withoutDashboard: true
       },
       {
         key: 'signup',
         label: 'sidebar.signUp',
-        withoutDashboard: true,
+        withoutDashboard: true
       },
       {
         key: 'forgotpassword',
         label: 'sidebar.forgotPw',
-        withoutDashboard: true,
+        withoutDashboard: true
       },
       {
         key: 'resetpassword',
         label: 'sidebar.resetPw',
-        withoutDashboard: true,
-      },
+        withoutDashboard: true
+      }
 
       // {
       //   key: 'comingSoon',
       //   label: 'sidebar.comingSoon',
       //    withoutDashboard: true
       // }
-    ],
+    ]
   },
   {
     key: 'githubSearch',
     label: 'sidebar.githubSearch',
-    leftIcon: 'ion-social-github',
+    leftIcon: 'ion-social-github'
   },
   {
     key: 'blank_page',
     label: 'sidebar.blankPage',
-    leftIcon: 'ion-document',
-  },
+    leftIcon: 'ion-document'
+  }
 ];
 export default options;

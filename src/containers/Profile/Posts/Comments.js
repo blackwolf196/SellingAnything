@@ -7,9 +7,9 @@ const Comments = ({
   content,
   time,
   handleLike,
-  handleReply,
+  handleReply
 }) => {
-  const renderHtml = data => {
+  const renderHtml = (data) => {
     return { __html: data };
   };
 

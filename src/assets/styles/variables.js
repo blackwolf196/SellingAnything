@@ -15,5 +15,5 @@ export const variables = {
   PRIMARY_BOX_SHADOW: '30px',
   HEADER_FONT_SIZE: '19px',
   PRIMARY_FONT_FAMILY: 'Roboto',
-  FONT_WEIGHT: '500',
+  FONT_WEIGHT: '500'
 };

@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import ClockWrapper from './clock.styled';
-import {Spin} from 'antd';
+import { Spin } from 'antd';
 
 export interface DigitalClockProps {
   hourColor?: string;
@@ -11,9 +11,9 @@ export interface DigitalClockProps {
 
 const DigitalClock: React.FC<DigitalClockProps> = (props) => {
   const {
-    hourColor = "#ff2972",
-    minuteColor = "#fee800",
-    secondColor = "#04fc43",
+    hourColor = '#ff2972',
+    minuteColor = '#fee800',
+    secondColor = '#04fc43',
     fullTime = true
   } = props;
   let interVal: any = null;
@@ -34,7 +34,7 @@ const DigitalClock: React.FC<DigitalClockProps> = (props) => {
 
     return () => {
       clearInterval(interVal);
-    }
+    };
   }, []);
 
   const setClock = () => {
@@ -46,14 +46,14 @@ const DigitalClock: React.FC<DigitalClockProps> = (props) => {
     const mm = today.getMinutes() * 6;
     const ss = today.getSeconds() * 6;
 
-    hr.style.transform = `rotateZ(${hh + (mm / 12)}deg)`;
+    hr.style.transform = `rotateZ(${hh + mm / 12}deg)`;
     mn.style.transform = `rotateZ(${mm}deg)`;
     sc.style.transform = `rotateZ(${ss}deg)`;
     //
     let h: number | string = today.getHours();
     let m: number | string = today.getMinutes();
     let s: number | string = today.getSeconds();
-    let am = h > 12 ? "pm" : 'am';
+    const am = h > 12 ? 'pm' : 'am';
     if (!fullTime) {
       h = h > 12 ? h - 12 : h;
     }
@@ -61,7 +61,7 @@ const DigitalClock: React.FC<DigitalClockProps> = (props) => {
     m = m < 10 ? `0${m}` : m;
     s = s < 10 ? `0${s}` : s;
 
-    const newDigital: any = {...digitalClock};
+    const newDigital: any = { ...digitalClock };
     newDigital.hours = h;
     newDigital.minutes = m;
     newDigital.seconds = s;
@@ -74,23 +74,43 @@ const DigitalClock: React.FC<DigitalClockProps> = (props) => {
     listNumClock.push('');
   }
 
-  return <ClockWrapper hourColor={hourColor} minuteColor={minuteColor} secondColor={secondColor}>
-    <Spin spinning={loading}>
-      <div className={'container'}>
-        <div className={'clock'}>
-          <div className={'circle circle-sc'} id={'sc'}><i/></div>
-          <div className={'circle circle-mn'} id={'mn'}><i/></div>
-          <div className={'circle circle-hr'} id={'hr'}><i/></div>
-          {listNumClock.map((item, index) => <span style={{['--i' as string]: index + 1}}><b>{index + 1}</b></span>)}
+  return (
+    <ClockWrapper
+      hourColor={hourColor}
+      minuteColor={minuteColor}
+      secondColor={secondColor}
+    >
+      <Spin spinning={loading}>
+        <div className={'container'}>
+          <div className={'clock'}>
+            <div className={'circle circle-sc'} id={'sc'}>
+              <i />
+            </div>
+            <div className={'circle circle-mn'} id={'mn'}>
+              <i />
+            </div>
+            <div className={'circle circle-hr'} id={'hr'}>
+              <i />
+            </div>
+            {listNumClock.map((item, index) => (
+              <span style={{ ['--i' as string]: index + 1 }} key={index}>
+                <b>{index + 1}</b>
+              </span>
+            ))}
+          </div>
+          <div id={'digital-clock'}>
+            <div id={'digital-hour'}>{digitalClock.hours}</div>
+            <div id={'digital-minute'}>{digitalClock.minutes}</div>
+            <div id={'digital-second'}>{digitalClock.seconds}</div>
+            {!fullTime ? (
+              <div id={'digital-ampm'}>{digitalClock.ampm}</div>
+            ) : (
+              ''
+            )}
+          </div>
         </div>
-        <div id={'digital-clock'}>
-          <div id={'digital-hour'}>{digitalClock.hours}</div>
-          <div id={'digital-minute'}>{digitalClock.minutes}</div>
-          <div id={'digital-second'}>{digitalClock.seconds}</div>
-          {!fullTime ? <div id={'digital-ampm'}>{digitalClock.ampm}</div> : ""}
-        </div>
-      </div>
-    </Spin>
-  </ClockWrapper>
+      </Spin>
+    </ClockWrapper>
+  );
 };
 export default DigitalClock;

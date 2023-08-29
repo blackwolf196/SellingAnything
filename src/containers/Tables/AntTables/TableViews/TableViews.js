@@ -11,5 +11,5 @@ export {
   CustomizedView,
   FilterView,
   GroupView,
-  EditView,
+  EditView
 };

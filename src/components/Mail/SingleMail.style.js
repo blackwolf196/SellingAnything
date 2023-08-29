@@ -48,7 +48,7 @@ const WDSingleMailHeader = styled.div`
     line-height: 25px;
     background-color: ${palette('primary', 0)};
     text-transform: capitalize;
-    margin: ${props =>
+    margin: ${(props) =>
       props['data-rtl'] === 'rtl' ? '0 25px 0 0' : '0 0 0 25px'};
   }
 `;
@@ -99,11 +99,11 @@ const WDSingleMailInfo = styled.div`
 
   .isoMailAddress {
     width: 100%;
-    padding: ${props =>
+    padding: ${(props) =>
       props['data-rtl'] === 'rtl' ? '0 20px 0 0' : '0 0 0 20px'};
     display: flex;
     flex-direction: column;
-    text-align: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+    text-align: ${(props) => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
 
     .isoAddress {
       width: 100%;
@@ -127,7 +127,7 @@ const WDSingleMailInfo = styled.div`
           font-size: inherit;
           font-weight: 400;
           color: ${palette('secondary', 2)};
-          padding: ${props =>
+          padding: ${(props) =>
             props['data-rtl'] === 'rtl' ? '0 5px 0 0' : '0 0 0 5px'};
           display: -webkit-inline-flex;
           display: -ms-inline-flex;
@@ -143,8 +143,8 @@ const WDSingleMailInfo = styled.div`
 
         @media only screen and (max-width: 767px) {
           position: absolute;
-          right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-          left: ${props => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
+          right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
+          left: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
         }
       }
     }
@@ -166,7 +166,7 @@ const WDSingleMailInfo = styled.div`
 
 const WDSingleMailBody = styled.div`
   padding: 30px 35px;
-  text-align: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+  text-align: ${(props) => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
   flex-shrink: 0;
   border-bottom: 1px solid ${palette('border', 0)};
 
@@ -217,7 +217,7 @@ const WDSingleMailReply = styled.div`
       font-size: inherit;
       color: ${palette('text', 2)};
       text-decoration: underline;
-      padding: ${props =>
+      padding: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 3px 0 0' : '0 0 0 3px'};
       cursor: pointer;
       ${transition()};
@@ -239,5 +239,5 @@ export {
   SingleMailHeader,
   SingleMailInfo,
   SingleMailBody,
-  SingleMailReply,
+  SingleMailReply
 };

@@ -14,7 +14,7 @@ import TagWrapper from './Tag.styles';
 
 const CheckableTag = Tags.CheckableTag;
 
-const Tag = props => (
+const Tag = (props) => (
   <TagWrapper>
     <Tags {...props}>{props.children}</Tags>
   </TagWrapper>
@@ -22,24 +22,24 @@ const Tag = props => (
 
 const tagsFromServer = ['Movie', 'Books', 'Music'];
 
-export default function() {
+export default function () {
   const [selectedTags, setSelectedTags] = React.useState([]);
   const [tags, setTags] = React.useState(['Unremovable', 'Tag 2', 'Tag 3']);
   const [inputVisible, setInputVisible] = React.useState(false);
   const [inputValue, setInputValue] = React.useState('');
   let inputRef = React.useRef(null);
-  const log = e => {};
+  const log = () => {};
   const handleChange = (tag, checked) => {
     const nextSelectedTags = checked
       ? [...selectedTags, tag]
-      : selectedTags.filter(t => t !== tag);
+      : selectedTags.filter((t) => t !== tag);
     setSelectedTags(nextSelectedTags);
   };
-  const preventDefault = e => {
+  const preventDefault = (e) => {
     e.preventDefault();
   };
-  const handleClose = removedTag => {
-    const newTags = tags.filter(tag => tag !== removedTag);
+  const handleClose = (removedTag) => {
+    const newTags = tags.filter((tag) => tag !== removedTag);
     setTags(newTags);
   };
   const showInput = () => {
@@ -51,7 +51,7 @@ export default function() {
     }
   }, [inputVisible]);
 
-  const handleInputChange = e => {
+  const handleInputChange = (e) => {
     setInputValue(e.target.value);
   };
 
@@ -112,11 +112,11 @@ export default function() {
           >
             <ContentHolder>
               <strong>{<IntlMessages id="uiElements.tags.hots" />} </strong>
-              {tagsFromServer.map(tag => (
+              {tagsFromServer.map((tag) => (
                 <CheckableTag
                   key={tag}
                   checked={selectedTags.indexOf(tag) > -1}
-                  onChange={checked => handleChange(tag, checked)}
+                  onChange={(checked) => handleChange(tag, checked)}
                 >
                   {tag}
                 </CheckableTag>

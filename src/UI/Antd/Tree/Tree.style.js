@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 
-const AntTree = ComponentName => styled(ComponentName)`
+const AntTree = (ComponentName) => styled(ComponentName)`
   &.ant-tree {
     li ul {
       margin: 0;
-      padding: ${props =>
+      padding: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 18px 0 0' : '0 0 0 18px'};
     }
 

@@ -8,22 +8,17 @@ import SingleCart from '@iso/components/Cart/SingleCartModal';
 import ecommerceAction from '@iso/redux/ecommerce/actions';
 import TopbarDropdownWrapper from './TopbarDropdown.styles';
 
-const {
-  initData,
-  changeViewTopbarCart,
-  changeProductQuantity,
-} = ecommerceAction;
+const { initData, changeViewTopbarCart, changeProductQuantity } =
+  ecommerceAction;
 let totalPrice;
 export default function TopbarAddtoCart() {
   let { url } = useRouteMatch();
   const dispatch = useDispatch();
-  const customizedTheme = useSelector(state => state.ThemeSwitcher.topbarTheme);
-  const {
-    productQuantity,
-    products,
-    loadingInitData,
-    viewTopbarCart,
-  } = useSelector(state => state.Ecommerce);
+  const customizedTheme = useSelector(
+    (state) => state.ThemeSwitcher.topbarTheme
+  );
+  const { productQuantity, products, loadingInitData, viewTopbarCart } =
+    useSelector((state) => state.Ecommerce);
 
   function hide() {
     dispatch(changeViewTopbarCart(false));
@@ -46,7 +41,7 @@ export default function TopbarAddtoCart() {
         </div>
       );
     }
-    return productQuantity.map(product => {
+    return productQuantity.map((product) => {
       totalPrice += product.quantity * products[product.objectID].price;
       return (
         <SingleCart
@@ -61,13 +56,13 @@ export default function TopbarAddtoCart() {
   }
   function changeQuantity(objectID, quantity) {
     const newProductQuantity = [];
-    productQuantity.forEach(product => {
+    productQuantity.forEach((product) => {
       if (product.objectID !== objectID) {
         newProductQuantity.push(product);
       } else {
         newProductQuantity.push({
           objectID,
-          quantity,
+          quantity
         });
       }
     });
@@ -75,7 +70,7 @@ export default function TopbarAddtoCart() {
   }
   function cancelQuantity(objectID) {
     const newProductQuantity = [];
-    productQuantity.forEach(product => {
+    productQuantity.forEach((product) => {
       if (product.objectID !== objectID) {
         newProductQuantity.push(product);
       }

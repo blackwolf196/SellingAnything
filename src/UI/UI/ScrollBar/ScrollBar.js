@@ -14,7 +14,7 @@ export default function TopBar({ menu = [], other, height, className }) {
     <Wrapper className={addAllClasses.join(' ')} height={height}>
       <InnerWrapper>
         <div className="scrollbar_left">
-          {menu.map(menuItem => (
+          {menu.map((menuItem) => (
             <Link
               key={menuItem.target}
               className="linkItem"

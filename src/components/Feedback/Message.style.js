@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 
-export default styled(message)`
+export default styled.div`
   &.ant-message {
     .ant-message-notice-content {
       padding: 12px 16px;

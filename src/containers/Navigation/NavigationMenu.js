@@ -2,7 +2,7 @@ import React from 'react';
 import {
   AppstoreOutlined,
   MailOutlined,
-  SettingOutlined,
+  SettingOutlined
 } from '@ant-design/icons';
 import { Menu, Switch } from 'antd';
 
@@ -14,16 +14,16 @@ export default function () {
     current: '1',
     openKeys: [],
     theme: 'dark',
-    mode: 'inline',
+    mode: 'inline'
   });
   const handleClick = (e) => {
     setState({
-      current: e.key,
+      current: e.key
     });
   };
   const changeMode = (value) => {
     setState({
-      mode: value ? 'vertical' : 'inline',
+      mode: value ? 'vertical' : 'inline'
     });
   };
   const onOpenChange = (openKeys) => {
@@ -45,13 +45,13 @@ export default function () {
   };
   const getAncestorKeys = (key) => {
     const map = {
-      sub3: ['sub2'],
+      sub3: ['sub2']
     };
     return map[key] || [];
   };
   const changeTheme = (value) => {
     setState({
-      theme: value ? 'dark' : 'light',
+      theme: value ? 'dark' : 'light'
     });
   };
 

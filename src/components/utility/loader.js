@@ -1,7 +1,7 @@
 import React from 'react';
 import LoaderComponent from './loader.style';
 
-export default Loader => (
+export default () => (
   <LoaderComponent>
     <svg className="isoContentLoader" viewBox="0 0 50 50">
       <circle

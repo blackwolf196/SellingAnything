@@ -18,12 +18,12 @@ export default class Editor extends Component {
             { list: 'ordered' },
             { list: 'bullet' },
             { indent: '-1' },
-            { indent: '+1' },
+            { indent: '+1' }
           ],
           ['link', 'image', 'video'],
-          ['clean'],
-        ],
-      },
+          ['clean']
+        ]
+      }
     };
   }
 
@@ -38,7 +38,7 @@ export default class Editor extends Component {
       placeholder: 'Write Something',
       value: this.state.value,
       onChange: this.handleChange,
-      modules: this.quillModules,
+      modules: this.quillModules
     };
     return (
       <QuillEditor>

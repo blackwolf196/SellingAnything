@@ -3,10 +3,10 @@ import clone from 'clone';
 import TableWrapper from '../AntTables.styles';
 import { EditableCell, DeleteCell } from '@iso/components/Tables/HelperCells';
 
-export default function(props) {
+export default function (props) {
   const [state, setState] = React.useState({
     columns: createcolumns(clone(props.tableInfo.columns)),
-    dataList: props.dataList.getAll(),
+    dataList: props.dataList.getAll()
   });
   const { columns, dataList } = state;
 
@@ -25,7 +25,7 @@ export default function(props) {
       dataIndex: 'operation',
       render: (text, record, index) => (
         <DeleteCell index={index} onDeleteCell={onDeleteCell} />
-      ),
+      )
     };
     columns.push(deleteColumn);
     return columns;

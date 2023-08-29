@@ -6,8 +6,8 @@ export default function SwiperScroll(props) {
   const params = {
     scrollbar: {
       el: '.swiper-scrollbar',
-      hide: false,
-    },
+      hide: false
+    }
   };
   return <Swiper {...params}>{children}</Swiper>;
 }

@@ -1,8 +1,8 @@
-import React, {lazy, Suspense} from 'react';
-import {Route, useRouteMatch, Switch} from 'react-router-dom';
+import React, { lazy, Suspense } from 'react';
+import { Route, useRouteMatch, Switch } from 'react-router-dom';
 import Loader from '../../components/utility/loader';
 
-const NotFoundComponent = lazy(() => import("@custom/PageNotFound"));
+const NotFoundComponent = lazy(() => import('@custom/PageNotFound'));
 
 interface routesProps {
   path: string;
@@ -36,18 +36,18 @@ const routes: routesProps[] = [
 ];
 
 const AppRouter = () => {
-  const {url} = useRouteMatch();
+  const { url } = useRouteMatch();
   return (
-    <Suspense fallback={<Loader/>}>
+    <Suspense fallback={<Loader />}>
       <Switch>
         {routes.map((route, idx) => (
           <Route exact={route.exact} key={idx} path={`${url}/${route.path}`}>
-            <route.component {...route.initProps}/>
+            <route.component {...route.initProps} />
           </Route>
         ))}
         {/*Not found route*/}
-        <Route path={"*"}>
-          <NotFoundComponent/>
+        <Route path={'*'}>
+          <NotFoundComponent />
         </Route>
       </Switch>
     </Suspense>

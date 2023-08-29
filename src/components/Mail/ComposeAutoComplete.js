@@ -7,7 +7,7 @@ function createSuggestions(item) {
     return item.map((element) => ({
       id: `${element.id}`,
       value: `${element.email}`,
-      text: `${element.name}<${element.email}>`,
+      text: `${element.name}<${element.email}>`
     }));
   }
   return [];

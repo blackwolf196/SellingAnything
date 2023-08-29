@@ -5,10 +5,7 @@
     "moduleResolution": "node",
     "rootDir": "src",
     "outDir": "build",
-    "lib": [
-      "ES2021",
-      "dom"
-    ],
+    "lib": ["ES2021", "dom"],
     "strict": true,
     "esModuleInterop": true,
     "allowJs": true,
@@ -30,11 +27,6 @@
       "@custom/*": ["src/customApp/*"]
     }
   },
-  "include": [
-    "src/**/*",
-    "src/declaration.d.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src/**/*", "src/declaration.d.ts"],
+  "exclude": ["node_modules"]
 }

@@ -1,5 +1,7 @@
 import TrangChu from './TrangChu/reducer';
 
-export default {
-  TrangChu,
-}
+const reducer = {
+  TrangChu
+};
+
+export default reducer;

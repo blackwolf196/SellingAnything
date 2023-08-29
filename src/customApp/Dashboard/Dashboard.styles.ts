@@ -1,6 +1,5 @@
-import styled, {createGlobalStyle} from 'styled-components';
-import {palette} from 'styled-tools';
-import {borderRadius} from "../../library/helpers/style_utils";
+import styled, { createGlobalStyle } from 'styled-components';
+import { palette } from 'styled-tools';
 
 export const DashboardGlobalStyles = createGlobalStyle`
 body {
@@ -275,26 +274,25 @@ export const DashboardContainer = styled.div`
     &.dashboard-mainlayout {
       overflow: auto;
       overflow-x: hidden;
-      
+
       &::-webkit-scrollbar {
         width: 8px;
       }
-      
+
       &::-webkit-scrollbar-track {
-        background: #FFF;
+        background: #fff;
       }
-      
+
       &::-webkit-scrollbar-thumb {
         background: #888;
         border-radius: 6px;
       }
-      
+
       &::-webkit-scrollbar-thumb:hover {
         background: #555;
         cursor: pointer;
       }
-      
-      
+
       @media only screen and (min-width: 768px) and (max-width: 1220px) {
         width: calc(100% - 80px);
         flex-shrink: 0;
@@ -304,16 +302,16 @@ export const DashboardContainer = styled.div`
         width: 100%;
         flex-shrink: 0;
       }
-      
+
       .dashboard-content {
         padding: 0;
         flex-shrink: 0;
         background: #f1f3f6;
         position: relative;
       }
-      
+
       .dashboard-footer {
-        background: #FFF;
+        background: #fff;
         font-size: 13px;
         text-align: center;
         border-top: 1px solid #ededed;

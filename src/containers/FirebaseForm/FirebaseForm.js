@@ -6,33 +6,33 @@ import { notification } from '@iso/components';
 import {
   signInWithEmail,
   signUpWithEmailAndPassword,
-  resetPassword,
+  resetPassword
 } from '@iso/lib/firebase/firebase.authentication.util';
 
-export default function(props) {
+export default function (props) {
   const [state, setState] = React.useState({
     visible: false,
     email: 'demo@gmail.com',
     password: 'demodemo',
-    confirmLoading: false,
+    confirmLoading: false
   });
-  const handleChange = e => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setState({
       ...state,
-      [name]: value,
+      [name]: value
     });
   };
   const showModal = () => {
     setState({
       ...state,
-      visible: true,
+      visible: true
     });
   };
-  const handleCancel = e => {
+  const handleCancel = () => {
     setState({
       ...state,
-      visible: false,
+      visible: false
     });
   };
   const handleLogin = async () => {
@@ -43,13 +43,13 @@ export default function(props) {
     }
     setState({
       ...state,
-      confirmLoading: true,
+      confirmLoading: true
     });
     let user;
     let message;
     if (props.signup) {
       try {
-        await signUpWithEmailAndPassword(email, password).then(authUser => {
+        await signUpWithEmailAndPassword(email, password).then((authUser) => {
           user = authUser.user;
           console.log(user, 'User');
         });
@@ -59,7 +59,7 @@ export default function(props) {
       }
     } else {
       try {
-        await signInWithEmail(email, password).then(authUser => {
+        await signInWithEmail(email, password).then((authUser) => {
           user = authUser.user;
         });
       } catch (error) {
@@ -75,7 +75,7 @@ export default function(props) {
       notification('error', message);
       setState({
         ...state,
-        confirmLoading: false,
+        confirmLoading: false
       });
     }
   };
@@ -89,7 +89,7 @@ export default function(props) {
       .then(() =>
         notification('success', `Password reset email sent to ${email}.`)
       )
-      .catch(error => notification('error', 'Email address not found.'));
+      .catch(() => notification('error', 'Email address not found.'));
   };
   return (
     <>

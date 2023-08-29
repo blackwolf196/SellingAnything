@@ -5,9 +5,9 @@ const isClient = typeof window === 'object';
 const on = (obj, ...args) => obj.addEventListener(...args);
 const off = (obj, ...args) => obj.removeEventListener(...args);
 
-const patchHistoryMethod = method => {
+const patchHistoryMethod = (method) => {
   const original = window.history[method];
-  window.history[method] = function(state) {
+  window.history[method] = function (state) {
     const result = original.apply(this, arguments);
     const event = new Event(method.toLowerCase());
     event.state = state;
@@ -20,7 +20,7 @@ if (isClient) {
   patchHistoryMethod('replaceState');
 }
 export const useLocation = () => {
-  const buildState = trigger => {
+  const buildState = (trigger) => {
     const { state, length } = window.history;
     const {
       hash,
@@ -31,7 +31,7 @@ export const useLocation = () => {
       pathname,
       port,
       protocol,
-      search,
+      search
     } = window.location;
     return {
       trigger,
@@ -45,7 +45,7 @@ export const useLocation = () => {
       pathname,
       port,
       protocol,
-      search,
+      search
     };
   };
   const [state, setState] = useState(
@@ -53,10 +53,10 @@ export const useLocation = () => {
       ? buildState('load')
       : {
           trigger: 'load',
-          length: 1,
+          length: 1
         }
   );
-  const onChange = trigger => setState(buildState(trigger));
+  const onChange = (trigger) => setState(buildState(trigger));
   const onPopstate = () => onChange('popstate');
   const onPushstate = () => onChange('pushstate');
   const onReplacestate = () => onChange('replacestate');

@@ -3,7 +3,7 @@ import { palette } from 'styled-tools';
 import {
   transition,
   borderRadius,
-  boxShadow,
+  boxShadow
 } from '@iso/lib/helpers/style_utils';
 import WithDirection from '@iso/lib/helpers/rtl';
 
@@ -61,7 +61,8 @@ const TopbarDropdownWrapper = styled.div`
       display: flex;
       flex-direction: column;
       text-decoration: none;
-      text-align: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+      text-align: ${(props) =>
+        props['data-rtl'] === 'rtl' ? 'right' : 'left'};
       width: 100%;
       border-bottom: 1px solid ${palette('border', 2)};
       ${transition()};
@@ -161,7 +162,7 @@ const TopbarDropdownWrapper = styled.div`
         width: 35px;
         height: 35px;
         overflow: hidden;
-        margin: ${props =>
+        margin: ${(props) =>
           props['data-rtl'] === 'rtl' ? '0 0 0 15px' : '0 15px 0 0'};
         display: -webkit-inline-flex;
         display: -ms-inline-flex;
@@ -193,7 +194,7 @@ const TopbarDropdownWrapper = styled.div`
 
         h5 {
           margin-bottom: 0;
-          padding: ${props =>
+          padding: ${(props) =>
             props['data-rtl'] === 'rtl' ? '0 0 0 15px' : '0 15px 0 0'};
         }
 

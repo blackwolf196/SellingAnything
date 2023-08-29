@@ -9,32 +9,32 @@ const viewColumns = [
     title: '#',
     dataIndex: 'key',
     width: '10%',
-    rowKey: 'key',
+    rowKey: 'key'
   },
   {
     title: 'Item Name',
     dataIndex: 'itemName',
     width: '40%',
-    rowKey: 'itemName',
+    rowKey: 'itemName'
   },
   {
     title: 'Unit Costs',
     dataIndex: 'costs',
     width: '15%',
-    rowKey: 'costs',
+    rowKey: 'costs'
   },
   {
     title: 'Unit',
     dataIndex: 'qty',
     width: '15%',
-    rowKey: 'qty',
+    rowKey: 'qty'
   },
   {
     title: 'Price',
     dataIndex: 'price',
     width: '20%',
-    rowKey: 'price',
-  },
+    rowKey: 'price'
+  }
 ];
 
 const ViewTable = ({ invoiceList }) => (
@@ -49,7 +49,7 @@ const EditTable = ({ editableInvoice, editInvoice, updateValues }) => {
       dataIndex: 'key',
       rowKey: 'key',
       width: '10%',
-      render: (text, singleInvoice) => <span>{singleInvoice.key}</span>,
+      render: (text, singleInvoice) => <span>{singleInvoice.key}</span>
     },
     {
       title: 'Item Name',
@@ -60,13 +60,13 @@ const EditTable = ({ editableInvoice, editInvoice, updateValues }) => {
         <Input
           placeholder="Item Name"
           value={singleInvoice.itemName}
-          onChange={event => {
+          onChange={(event) => {
             editableInvoice.invoiceList[singleInvoice.key - 1].itemName =
               event.target.value;
             editInvoice(editableInvoice);
           }}
         />
-      ),
+      )
     },
     {
       title: 'Unit Costs',
@@ -77,17 +77,13 @@ const EditTable = ({ editableInvoice, editInvoice, updateValues }) => {
         <Input
           placeholder="Unit Cost"
           value={singleInvoice.costs}
-          onChange={event => {
-            editableInvoice.invoiceList[
-              singleInvoice.key - 1
-            ].costs = stringToPosetiveInt(
-              event.target.value,
-              singleInvoice.costs
-            );
+          onChange={(event) => {
+            editableInvoice.invoiceList[singleInvoice.key - 1].costs =
+              stringToPosetiveInt(event.target.value, singleInvoice.costs);
             editInvoice(updateValues(editableInvoice));
           }}
         />
-      ),
+      )
     },
     {
       title: 'Unit',
@@ -98,20 +94,19 @@ const EditTable = ({ editableInvoice, editInvoice, updateValues }) => {
         <Input
           placeholder="Units"
           value={singleInvoice.qty}
-          onChange={event => {
-            editableInvoice.invoiceList[
-              singleInvoice.key - 1
-            ].qty = stringToPosetiveInt(event.target.value, singleInvoice.qty);
+          onChange={(event) => {
+            editableInvoice.invoiceList[singleInvoice.key - 1].qty =
+              stringToPosetiveInt(event.target.value, singleInvoice.qty);
             editInvoice(updateValues(editableInvoice));
           }}
         />
-      ),
+      )
     },
     {
       title: 'Price',
       dataIndex: 'price',
       rowKey: 'price',
-      width: '10%',
+      width: '10%'
     },
     {
       title: '',
@@ -136,8 +131,8 @@ const EditTable = ({ editableInvoice, editInvoice, updateValues }) => {
           >
             Delete
           </Button>
-        ),
-    },
+        )
+    }
   ];
   return (
     <Table columns={editColumns} dataSource={invoiceList} pagination={false} />

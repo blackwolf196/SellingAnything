@@ -20,9 +20,9 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [{ x: 10, y: 20, r: 5 }],
-    },
-  ],
+      data: [{ x: 10, y: 20, r: 5 }]
+    }
+  ]
 };
 
 export { data };

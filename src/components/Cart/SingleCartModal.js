@@ -1,13 +1,13 @@
 import React from 'react';
 import TopbarCartWrapper from './SingleCartModal.style';
 
-export default function({
+export default function ({
   price,
   quantity,
   image,
   objectID,
   cancelQuantity,
-  _highlightResult,
+  _highlightResult
 }) {
   return (
     <TopbarCartWrapper className="isoCartItems">

@@ -8,7 +8,7 @@ const buckets = [
   'Trash',
   'Important',
   'spam',
-  'Starred',
+  'Starred'
 ];
 
 function getUnread(mails) {

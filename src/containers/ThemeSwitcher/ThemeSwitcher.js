@@ -12,7 +12,7 @@ const { switchActivation, changeTheme } = Actions;
 
 export default function ThemeSwitcher() {
   const { isActivated, topbarTheme, sidebarTheme, layoutTheme } = useSelector(
-    state => state.ThemeSwitcher
+    (state) => state.ThemeSwitcher
   );
   const dispatch = useDispatch();
   const styleButton = { background: sidebarTheme.buttonColor };

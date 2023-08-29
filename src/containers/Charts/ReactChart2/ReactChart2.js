@@ -16,9 +16,6 @@ const Radar = lazy(() => import('./Components/Radar/Radar'));
 const Polar = lazy(() => import('./Components/Polar/Polar'));
 const Bubble = lazy(() => import('./Components/Bubble/Bubble'));
 const MixedData = lazy(() => import('./Components/Mix/Mix'));
-const RandomizedDataLine = lazy(() =>
-  import('./Components/RandomizedLine/RandomizedLine')
-);
 const PageHeader = lazy(() => import('@iso/components/utility/pageHeader'));
 const Box = lazy(() => import('@iso/components/utility/box'));
 const LayoutWrapper = lazy(() =>
@@ -109,15 +106,6 @@ export default class extends Component {
             <Box title="Mixed Data">
               <ContentHolder>
                 <MixedData />
-              </ContentHolder>
-            </Box>
-          </Col>
-        </Row>
-        <Row style={rowStyle} gutter={gutter} justify="start">
-          <Col md={12} xs={24} style={colStyle}>
-            <Box title="Random Animated">
-              <ContentHolder>
-                <RandomizedDataLine />
               </ContentHolder>
             </Box>
           </Col>

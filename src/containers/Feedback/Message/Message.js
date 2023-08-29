@@ -47,7 +47,7 @@ const customDuration = () => {
   );
 };
 
-export default function() {
+export default function () {
   const info = () => {
     message.info('This is a normal message');
   };

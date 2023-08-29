@@ -7,7 +7,7 @@ import LayoutWrapper from '@iso/components/utility/layoutWrapper.js';
 import Box from '@iso/components/utility/box';
 import basicStyle from '@iso/assets/styles/constants';
 
-export default function() {
+export default function () {
   const [percent, setPercent] = React.useState(0);
 
   const increase = () => {
@@ -96,7 +96,7 @@ export default function() {
         <Progress
           type="circle"
           percent={75}
-          format={percent => `${percent} Days`}
+          format={(percent) => `${percent} Days`}
         />
         <Progress type="circle" percent={100} format={() => 'Done'} />
       </Box>

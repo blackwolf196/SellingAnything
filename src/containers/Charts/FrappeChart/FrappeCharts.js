@@ -15,12 +15,12 @@ const labels = [
   '12pm-3pm',
   '3pm-6pm',
   '6pm-9pm',
-  '9pm-12am',
+  '9pm-12am'
 ];
 const config = {
   // colors: ["#21ba45", "#98d85b"],
   axisOptions: { xAxisMode: 'tick', yAxisMode: 'tick', xIsSeries: 1 },
-  height: 300,
+  height: 300
 };
 
 export default function FrappeCharts() {
@@ -41,19 +41,19 @@ export default function FrappeCharts() {
                     {
                       name: 'Some Data',
                       color: 'light-blue',
-                      values: [25, 40, 30, 35, 8, 52, 17, -4],
+                      values: [25, 40, 30, 35, 8, 52, 17, -4]
                     },
                     {
                       name: 'Another Set',
                       color: 'violet',
-                      values: [25, 50, -10, 15, 18, 32, 27, 14],
+                      values: [25, 50, -10, 15, 18, 32, 27, 14]
                     },
                     {
                       name: 'Yet Another',
                       color: 'blue',
-                      values: [15, 20, -3, -15, 58, 12, -17, 37],
-                    },
-                  ],
+                      values: [15, 20, -3, -15, 58, 12, -17, 37]
+                    }
+                  ]
                 }}
                 {...config}
               />
@@ -73,19 +73,19 @@ export default function FrappeCharts() {
                     {
                       name: 'Some Data',
                       color: 'light-blue',
-                      values: [25, 40, 30, 35, 8, 52, 17, -4],
+                      values: [25, 40, 30, 35, 8, 52, 17, -4]
                     },
                     {
                       name: 'Another Set',
                       color: 'violet',
-                      values: [25, 50, -10, 15, 18, 32, 27, 14],
+                      values: [25, 50, -10, 15, 18, 32, 27, 14]
                     },
                     {
                       name: 'Yet Another',
                       color: 'blue',
-                      values: [15, 20, -3, -15, 58, 12, -17, 37],
-                    },
-                  ],
+                      values: [15, 20, -3, -15, 58, 12, -17, 37]
+                    }
+                  ]
                 }}
                 {...config}
               />
@@ -107,21 +107,21 @@ export default function FrappeCharts() {
                       name: 'Some Data',
                       color: 'light-blue',
                       values: [25, 40, 30, 35, 8, 52, 17, -4],
-                      chartType: 'bar',
+                      chartType: 'bar'
                     },
                     {
                       name: 'Another Set',
                       color: 'violet',
                       values: [25, 50, -10, 15, 18, 32, 27, 14],
-                      chartType: 'line',
+                      chartType: 'line'
                     },
                     {
                       name: 'Yet Another',
                       color: 'blue',
                       values: [15, 20, -3, -15, 58, 12, -17, 37],
-                      chartType: 'line',
-                    },
-                  ],
+                      chartType: 'line'
+                    }
+                  ]
                 }}
                 {...config}
               />
@@ -139,7 +139,7 @@ export default function FrappeCharts() {
                 data={{
                   dataPoints: getHeatMapData(),
                   start: startDate,
-                  end: endDate,
+                  end: endDate
                 }}
                 {...config}
               />
@@ -162,20 +162,20 @@ export default function FrappeCharts() {
                     'Thu',
                     'Fri',
                     'Sat',
-                    'Sun',
+                    'Sun'
                   ],
                   datasets: [
                     {
                       name: 'Dataset 1',
                       values: [18, 40, 30, 35, 8, 52, 17, -4],
-                      chartType: 'bar',
+                      chartType: 'bar'
                     },
                     {
                       name: 'Dataset 2',
                       values: [30, 50, -10, 15, 18, 32, 27, 14],
-                      chartType: 'line',
-                    },
-                  ],
+                      chartType: 'line'
+                    }
+                  ]
                 }}
                 {...config}
               />
@@ -197,18 +197,18 @@ export default function FrappeCharts() {
                     'Thu',
                     'Fri',
                     'Sat',
-                    'Sun',
+                    'Sun'
                   ],
                   datasets: [
                     {
                       name: 'Dataset 1',
-                      values: [18, 40, 30, 35, 8, 52, 17, -4],
+                      values: [18, 40, 30, 35, 8, 52, 17, -4]
                     },
                     {
                       name: 'Dataset 2',
-                      values: [30, 50, -10, 15, 18, 32, 27, 14],
-                    },
-                  ],
+                      values: [30, 50, -10, 15, 18, 32, 27, 14]
+                    }
+                  ]
                 }}
                 {...config}
               />

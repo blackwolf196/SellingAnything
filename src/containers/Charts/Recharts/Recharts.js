@@ -13,7 +13,7 @@ import {
   CustomActiveShapePieChart,
   SpecifiedDomainRadarChart,
   SimpleRadialBarChart,
-  LegendEffectOpacity,
+  LegendEffectOpacity
 } from './Charts';
 import PageHeader from '@iso/components/utility/pageHeader';
 import Box from '@iso/components/utility/box';

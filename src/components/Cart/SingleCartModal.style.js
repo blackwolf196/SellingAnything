@@ -30,10 +30,10 @@ const TopbarCartWrapper = styled.div`
   .isoCartDetails {
     width: 100%;
     display: flex;
-    padding: ${props =>
+    padding: ${(props) =>
       props['data-rtl'] === 'rtl' ? '0 20px 0 0' : '0 0 0 20px'};
     flex-direction: column;
-    text-align: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+    text-align: ${(props) => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
 
     h3 {
       margin: 0 0 5px;
@@ -67,8 +67,8 @@ const TopbarCartWrapper = styled.div`
 
   .isoItemRemove {
     position: absolute;
-    right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '15px')};
-    left: ${props => (props['data-rtl'] === 'rtl' ? '15px' : 'inherit')};
+    right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '15px')};
+    left: ${(props) => (props['data-rtl'] === 'rtl' ? '15px' : 'inherit')};
     font-size: 13px;
     font-weight: 500;
     color: ${palette('text', 0)} !important;

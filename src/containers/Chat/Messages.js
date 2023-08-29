@@ -7,7 +7,7 @@ const { toggleViewProfile, toggleMobileProfile } = chatActions;
 export default function Messages() {
   const dispatch = useDispatch();
   const { user, userId, selectedChatRoom, messages } = useSelector(
-    state => state.Chat
+    (state) => state.Chat
   );
 
   const scrollToBottom = () => {
@@ -18,7 +18,7 @@ export default function Messages() {
     scrollToBottom();
   });
 
-  const renderMessage = message => {
+  const renderMessage = (message) => {
     const isUser = userId === message.sender;
     const messageUser = isUser ? user : selectedChatRoom.otherUserInfo;
     if (isUser) {

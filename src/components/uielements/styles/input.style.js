@@ -3,7 +3,7 @@ import { palette } from 'styled-tools';
 import {
   transition,
   borderRadius,
-  boxShadow,
+  boxShadow
 } from '@iso/lib/helpers/style_utils';
 
 const InputWrapper = (ComponentName) => styled(ComponentName)`
@@ -179,8 +179,10 @@ const InputGroupWrapper = (ComponentName) => styled(ComponentName)`
       border-radius: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 4px 4px 0' : '4px 0 0 4px'};
       border-left-width: 1px
-        ${'' /* border-right-width: ${props =>
-        props['data-rtl'] === 'rtl' ? '1px' : '0'}; */};
+        ${
+          '' /* border-right-width: ${props =>
+        props['data-rtl'] === 'rtl' ? '1px' : '0'}; */
+        };
     }
 
     &.ant-input-group-compact > *:last-child,
@@ -264,8 +266,8 @@ const InputSearchWrapper = (ComponentName) => styled(ComponentName)`
     ${borderRadius('4px')};
     ${transition()};
 
-    .ant-input{
-      height: auto
+    .ant-input {
+      height: auto;
     }
 
     &:focus,

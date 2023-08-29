@@ -5,23 +5,14 @@ import {
   PolarGrid,
   Legend,
   PolarAngleAxis,
-  PolarRadiusAxis,
+  PolarRadiusAxis
 } from 'recharts';
 import ChartWrapper from '../../Charts.styles';
 
 export default class extends Component {
   render() {
-    const {
-      datas,
-      width,
-      height,
-      colors,
-      angle,
-      domain,
-      cx,
-      cy,
-      outerRadius,
-    } = this.props;
+    const { datas, width, height, colors, angle, domain, cx, cy, outerRadius } =
+      this.props;
     return (
       <ChartWrapper className="isoChartWrapper">
         <RadarChart

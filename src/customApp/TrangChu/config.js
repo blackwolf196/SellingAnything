@@ -1,7 +1,7 @@
 import siteConfig from '../../config/site.config';
-import {apiGet} from "../../api";
+import { apiGet } from '../../api';
 
-const {apiUrl} = siteConfig;
+const { apiUrl } = siteConfig;
 
 const apiLink = {
   danhsachpokemon: apiUrl + 'pokemon/'
@@ -9,6 +9,6 @@ const apiLink = {
 
 export default {
   DanhSachPokemon: (param) => {
-    return apiGet(apiLink.danhsachpokemon, {...param})
+    return apiGet(apiLink.danhsachpokemon, { ...param });
   }
-}
+};

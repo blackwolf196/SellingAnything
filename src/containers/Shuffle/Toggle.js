@@ -6,7 +6,7 @@ const Toggle = ({ clickHandler, text, icon, active, large }) => {
     buttonToggle: true,
     noIcon: !icon,
     active,
-    large,
+    large
   });
 
   return (

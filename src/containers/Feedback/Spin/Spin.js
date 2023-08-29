@@ -10,9 +10,9 @@ import IntlMessages from '@iso/components/utility/intlMessages';
 import basicStyle from '@iso/assets/styles/constants';
 import Spin from './Spin.styles';
 
-export default function() {
+export default function () {
   const [loading, setLoading] = React.useState(false);
-  const toggle = value => {
+  const toggle = (value) => {
     setLoading(value);
   };
   const container = (
@@ -25,7 +25,7 @@ export default function() {
   const style = {
     textAlign: 'center',
     background: '#f1f3f6',
-    padding: '30px 50px',
+    padding: '30px 50px'
   };
 
   const { rowStyle, colStyle, gutter } = basicStyle;

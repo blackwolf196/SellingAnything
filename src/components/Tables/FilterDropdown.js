@@ -2,7 +2,7 @@ import React from 'react';
 import Input from '../uielements/input';
 import Button from '../uielements/button';
 
-export default function({ searchText, onInputChange, onSearch }) {
+export default function ({ searchText, onInputChange, onSearch }) {
   return (
     <div className="isoTableSearchBox">
       <Input

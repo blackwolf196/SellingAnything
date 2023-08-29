@@ -1,4 +1,4 @@
-export const validateUserName = value => {
+export const validateUserName = (value) => {
   let errors;
   if (!value) {
     errors = 'Required!';

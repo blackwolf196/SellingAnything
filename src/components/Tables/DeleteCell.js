@@ -1,7 +1,7 @@
 import React from 'react';
 import Popconfirm from '../Feedback/Popconfirm';
 
-export default function({ index, onDeleteCell }) {
+export default function ({ index, onDeleteCell }) {
   return (
     <Popconfirm
       title="Sure to delete?"

@@ -12,7 +12,7 @@ import {
   ChatBox,
   Button,
   MessageDialog,
-  ToggleViewProfile,
+  ToggleViewProfile
 } from './Messages.styles';
 
 import chatActions from '@iso/redux/chat/actions';
@@ -24,18 +24,12 @@ const {
   mobileActiveList,
   mobileActiveProfile,
   toggleMobileList,
-  toggleMobileProfile,
+  toggleMobileProfile
 } = chatActions;
 export default function MobileView({ className }) {
   const dispatch = useDispatch();
-  const {
-    loading,
-    users,
-    userId,
-    openCompose,
-    selectedChatRoom,
-    viewProfile,
-  } = useSelector(state => state.Chat);
+  const { loading, users, userId, openCompose, selectedChatRoom, viewProfile } =
+    useSelector((state) => state.Chat);
   React.useEffect(() => {
     if (!users) {
       dispatch(chatInit(userId));
@@ -102,7 +96,7 @@ export default function MobileView({ className }) {
         <Messages toggleMobileProfile={() => dispatch(toggleMobileProfile())} />
         <ComposeMessage
           InputProps={{
-            disableUnderline: true,
+            disableUnderline: true
           }}
         />
       </ChatBox>

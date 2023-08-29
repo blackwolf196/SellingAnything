@@ -2,18 +2,18 @@ import React from 'react';
 import Badges from '@iso/components/uielements/badge';
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
-import {font} from "styled-theme";
+import { font } from 'styled-theme';
 import { borderRadius, boxShadow } from '@iso/lib/helpers/style_utils';
 import WithDirection from '@iso/lib/helpers/rtl';
 
-const AntBadge = props => <Badges {...props} />;
+const AntBadge = (props) => <Badges {...props} />;
 
 const Badge = styled(AntBadge)`
   display: inline-block;
 
   &:not(.ant-badge-status) {
-    margin-right: ${props => (props['data-rtl'] === 'rtl' ? '0' : '16px')};
-    margin-left: ${props => (props['data-rtl'] === 'rtl' ? '16px' : '0')};
+    margin-right: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : '16px')};
+    margin-left: ${(props) => (props['data-rtl'] === 'rtl' ? '16px' : '0')};
   }
 
   i {
@@ -43,8 +43,10 @@ const Badge = styled(AntBadge)`
     ${boxShadow('0 0 0 1px #fff')};
   }
   .ant-badge-status-text {
-    margin-left: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '8px')};
-    margin-right: ${props => (props['data-rtl'] === 'rtl' ? '8px' : 'inherit')};
+    margin-left: ${(props) =>
+      props['data-rtl'] === 'rtl' ? 'inherit' : '8px'};
+    margin-right: ${(props) =>
+      props['data-rtl'] === 'rtl' ? '8px' : 'inherit'};
   }
 `;
 

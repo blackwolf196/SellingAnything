@@ -8,15 +8,15 @@ import ContentHolder from '@iso/components/utility/contentHolder';
 import IntlMessages from '@iso/components/utility/intlMessages';
 import basicStyle from '@iso/assets/styles/constants';
 
-export default function() {
+export default function () {
   const [current, setCurrent] = React.useState(3);
 
-  const onShowSizeChange = (current, pageSize) => {};
-  const onChange = pageNumber => {};
-  const showTotal = total => {
+  const onShowSizeChange = () => {};
+  const onChange = () => {};
+  const showTotal = (total) => {
     return `Total ${total} items`;
   };
-  const onChangeControlled = page => {
+  const onChangeControlled = (page) => {
     setCurrent(page);
   };
   const { rowStyle, colStyle, gutter } = basicStyle;
@@ -109,7 +109,7 @@ export default function() {
             <ContentHolder>
               <Pagination
                 total={85}
-                showTotal={total => `Total ${total} items`}
+                showTotal={(total) => `Total ${total} items`}
                 pageSize={20}
                 defaultCurrent={1}
               />

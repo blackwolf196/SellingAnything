@@ -11,5 +11,5 @@ export {
   IsoBackToTop,
   IsoDropDown,
   IsoMenu,
-  IsoPagination,
+  IsoPagination
 };

@@ -3,9 +3,9 @@ import saMessages from '../locales/ar_SA.json';
 
 const saLang = {
   messages: {
-    ...saMessages,
+    ...saMessages
   },
   antd: antdSA,
-  locale: 'ar',
+  locale: 'ar'
 };
 export default saLang;

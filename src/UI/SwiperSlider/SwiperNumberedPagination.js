@@ -9,8 +9,8 @@ export default function SwiperNumberedPagination(props) {
       clickable: true,
       renderBullet: (index, className) => {
         return '<span className="' + className + '">' + (index + 1) + '</span>';
-      },
-    },
+      }
+    }
   };
   return <Swiper {...params}>{children}</Swiper>;
 }

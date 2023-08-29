@@ -34,7 +34,7 @@ function info() {
     ),
     onOk() {},
     okText: 'OK',
-    cancelText: 'Cancel',
+    cancelText: 'Cancel'
   });
 }
 
@@ -44,7 +44,7 @@ function success() {
     content:
       'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.',
     okText: 'OK',
-    cancelText: 'Cancel',
+    cancelText: 'Cancel'
   });
 }
 
@@ -54,7 +54,7 @@ function error() {
     content:
       'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.',
     okText: 'OK',
-    cancelText: 'Cancel',
+    cancelText: 'Cancel'
   });
 }
 
@@ -64,7 +64,7 @@ function warning() {
     content:
       'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.',
     okText: 'OK',
-    cancelText: 'Cancel',
+    cancelText: 'Cancel'
   });
 }
 
@@ -80,18 +80,18 @@ function showConfirm() {
     },
     onCancel() {},
     okText: 'OK',
-    cancelText: 'Cancel',
+    cancelText: 'Cancel'
   });
 }
 
-export default function() {
+export default function () {
   const [state, setState] = React.useState({
     loading: false,
-    visible: false,
+    visible: false
   });
   const showModal = () => {
     setState({
-      visible: true,
+      visible: true
     });
   };
   const handleOk = () => {
@@ -139,7 +139,7 @@ export default function() {
                     onClick={handleOk}
                   >
                     Submit
-                  </Button>,
+                  </Button>
                 ]}
               >
                 <p>

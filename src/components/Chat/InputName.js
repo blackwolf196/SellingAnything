@@ -2,16 +2,16 @@ import React from 'react';
 import AutoComplete, { AutoCompleteOption } from '../uielements/autocomplete';
 import UserItem from './InputName.style';
 
-export default function(props) {
+export default function (props) {
   const [state, setState] = React.useState({
     value: '',
-    result: [],
+    result: []
   });
 
-  const handleSearch = value => {
+  const handleSearch = (value) => {
     const result = [];
     if (value) {
-      props.users.forEach(user => {
+      props.users.forEach((user) => {
         if (user.name.toLowerCase().indexOf(value.toLowerCase()) > -1) {
           result.push(user);
         }
@@ -19,9 +19,9 @@ export default function(props) {
     }
     setState({ ...state, result, value });
   };
-  const onSelect = id => {
+  const onSelect = (id) => {
     if (id) {
-      state.result.forEach(user => {
+      state.result.forEach((user) => {
         if (user.id === id) {
           setState({ ...state, value: user.name });
         }
@@ -37,7 +37,7 @@ export default function(props) {
       placeholder="find your buddy"
       style={{ marginBottom: 10 }}
     >
-      {result.map(user => (
+      {result.map((user) => (
         <AutoCompleteOption key={user.id} style={{ display: 'flex' }}>
           <UserItem
             onClick={() => {
