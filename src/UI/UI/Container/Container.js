@@ -18,7 +18,7 @@ const Container = ({ children, className, fullWidth, noGutter, fluid }) => {
 Container.propTypes = {
   className: PropTypes.string,
   fullWidth: PropTypes.bool,
-  noGutter: PropTypes.bool,
+  noGutter: PropTypes.bool
 };
 
 export default Container;

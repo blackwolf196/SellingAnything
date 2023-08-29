@@ -10,8 +10,9 @@ const ChartWrapper = styled.div`
   .isoChartControl {
     display: flex;
     align-items: center;
-    margin-left: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : 'auto')};
-    margin-right: ${props =>
+    margin-left: ${(props) =>
+      props['data-rtl'] === 'rtl' ? 'inherit' : 'auto'};
+    margin-right: ${(props) =>
       props['data-rtl'] === 'rtl' ? 'auto' : 'inherit'};
     margin-bottom: 20px;
 
@@ -19,9 +20,9 @@ const ChartWrapper = styled.div`
       font-size: 13px;
       color: ${palette('text', 1)};
       font-weight: 400;
-      margin-right: ${props =>
+      margin-right: ${(props) =>
         props['data-rtl'] === 'rtl' ? 'inherit' : '15px'};
-      margin-left: ${props =>
+      margin-left: ${(props) =>
         props['data-rtl'] === 'rtl' ? '15px' : 'inherit'};
     }
 
@@ -36,9 +37,9 @@ const ChartWrapper = styled.div`
       }
 
       &:last-child {
-        margin-left: ${props =>
+        margin-left: ${(props) =>
           props['data-rtl'] === 'rtl' ? 'inherit' : '-1px'};
-        margin-right: ${props =>
+        margin-right: ${(props) =>
           props['data-rtl'] === 'rtl' ? '-1px' : 'inherit'};
       }
 

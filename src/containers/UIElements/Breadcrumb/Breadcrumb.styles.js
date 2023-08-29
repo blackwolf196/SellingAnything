@@ -3,7 +3,7 @@ import Breadcrumbs from '@iso/components/uielements/breadcrumb';
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 
-const AnrBreadcrumb = props => <Breadcrumbs {...props} />;
+const AnrBreadcrumb = (props) => <Breadcrumbs {...props} />;
 
 const Breadcrumb = styled(AnrBreadcrumb)`
   color: ${palette('text', 3)};

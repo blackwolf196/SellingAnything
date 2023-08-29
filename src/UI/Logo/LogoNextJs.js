@@ -24,7 +24,7 @@ LogoNext.propTypes = {
   withLink: PropTypes.bool,
   src: PropTypes.string,
   title: PropTypes.string,
-  linkTo: PropTypes.string,
+  linkTo: PropTypes.string
 };
 
 export default LogoNext;

@@ -2,11 +2,11 @@ import jwtDecode from 'jwt-decode';
 import SuperFetch from './superFetch';
 
 class AuthHelper {
-  login = async userInfo => {
+  login = async (userInfo) => {
     if (!userInfo.username || !userInfo.password) {
       return { error: 'please fill in the input' };
     }
-    return await SuperFetch.post('login', userInfo).then(response => {
+    return await SuperFetch.post('login', userInfo).then((response) => {
       return this.checkExpirity(response.token);
     });
   };
@@ -15,16 +15,16 @@ class AuthHelper {
       return { error: 'Token expired' };
     }
     return await SuperFetch.get('secret/test', { token })
-      .then(response => ({
+      .then(() => ({
         status: '200',
-        message: 'Success',
+        message: 'Success'
       }))
-      .catch(error => ({ error: JSON.stringify(error) }));
+      .catch((error) => ({ error: JSON.stringify(error) }));
   }
-  checkExpirity = token => {
+  checkExpirity = (token) => {
     if (!token) {
       return {
-        error: 'not matched',
+        error: 'not matched'
       };
     }
     try {
@@ -36,7 +36,7 @@ class AuthHelper {
         return {
           ...profile,
           token,
-          expiredAt: new Date(expiredAt),
+          expiredAt: new Date(expiredAt)
         };
       } else {
         return { error: 'Token expired' };

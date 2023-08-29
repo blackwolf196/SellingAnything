@@ -6,8 +6,8 @@ export default function SwiperPagination(props) {
   const params = {
     pagination: {
       el: '.swiper-pagination',
-      clickable: true,
-    },
+      clickable: true
+    }
   };
   return <Swiper {...params}>{children}</Swiper>;
 }

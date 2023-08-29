@@ -8,7 +8,7 @@ import GlideWrapper, {
   ButtonWrapper,
   BulletControlWrapper,
   BulletButton,
-  DefaultBtn,
+  DefaultBtn
 } from './GlideCarousel.style';
 
 const GlideCarousel = ({
@@ -20,7 +20,7 @@ const GlideCarousel = ({
   nextButton,
   bullets,
   numberOfBullets,
-  carouselSelector,
+  carouselSelector
 }) => {
   // Add all classs to an array.
   const addAllClasses = ['glide'];
@@ -41,7 +41,7 @@ const GlideCarousel = ({
     const glide = new Glide(
       carouselSelector ? `#${carouselSelector}` : '#glide',
       {
-        ...options,
+        ...options
       }
     );
     glide.mount();
@@ -78,7 +78,7 @@ const GlideCarousel = ({
           data-glide-el="controls[nav]"
         >
           <Fragment>
-            {totalBullets.map(index => (
+            {totalBullets.map((index) => (
               <BulletButton
                 key={index}
                 className="glide__bullet"
@@ -122,17 +122,17 @@ GlideCarousel.propTypes = {
   prevButton: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
 
   /** Set next button for glide carousel. */
-  nextButton: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
+  nextButton: PropTypes.oneOfType([PropTypes.string, PropTypes.object])
 };
 
 GlideSlide.propTypes = {
   /** Children. */
-  children: PropTypes.element,
+  children: PropTypes.element
 };
 
 // GlideCarousel default props.
 GlideCarousel.defaultProps = {
-  controls: true,
+  controls: true
 };
 
 export { GlideSlide };

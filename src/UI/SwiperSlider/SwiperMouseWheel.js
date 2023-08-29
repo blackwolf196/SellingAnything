@@ -9,8 +9,8 @@ export default function SwiperMouseWheel(props) {
     mousewheel: true,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true,
-    },
+      clickable: true
+    }
   };
 
   return <Swiper {...params}>{children}</Swiper>;

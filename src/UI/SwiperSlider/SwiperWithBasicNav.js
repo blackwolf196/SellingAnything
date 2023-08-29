@@ -6,8 +6,8 @@ export default function SwiperWithBasicNav(props) {
   const params = {
     navigation: {
       nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+      prevEl: '.swiper-button-prev'
+    }
   };
   return <Swiper {...params}>{children}</Swiper>;
 }

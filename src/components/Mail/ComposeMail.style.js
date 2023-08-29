@@ -3,7 +3,7 @@ import { palette } from 'styled-tools';
 import {
   transition,
   borderRadius,
-  boxShadow,
+  boxShadow
 } from '@iso/lib/helpers/style_utils';
 
 const ComposeForm = styled.div`

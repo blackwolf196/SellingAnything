@@ -1,38 +1,25 @@
 import React from 'react';
-import {useDispatch, useSelector} from 'react-redux';
-import {Layout} from 'antd';
+import { useDispatch, useSelector } from 'react-redux';
+import { Layout } from 'antd';
 import options from './options';
 import Scrollbars from '@iso/components/utility/customScrollBar';
 import Menu from '@iso/components/uielements/menu';
-import IntlMessages from '@iso/components/utility/intlMessages';
 import appActions from '@iso/redux/app/actions';
 import Logo from '@iso/components/utility/logo';
 import SidebarWrapper from './Sidebar.styles';
 import SidebarMenu from './SidebarMenu';
 
-const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
-const {Sider} = Layout;
+const { Sider } = Layout;
 
-const {
-  toggleOpenDrawer,
-  changeOpenKeys,
-  changeCurrent,
-  toggleCollapsed,
-} = appActions;
+const { toggleOpenDrawer, changeOpenKeys, changeCurrent, toggleCollapsed } =
+  appActions;
 
 export default function Index() {
   const dispatch = useDispatch();
-  const {
-    view,
-    openKeys,
-    collapsed,
-    openDrawer,
-    current,
-    height,
-  } = useSelector(state => state.App);
+  const { view, openKeys, collapsed, openDrawer, current, height } =
+    useSelector((state) => state.App);
   const customizedTheme = useSelector(
-    state => state.ThemeSwitcher.sidebarTheme
+    (state) => state.ThemeSwitcher.sidebarTheme
   );
 
   function handleClick(e) {
@@ -49,10 +36,10 @@ export default function Index() {
 
   function onOpenChange(newOpenKeys) {
     const latestOpenKey = newOpenKeys.find(
-      key => !(openKeys.indexOf(key) > -1)
+      (key) => !(openKeys.indexOf(key) > -1)
     );
     const latestCloseKey = openKeys.find(
-      key => !(newOpenKeys.indexOf(key) > -1)
+      (key) => !(newOpenKeys.indexOf(key) > -1)
     );
     let nextOpenKeys = [];
     if (latestOpenKey) {
@@ -64,9 +51,9 @@ export default function Index() {
     dispatch(changeOpenKeys(nextOpenKeys));
   }
 
-  const getAncestorKeys = key => {
+  const getAncestorKeys = (key) => {
     const map = {
-      sub3: ['sub2'],
+      sub3: ['sub2']
     };
     return map[key] || [];
   };
@@ -75,7 +62,7 @@ export default function Index() {
 
   const mode = isCollapsed === true ? 'vertical' : 'inline';
 
-  const onMouseEnter = event => {
+  const onMouseEnter = () => {
     if (collapsed && openDrawer === false) {
       dispatch(toggleOpenDrawer());
     }
@@ -88,16 +75,16 @@ export default function Index() {
   };
 
   const styling = {
-    backgroundColor: customizedTheme.backgroundColor,
+    backgroundColor: customizedTheme.backgroundColor
   };
 
   const submenuStyle = {
     backgroundColor: 'rgba(0,0,0,0.3)',
-    color: customizedTheme.textColor,
+    color: customizedTheme.textColor
   };
 
   const submenuColor = {
-    color: customizedTheme.textColor,
+    color: customizedTheme.textColor
   };
 
   return (
@@ -112,8 +99,8 @@ export default function Index() {
         onMouseLeave={onMouseLeave}
         style={styling}
       >
-        <Logo collapsed={isCollapsed}/>
-        <Scrollbars style={{height: height - 70}}>
+        <Logo collapsed={isCollapsed} />
+        <Scrollbars style={{ height: height - 70 }}>
           <Menu
             onClick={handleClick}
             theme="dark"
@@ -123,7 +110,7 @@ export default function Index() {
             selectedKeys={current}
             onOpenChange={onOpenChange}
           >
-            {options.map(singleOption => (
+            {options.map((singleOption) => (
               <SidebarMenu
                 key={singleOption.key}
                 submenuStyle={submenuStyle}

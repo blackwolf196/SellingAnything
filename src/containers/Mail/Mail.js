@@ -10,7 +10,7 @@ function renderMailView(view, height) {
   if (view === 'TabView') return <TabView height={height} />;
 }
 export default function Mail() {
-  const { view, height } = useSelector(state => state.App);
+  const { view, height } = useSelector((state) => state.App);
 
   return <div style={{ height: '100%' }}>{renderMailView(view, height)}</div>;
 }

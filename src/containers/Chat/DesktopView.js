@@ -11,26 +11,16 @@ import {
   ChatWindow,
   ChatBox,
   ToggleViewProfile,
-  MessageDialog,
+  MessageDialog
 } from './Messages.styles';
 // import { resetDemoData } from './DemoDataImporter';
 import chatActions from '@iso/redux/chat/actions';
-const {
-  toggleCompose,
-  setComposedId,
-  toggleViewProfile,
-  chatInit,
-} = chatActions;
+const { toggleCompose, setComposedId, toggleViewProfile, chatInit } =
+  chatActions;
 export default function DesktopView({ className }) {
   const dispatch = useDispatch();
-  const {
-    loading,
-    users,
-    userId,
-    openCompose,
-    selectedChatRoom,
-    viewProfile,
-  } = useSelector((state) => state.Chat);
+  const { loading, users, userId, openCompose, selectedChatRoom, viewProfile } =
+    useSelector((state) => state.Chat);
   React.useEffect(() => {
     if (!users) {
       dispatch(chatInit(userId));

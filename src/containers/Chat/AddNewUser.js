@@ -28,7 +28,7 @@ export default function AddNewUser() {
         gender: 'Male',
         language: 'English',
         profileImageUrl:
-          'https://thumb7.shutterstock.com/display_pic_with_logo/818215/552201991/stock-photo-beautiful-young-grinning-professional-black-woman-in-office-with-eyeglasses-folded-arms-and-552201991.jpg',
+          'https://thumb7.shutterstock.com/display_pic_with_logo/818215/552201991/stock-photo-beautiful-young-grinning-professional-black-woman-in-office-with-eyeglasses-folded-arms-and-552201991.jpg'
       })
     );
   };
@@ -49,14 +49,8 @@ export default function AddNewUser() {
       notification('error', 'please add new user name');
     }
   };
-  const {
-    modalActive,
-    name,
-    dob,
-    mobileNo,
-    gender,
-    language,
-  } = addNewUsersProp;
+  const { modalActive, name, dob, mobileNo, gender, language } =
+    addNewUsersProp;
   return (
     <div>
       <Tooltip placement="topRight" title="Add a new user (For demo only)">

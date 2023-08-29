@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Imoji from "@iso/assets/CustomImages/emoji.png";
+import Imoji from '@iso/assets/CustomImages/emoji.png';
 
 const Styled = styled.div`
   #notfound {
@@ -33,7 +33,7 @@ const Styled = styled.div`
     color: #232323;
   }
 
-  .notfound .notfound-404 h1>span {
+  .notfound .notfound-404 h1 > span {
     display: inline-block;
     width: 120px;
     height: 120px;
@@ -82,7 +82,7 @@ const Styled = styled.div`
     .notfound .notfound-404 h1 {
       font-size: 86px;
     }
-    .notfound .notfound-404 h1>span {
+    .notfound .notfound-404 h1 > span {
       width: 86px;
       height: 86px;
     }

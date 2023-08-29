@@ -1,4 +1,4 @@
-import {menuItemProps} from "./types";
+import { menuItemProps } from './types';
 
 const menuItem: menuItemProps[] = [
   {
@@ -32,7 +32,7 @@ const menuItem: menuItemProps[] = [
       {
         key: 'san-pham-khac',
         label: 'Sản phẩm khác'
-      },
+      }
     ]
   },
   {
@@ -46,10 +46,11 @@ const menuItem: menuItemProps[] = [
       {
         key: 'clock',
         label: 'Clock'
-      },{
+      },
+      {
         key: 'blank',
         label: 'Blank Page'
-      },
+      }
     ]
   }
 ];

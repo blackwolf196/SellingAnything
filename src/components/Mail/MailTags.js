@@ -6,7 +6,7 @@ const tags = [
   'Colleague',
   'Teachers',
   'Students',
-  'ClassMates',
+  'ClassMates'
 ];
 const tagColor = [
   '#CD3131',
@@ -14,7 +14,7 @@ const tagColor = [
   '#0962EA',
   '#141829',
   '#FFCD38',
-  '#61105E',
+  '#61105E'
 ];
 
 function gettags(mails, filterAttr) {

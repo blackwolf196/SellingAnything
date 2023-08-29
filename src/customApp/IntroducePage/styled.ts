@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export default styled.div`
   .section-1 {
-    background: #EAE7DC;
+    background: #eae7dc;
     height: 100vh;
-    color: #8E8D8A;
+    color: #8e8d8a;
     padding: 10px;
 
     .name-page {
@@ -17,7 +17,7 @@ export default styled.div`
 
       .feature {
         &:before {
-          content: "- ";
+          content: '- ';
         }
 
         &:not(:first-child) {
@@ -28,7 +28,7 @@ export default styled.div`
           color: #5b5a57;
 
           &:before {
-            content: "* ";
+            content: '* ';
           }
         }
 
@@ -37,24 +37,24 @@ export default styled.div`
           color: #5b5a57;
 
           &:before {
-            content: "* ";
+            content: '* ';
           }
         }
       }
     }
 
     .feature-demo {
-      background: #FFFEFF;
+      background: #fffeff;
     }
   }
 
   .section-2 {
-    background: #2F4454;
+    background: #2f4454;
     height: 50vh;
   }
 
   .section-3 {
-    background: #EDC7B7;
+    background: #edc7b7;
     height: 50vh;
   }
 `;

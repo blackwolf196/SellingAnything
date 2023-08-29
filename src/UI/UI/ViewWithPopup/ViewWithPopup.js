@@ -8,7 +8,7 @@ export default function ViewWithPopup({
   popup,
   noView = false,
   style,
-  className,
+  className
 }) {
   const [showPopup, setShowPopup] = useState(false);
   const ref = useRef();

@@ -1,22 +1,22 @@
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 
-const DropdownWrapper = ComponentName => styled(ComponentName)`
+const DropdownWrapper = (ComponentName) => styled(ComponentName)`
   display: inline-block;
 
   &.ant-dropdown-button {
     &.ant-btn-group > .ant-btn:first-child:not(:last-child) {
-      border-radius: ${props =>
+      border-radius: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 4px 4px 0' : '4px 0  0 4px'};
     }
 
     &.ant-btn-group > .ant-btn:last-child:not(:first-child) {
-      border-radius: ${props =>
+      border-radius: ${(props) =>
         props['data-rtl'] === 'rtl' ? '4px 0 0 4px' : '0 4px 4px 0'};
     }
 
     &.ant-btn-group .ant-btn + .ant-btn {
-      margin: ${props =>
+      margin: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 -1px 0 0' : '0 0 0 -1px'};
     }
   }
@@ -31,7 +31,7 @@ const DropdownWrapper = ComponentName => styled(ComponentName)`
   }
 `;
 
-const DropdownMenus = ComponentName => styled(ComponentName)`
+const DropdownMenus = (ComponentName) => styled(ComponentName)`
   .ant-dropdown-menu-item {
     a {
       font-size: 13px;

@@ -7,22 +7,16 @@ const SingleInfo = ({ title, value }) => (
     <span className="viewProfileValue">{value}</span>
   </SingleInfoWrapper>
 );
-export default function({
+export default function ({
   viewProfile,
   toggleViewProfile,
-  toggleMobileProfile,
+  toggleMobileProfile
 }) {
   if (!viewProfile) {
     return null;
   }
-  const {
-    name,
-    dob,
-    mobileNo,
-    gender,
-    language,
-    profileImageUrl,
-  } = viewProfile;
+  const { name, dob, mobileNo, gender, language, profileImageUrl } =
+    viewProfile;
   return (
     <ViewProfileWrapper>
       <div className="viewProfileTopBar">

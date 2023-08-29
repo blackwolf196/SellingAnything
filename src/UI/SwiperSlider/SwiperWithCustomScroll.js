@@ -10,17 +10,17 @@ export default function SwiperWithCustomScroll(props) {
     WrapperEl: 'section',
     navigation: {
       nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      prevEl: '.swiper-button-prev'
     },
     scrollbar: {
       el: '.swiper-scrollbar',
-      hide: false,
+      hide: false
     },
     renderSrollbar: () => (
       <div>
         <hr />
       </div>
-    ),
+    )
   };
 
   return (

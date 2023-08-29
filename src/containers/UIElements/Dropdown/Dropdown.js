@@ -6,7 +6,7 @@ import Dropdown, {
   DropdownButtons,
   DropdownMenu,
   MenuItem,
-  SubMenu,
+  SubMenu
 } from '@iso/components/uielements/dropdown';
 import message from '@iso/components/uielements/message';
 import PageHeader from '@iso/components/utility/pageHeader';
@@ -20,18 +20,18 @@ const MenuDivider = Menu.Divider;
 const DropdownButton = DropdownButtons;
 
 export default function IsoDropDown() {
-  const handleButtonClick = (e) => {
+  const handleButtonClick = () => {
     message.info('Click on left button.');
   };
 
-  const handleMenuClickToLink = (e) => {
+  const handleMenuClickToLink = () => {
     message.info('Click on menu item.');
   };
 
   const { rowStyle, colStyle, gutter } = basicStyle;
   const demoStyle = {
     marginBottom: '8px',
-    marginRight: '8px',
+    marginRight: '8px'
   };
 
   const menuHover = (
@@ -179,7 +179,7 @@ export default function IsoDropDown() {
                 overlay={menuClicked}
                 disabled
                 style={{
-                  margin: direction === 'rtl' ? '0 8px 0 0' : '0 0 0 8px',
+                  margin: direction === 'rtl' ? '0 8px 0 0' : '0 0 0 8px'
                 }}
               >
                 Dropdown
@@ -187,7 +187,7 @@ export default function IsoDropDown() {
               <Dropdown overlay={menuClicked}>
                 <Button
                   style={{
-                    margin: direction === 'rtl' ? '0 8px 0 0' : '0 0 0 8px',
+                    margin: direction === 'rtl' ? '0 8px 0 0' : '0 0 0 8px'
                   }}
                 >
                   Button <DownOutlined />

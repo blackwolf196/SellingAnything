@@ -5,7 +5,7 @@ import Button from '@iso/components/uielements/button';
 import IntlMessages from '@iso/components/utility/intlMessages';
 import ResetPasswordStyleWrapper from './ResetPassword.styles';
 
-export default function() {
+export default function () {
   return (
     <ResetPasswordStyleWrapper className="isoResetPassPage">
       <div className="isoFormContentWrapper">

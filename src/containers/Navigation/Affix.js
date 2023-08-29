@@ -1,7 +1,7 @@
 import React from 'react';
 import { Affix, Button } from 'antd';
 
-export default function() {
+export default function () {
   return (
     <div>
       <h2> Basic Affix </h2>
@@ -19,7 +19,7 @@ export default function() {
       <h2> Containter to Scroll Affix </h2>
       <div
         className="scrollable-container"
-        ref={node => {
+        ref={(node) => {
           this.container = node;
         }}
       >
@@ -34,7 +34,7 @@ export default function() {
       <br />
       <br />
       <h2> Affix with Callback </h2>
-      <Affix offsetTop={120} onChange={affixed => {}}>
+      <Affix offsetTop={120} onChange={() => {}}>
         <Button>120px to affix top</Button>
       </Affix>
       <br />

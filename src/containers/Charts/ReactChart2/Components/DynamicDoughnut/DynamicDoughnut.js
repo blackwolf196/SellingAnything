@@ -12,12 +12,12 @@ const getState = () => ({
       data: [
         getRandomInt(50, 200),
         getRandomInt(100, 150),
-        getRandomInt(150, 250),
+        getRandomInt(150, 250)
       ],
       backgroundColor: ['#ff6384', '#48A6F2', '#ffbf00'],
-      hoverBackgroundColor: ['#FF6384', '#48A6F2', '#ffbf00'],
-    },
-  ],
+      hoverBackgroundColor: ['#FF6384', '#48A6F2', '#ffbf00']
+    }
+  ]
 });
 
 export default class DynamicDoughnutChart extends Component {

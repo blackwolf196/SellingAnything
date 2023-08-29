@@ -7,7 +7,7 @@ export default function FrappeChart({ onSelect, ...props }) {
   React.useEffect(() => {
     chart.current = new Chart(ref.current, {
       isNavigable: !!onSelect,
-      ...props,
+      ...props
     });
     if (onSelect) {
       chart.current.parent.addEventListener('data-select', (e) => {

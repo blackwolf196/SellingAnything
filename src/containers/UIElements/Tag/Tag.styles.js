@@ -19,8 +19,10 @@ const TagStyleWrapper = styled.div`
     opacity: 1;
     margin-top: 4px;
     margin-bottom: 4px;
-    margin-right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '8px')};
-    margin-left: ${props => (props['data-rtl'] === 'rtl' ? '8px' : 'inherit')};
+    margin-right: ${(props) =>
+      props['data-rtl'] === 'rtl' ? 'inherit' : '8px'};
+    margin-left: ${(props) =>
+      props['data-rtl'] === 'rtl' ? '8px' : 'inherit'};
     cursor: pointer;
     white-space: nowrap;
     ${transition()};
@@ -34,7 +36,7 @@ const TagStyleWrapper = styled.div`
     }
 
     .anticon-cross {
-      margin: ${props =>
+      margin: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 3px 0 0' : '0 0 0 3px'};
     }
 

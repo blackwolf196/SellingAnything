@@ -13,7 +13,7 @@ import AsyncTree from './AsyncTree';
 import SearchableTree from './SearchableTree';
 import LineTree from './LineTree';
 
-export default function() {
+export default function () {
   const { rowStyle, colStyle, gutter } = basicStyle;
   return (
     <LayoutWrapper>

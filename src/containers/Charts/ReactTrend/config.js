@@ -17,5 +17,5 @@ export {
   autoDraw,
   autoDrawDuration,
   autoDrawEasing,
-  smooth,
+  smooth
 };

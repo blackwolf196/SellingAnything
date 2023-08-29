@@ -20,7 +20,7 @@ export default function ({ colors, seectedColor, changeColor }) {
           changeColor(index);
         };
         const style = {
-          background: color,
+          background: color
         };
         return <Button key={index} onClick={onClick} style={style} />;
       })}

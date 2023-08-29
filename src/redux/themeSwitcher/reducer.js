@@ -18,22 +18,24 @@ const initState = {
   layoutTheme: getCurrentTheme(
     'layoutTheme',
     config.layoutTheme.defaultTheme || 'themedefault'
-  ),
+  )
 };
 
-export default function(state = initState, action) {
+const reducer = (state = initState, action) => {
   switch (action.type) {
     case actions.SWITCH_ACTIVATION:
       return {
         ...state,
-        isActivated: !state.isActivated,
+        isActivated: !state.isActivated
       };
     case actions.CHANGE_THEME:
       return {
         ...state,
-        [action.attribute]: action.theme,
+        [action.attribute]: action.theme
       };
     default:
       return state;
   }
-}
+};
+
+export default reducer;

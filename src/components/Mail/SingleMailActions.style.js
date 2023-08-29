@@ -169,5 +169,5 @@ export {
   MailActionsWrapper,
   MailCategoryWrapper,
   MailPaginationWrapper,
-  MailActionDropdown,
+  MailActionDropdown
 };

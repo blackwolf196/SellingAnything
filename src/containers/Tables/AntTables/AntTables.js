@@ -36,7 +36,7 @@ export default function AntTable() {
     <LayoutContentWrapper>
       <TableDemoStyle className="isoLayoutContent">
         <Tabs className="isoTableDisplayTab">
-          {tableinfos.map(tableInfo => (
+          {tableinfos.map((tableInfo) => (
             <TabPane tab={tableInfo.title} key={tableInfo.value}>
               {renderTable(tableInfo)}
             </TabPane>

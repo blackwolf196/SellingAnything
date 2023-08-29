@@ -11,7 +11,7 @@ const AppLocale = {
   sa: Salang,
   it: Itlang,
   es: Eslang,
-  fr: Frlang,
+  fr: Frlang
 };
 
 export default AppLocale;

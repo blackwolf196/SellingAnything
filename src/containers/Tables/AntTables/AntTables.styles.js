@@ -4,7 +4,7 @@ import { palette } from 'styled-tools';
 import {
   transition,
   boxShadow,
-  borderRadius,
+  borderRadius
 } from '@iso/lib/helpers/style_utils';
 import WithDirection from '@iso/lib/helpers/rtl';
 

@@ -23,7 +23,7 @@ export default function getPaginatedItems(
     data,
     page,
     limit,
-    total,
+    total
   };
 }
 

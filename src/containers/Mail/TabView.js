@@ -21,7 +21,7 @@ const {
   selectMail,
   changeComposeMail,
   changeReplyMail,
-  changeSearchString,
+  changeSearchString
 } = mailActions;
 
 class TabView extends Component {
@@ -29,7 +29,7 @@ class TabView extends Component {
     super(props);
     this.state = {
       search: this.props.searchString,
-      open: false,
+      open: false
     };
     this.openDrawer = this.openDrawer.bind(this);
     this.closeDrawer = this.closeDrawer.bind(this);
@@ -44,7 +44,7 @@ class TabView extends Component {
   onDrawerClose() {
     this.setState({ open: false });
   }
-  onDrawerChange = val => {
+  onDrawerChange = (val) => {
     if (!val) {
       this.setState({ open: false });
     }
@@ -61,7 +61,7 @@ class TabView extends Component {
       filterAction,
       changeComposeMail,
       changeReplyMail,
-      changeSearchString,
+      changeSearchString
     } = this.props;
     const { search } = this.state;
     let singleMailComponent = (
@@ -69,7 +69,7 @@ class TabView extends Component {
         <IntlMessages id="email.noMessage" />
       </p>
     );
-    const index = allMails.findIndex(mail => mail.id === selectedMail);
+    const index = allMails.findIndex((mail) => mail.id === selectedMail);
     if (index !== -1) {
       singleMailComponent = singleMail(
         allMails,
@@ -99,10 +99,10 @@ class TabView extends Component {
                   placeholder="Search Email"
                   value={search}
                   className="isoSearchEmail"
-                  onChange={event =>
+                  onChange={(event) =>
                     this.setState({ search: event.target.value })
                   }
-                  onSearch={value => changeSearchString(value)}
+                  onSearch={(value) => changeSearchString(value)}
                 />
               </div>
               <Scrollbars style={{ height: this.props.height - 70 }}>
@@ -169,7 +169,7 @@ function mapStateToProps(state) {
     filterAttr,
     composeMail,
     replyMail,
-    searchString,
+    searchString
   } = state.Mails;
   return {
     allMails,
@@ -179,16 +179,13 @@ function mapStateToProps(state) {
     composeMail,
     replyMail,
     searchString,
-    filterMails: mailSelector(state.Mails),
+    filterMails: mailSelector(state.Mails)
   };
 }
-export default connect(
-  mapStateToProps,
-  {
-    filterAction,
-    selectMail,
-    changeComposeMail,
-    changeReplyMail,
-    changeSearchString,
-  }
-)(TabView);
+export default connect(mapStateToProps, {
+  filterAction,
+  selectMail,
+  changeComposeMail,
+  changeReplyMail,
+  changeSearchString
+})(TabView);

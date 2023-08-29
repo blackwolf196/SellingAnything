@@ -14,7 +14,7 @@ const RadioGroup = ({ className, name, onUpdate, items, value }) => {
   }
 
   // Handle onChange Func
-  const handleOnChange = e => {
+  const handleOnChange = (e) => {
     let value = e.target.value;
     setState(value);
     onUpdate(value);
@@ -22,7 +22,7 @@ const RadioGroup = ({ className, name, onUpdate, items, value }) => {
 
   return (
     <div className={addAllClasses.join(' ')}>
-      {items.map(item => (
+      {items.map((item) => (
         <label
           htmlFor={item.id}
           key={`${name}_${item.id}`}
@@ -58,11 +58,11 @@ RadioGroup.propTypes = {
    * @param {object} event The event source of the callback.
    * You can pull out the new value by accessing `event.target.value`.
    */
-  onUpdate: PropTypes.func,
+  onUpdate: PropTypes.func
 };
 
 RadioGroup.defaultProps = {
-  onUpdate: () => {},
+  onUpdate: () => {}
 };
 
 export default RadioGroup;

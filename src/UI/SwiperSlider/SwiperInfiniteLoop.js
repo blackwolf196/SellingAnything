@@ -9,12 +9,12 @@ export default function SwiperInfiniteLoop(props) {
     loop: true,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true,
+      clickable: true
     },
     navigation: {
       nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+      prevEl: '.swiper-button-prev'
+    }
   };
 
   return <Swiper {...params}>{children}</Swiper>;

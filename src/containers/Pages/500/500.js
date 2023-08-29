@@ -4,7 +4,7 @@ import Image from '@iso/assets/images/rob.png';
 import IntlMessages from '@iso/components/utility/intlMessages';
 import FiveZeroZeroStyleWrapper from './500.styles';
 
-export default function() {
+export default function () {
   return (
     <FiveZeroZeroStyleWrapper className="iso500Page">
       <div className="iso500Content">

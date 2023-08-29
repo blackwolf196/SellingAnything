@@ -11,8 +11,8 @@ const demoData = {
         mobileNo: '5726784596',
         name: 'Zondra Kulic',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-zonra.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-zonra.png'
+      }
     },
     {
       key: '0lAR4PcX71m7MPOTRIFF',
@@ -23,8 +23,8 @@ const demoData = {
         mobileNo: '9572447092',
         name: 'Carien Fruen',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-portrait.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-portrait.png'
+      }
     },
     {
       key: '3M9ySG4N5RBGYmmiopy5',
@@ -35,8 +35,8 @@ const demoData = {
         mobileNo: '5450953445',
         name: 'Lehman Robken',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-thinking.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-thinking.png'
+      }
     },
     {
       key: 'FBKMBWcz3WEqQOk7JTjQ',
@@ -47,8 +47,8 @@ const demoData = {
         mobileNo: '9429692135',
         name: 'Doren Gerrard',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-smile.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-smile.png'
+      }
     },
     {
       key: 'FFdV0wFq1hkW01TPd7lG',
@@ -59,8 +59,8 @@ const demoData = {
         mobileNo: '3501026382',
         name: 'Jao Smith',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-hat.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-hat.png'
+      }
     },
     {
       key: 'Ids5pjPKD5tEEkLsZ6mu',
@@ -71,8 +71,8 @@ const demoData = {
         mobileNo: '8432025739',
         name: 'Alen Rush',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-window.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-window.png'
+      }
     },
     {
       key: 'JsEFKqIquyMk645chSFd',
@@ -83,8 +83,8 @@ const demoData = {
         mobileNo: '3084621977',
         name: 'Howard Webber',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-professional.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-professional.png'
+      }
     },
     {
       key: 'PoMf0N2iwPGczS14EsMA',
@@ -95,8 +95,8 @@ const demoData = {
         mobileNo: '4605287981',
         name: 'Ben Abrahomov',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-mobile.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-male-mobile.png'
+      }
     },
     {
       key: 'QXYdLx0iVUXyEaU9tLhz',
@@ -107,8 +107,8 @@ const demoData = {
         mobileNo: '1212498836',
         name: 'Felicity Shorbrook',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-laptop.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-laptop.png'
+      }
     },
     {
       key: 'UAXUbX1Ox4WQXRJJV6AA',
@@ -119,8 +119,8 @@ const demoData = {
         mobileNo: '0337555648',
         name: 'Tara Bonnin',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-spain.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-spain.png'
+      }
     },
     {
       key: 'bkmdgtmwa4eb1pMomNDt',
@@ -131,8 +131,8 @@ const demoData = {
         mobileNo: '8002850483',
         name: 'Cecelia Tigner',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-chinese.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-chinese.png'
+      }
     },
     {
       key: 'd3RlA7hw2hoUb3bBfzi2',
@@ -143,8 +143,8 @@ const demoData = {
         mobileNo: '2886843121',
         name: 'Janifer Macky',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-sunglass.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-sunglass.png'
+      }
     },
     {
       key: 'nlE90pVpMPA4idOBD1cP',
@@ -155,8 +155,8 @@ const demoData = {
         mobileNo: '7960813167',
         name: 'Mitchel Hadid',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-sideway.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-sideway.png'
+      }
     },
     {
       key: 'oFqcOM6FjsS1XACsCVwv',
@@ -167,8 +167,8 @@ const demoData = {
         mobileNo: '2956829807',
         name: 'Trixie Northcliffe',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-senior.png',
-      },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-senior.png'
+      }
     },
     {
       key: 'pGgXVBOQtd2Zjlwzjo0w',
@@ -179,9 +179,9 @@ const demoData = {
         mobileNo: '9588591899',
         name: 'Cal Leggitt',
         profileImageUrl:
-          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-coffee.png',
-      },
-    },
+          'https://s3.amazonaws.com/redqteam.com/mateadmin/support-female-coffee.png'
+      }
+    }
   ],
   chatRooms: [
     {
@@ -191,8 +191,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIG-NuZ4QEtGiEF',
@@ -201,8 +201,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIHf0MI-ifIbqxV',
@@ -211,8 +211,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIID9eguaIh_YBR',
@@ -221,8 +221,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIID9eguaIh_YBS',
@@ -231,8 +231,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIID9eguaIh_YBT',
@@ -241,8 +241,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIJVtc9w2Ek6iDb',
@@ -251,8 +251,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIJVtc9w2Ek6iDc',
@@ -261,8 +261,8 @@ const demoData = {
         lastMessage: 'hello',
         lastMessageTime: 1517318066860,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIJVtc9w2Ek6iDd',
@@ -271,8 +271,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIKBWrZFh6GpcyN',
@@ -281,8 +281,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIKBWrZFh6GpcyO',
@@ -291,8 +291,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIKBWrZFh6GpcyP',
@@ -301,8 +301,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtIKBWrZFh6GpcyQ',
@@ -311,8 +311,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtILakxHPFhocHIc',
@@ -321,8 +321,8 @@ const demoData = {
         lastMessage: 'You are Welcome.',
         lastMessageTime: 1520246531720,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: '0lAR4PcX71m7MPOTRIFF',
-      },
+        userId: '0lAR4PcX71m7MPOTRIFF'
+      }
     },
     {
       key: '-L2ZNtILakxHPFhocHId',
@@ -331,8 +331,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtILakxHPFhocHIe',
@@ -341,8 +341,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtILakxHPFhocHIf',
@@ -351,8 +351,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIMQzKe_P5i5wRB',
@@ -361,8 +361,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIMQzKe_P5i5wRC',
@@ -371,8 +371,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIMQzKe_P5i5wRD',
@@ -381,8 +381,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIMQzKe_P5i5wRE',
@@ -391,8 +391,8 @@ const demoData = {
         lastMessage: 'hi people',
         lastMessageTime: 1519726880913,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIN3oP_1hCSsusZ',
@@ -401,8 +401,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIN3oP_1hCSsus_',
@@ -411,8 +411,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIN3oP_1hCSsusa',
@@ -421,8 +421,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIN3oP_1hCSsusb',
@@ -431,8 +431,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIOoRqAu2c_HLmW',
@@ -441,8 +441,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIOoRqAu2c_HLmX',
@@ -451,8 +451,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: '-L2ZNtIOoRqAu2c_HLmY',
@@ -461,8 +461,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIP3DfeHfNAAAR4',
@@ -471,8 +471,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIP3DfeHfNAAAR5',
@@ -481,8 +481,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIQ1SGS-nBT5V5N',
@@ -491,8 +491,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIQ1SGS-nBT5V5O',
@@ -501,8 +501,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIRD_z4UHaU_hAM',
@@ -511,8 +511,8 @@ const demoData = {
         lastMessage: 'hello there',
         lastMessageTime: 1518422325235,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIRD_z4UHaU_hAN',
@@ -521,8 +521,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtITmVX6rMXsYeec',
@@ -531,8 +531,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIVIx4S-2baPBIm',
@@ -541,8 +541,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIXP20WptvISvZ7',
@@ -551,8 +551,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIXP20WptvISvZ8',
@@ -561,8 +561,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIYa9lPWCmLDOOb',
@@ -571,8 +571,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: '-L2ZNtIZlSAMNs0ETVPq',
@@ -581,8 +581,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIZlSAMNs0ETVPr',
@@ -591,8 +591,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtI_uiqqapNHHxC_',
@@ -601,8 +601,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIaoEGALQYYrtAC',
@@ -611,8 +611,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIaoEGALQYYrtAD',
@@ -621,8 +621,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIb08g1fSpi272w',
@@ -631,8 +631,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIb08g1fSpi272x',
@@ -641,8 +641,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIcXnshXBbGR-aA',
@@ -651,8 +651,8 @@ const demoData = {
         lastMessage: 'Hello',
         lastMessageTime: 1520078578497,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIdiut6c4tvudFJ',
@@ -661,8 +661,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIdiut6c4tvudFK',
@@ -671,8 +671,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIfXTI1nedEdf8J',
@@ -681,8 +681,8 @@ const demoData = {
         lastMessage: 'Happy Shopping :)',
         lastMessageTime: 1520245460917,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: '-L2ZNtIgnfCegMCaDteP',
@@ -691,8 +691,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIgnfCegMCaDteQ',
@@ -701,8 +701,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIgnfCegMCaDteR',
@@ -711,8 +711,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIhVl-lhEhHH8Tl',
@@ -721,8 +721,8 @@ const demoData = {
         lastMessage: 'sdsdsdsdsddsdsdsdsdsdsdsddsdsdsdd',
         lastMessageTime: 1519675520969,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIlQ2TtuNVTFgAQ',
@@ -731,8 +731,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIn5Q1qjVziEjaL',
@@ -741,8 +741,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIqqTiWLaSvh7B9',
@@ -751,8 +751,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIrcO9BeKCOdQPQ',
@@ -761,8 +761,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIrcO9BeKCOdQPR',
@@ -771,8 +771,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIsaHDwlZclVxgT',
@@ -781,8 +781,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '-L2ZNtIsaHDwlZclVxgU',
@@ -791,8 +791,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '-L2ZNtIsaHDwlZclVxgV',
@@ -801,8 +801,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '-L2ZNtIty607vQ72V5JC',
@@ -811,8 +811,8 @@ const demoData = {
         lastMessage: 'awesomeness loaded',
         lastMessageTime: 1517752419094,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '-L2ZNtIty607vQ72V5JD',
@@ -821,8 +821,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '-L2ZNtIty607vQ72V5JE',
@@ -831,8 +831,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '-L2ZNtIty607vQ72V5JF',
@@ -841,8 +841,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '-L2ZNtIvym5S4-tZSvlP',
@@ -851,8 +851,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '-L2ZNtIvym5S4-tZSvlQ',
@@ -861,8 +861,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '-L2ZNtIwhTWinsIXiZaL',
@@ -871,8 +871,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '-L2ZNtIwhTWinsIXiZaM',
@@ -881,8 +881,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: '-L2ZNtIwhTWinsIXiZaN',
@@ -891,8 +891,8 @@ const demoData = {
         lastMessage: 'sds',
         lastMessageTime: 1519673204490,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: '-L2ZNtIxTQ0C0yXeziyf',
@@ -901,8 +901,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: '-L2ZNtIxTQ0C0yXeziyg',
@@ -911,8 +911,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: '-L2ZNtIyUDpWQzXh9x4I',
@@ -921,8 +921,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: '-L2ZNtIz0ry7tVUgibn5',
@@ -931,8 +931,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: '-L2ZNtJ-93dW0G4upOzr',
@@ -941,8 +941,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: '-L2ZNtJ064f4YxSOTR0E',
@@ -951,8 +951,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: '-L2ZNtJ064f4YxSOTR0F',
@@ -961,8 +961,8 @@ const demoData = {
         lastMessage: 'sasdas sadasd',
         lastMessageTime: 1517752367929,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: '-L2ZNtJ1F02JyT8SXlQ1',
@@ -971,8 +971,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: '-L2ZNtJ2u9mVpTjFtKA4',
@@ -981,8 +981,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: '-L2ZNtJ3YDUcGkDVSfAa',
@@ -991,8 +991,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: '-L2ZNtJ4bXrPFLFP-dtI',
@@ -1001,8 +1001,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: '-L2ZNtJ58ZDpNp_-fzH1',
@@ -1011,8 +1011,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: '-L2ZNtJ58ZDpNp_-fzH2',
@@ -1021,8 +1021,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: '-L2ZNtJ64DaEeXY0_6FN',
@@ -1031,8 +1031,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: '-L2ZNtJ64DaEeXY0_6FO',
@@ -1041,8 +1041,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: '-L2ZNtJ64DaEeXY0_6FP',
@@ -1051,8 +1051,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: '-L2ZNtJ7WIODHHv0JJsM',
@@ -1061,8 +1061,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: '-L2ZNtJ9RgHI-AXNRRnV',
@@ -1071,8 +1071,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: '-L2ZNtJ9RgHI-AXNRRnW',
@@ -1081,8 +1081,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: '-L2ZNtJALP-9OYS5pRp1',
@@ -1091,8 +1091,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: '-L2ZNtJBnp7KDxCuKsc0',
@@ -1101,8 +1101,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: '-L2ZNtJBnp7KDxCuKsc1',
@@ -1111,8 +1111,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: '-L2ZNtJE_QF1uUMo1RKO',
@@ -1121,8 +1121,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: '-L2ZNtJFpPOikrNUhj8f',
@@ -1131,8 +1131,8 @@ const demoData = {
         lastMessage: 'Thank you.',
         lastMessageTime: 1520245807251,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: '-L2ZNtJGcdTCzIS4n1pA',
@@ -1141,8 +1141,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: '-L2ZNtJGcdTCzIS4n1pB',
@@ -1151,8 +1151,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: '-L2ZNtJHNpuFiHWY3Hop',
@@ -1161,8 +1161,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: '-L2ZNtJJz-enqmeTCDf_',
@@ -1171,8 +1171,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: '-L2ZNtJLheV2cFUuu_sV',
@@ -1181,8 +1181,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: '-L2ZNtJLheV2cFUuu_sW',
@@ -1191,8 +1191,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: '-L2ZNtJLheV2cFUuu_sX',
@@ -1201,8 +1201,8 @@ const demoData = {
         lastMessage: "You're most welcome !",
         lastMessageTime: 1520246267108,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: '-L2ZNtJMfBVxk7SCFesI',
@@ -1211,8 +1211,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: '-L2ZNtJNkDxPoGMHJQ8E',
@@ -1221,8 +1221,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: '-L2ZNtJPTSUefHsag86z',
@@ -1231,8 +1231,8 @@ const demoData = {
         lastMessage: '',
         lastMessageTime: 0,
         otherUserId: 'wt4TiasxgPrQ3dNwVZ55',
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: '0csKuCxDK7pnBJtNZ2L-',
@@ -1242,8 +1242,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: '1Hzf-_pNpDZ85JtNZ2L-',
@@ -1253,8 +1253,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: '1QlXS8TyJ20F1JtNZ2L-',
@@ -1264,8 +1264,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
         reverse: true,
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: '1csKuCxDK7pnBJtNZ2L-',
@@ -1275,8 +1275,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: '1pRp5SYO9-PLAJtNZ2L-',
@@ -1286,8 +1286,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: '2Hzf-_pNpDZ85JtNZ2L-',
@@ -1297,8 +1297,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: '4AKtFjTpVm9u2JtNZ2L-',
@@ -1308,8 +1308,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: '4RAAANfHefD3PItNZ2L-',
@@ -1319,8 +1319,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: '5RAAANfHefD3PItNZ2L-',
@@ -1330,8 +1330,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: '5nbigUVt7yr0zItNZ2L-',
@@ -1341,8 +1341,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: '7ZvSIvtpW02PXItNZ2L-',
@@ -1352,8 +1352,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: '8ZvSIvtpW02PXItNZ2L-',
@@ -1363,8 +1363,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: '9B7hvSaLWiTqqItNZ2L-',
@@ -1374,8 +1374,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'Aa-RGbBXhsnXcItNZ2L-',
@@ -1385,8 +1385,8 @@ const demoData = {
         lastMessageTime: 1520078578497,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'Ap1n4SIzCTdcGJtNZ2L-',
@@ -1396,8 +1396,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'BRw5i5P_eKzQMItNZ2L-',
@@ -1407,8 +1407,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: 'Bp1n4SIzCTdcGJtNZ2L-',
@@ -1418,8 +1418,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: 'CAtrYYQLAGEoaItNZ2L-',
@@ -1429,8 +1429,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: 'CJ5V27Qv706ytItNZ2L-',
@@ -1440,8 +1440,8 @@ const demoData = {
         lastMessageTime: 1517752419094,
         otherUserId: 'JsEFKqIquyMk645chSFd',
         reverse: true,
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: 'CRw5i5P_eKzQMItNZ2L-',
@@ -1451,8 +1451,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: 'DAtrYYQLAGEoaItNZ2L-',
@@ -1462,8 +1462,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: 'DJ5V27Qv706ytItNZ2L-',
@@ -1473,8 +1473,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
         reverse: true,
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: 'DRw5i5P_eKzQMItNZ2L-',
@@ -1484,8 +1484,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: 'E0RTOSxY4f460JtNZ2L-',
@@ -1495,8 +1495,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'E8QJHMGoPxDkNJtNZ2L-',
@@ -1506,8 +1506,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'EJ5V27Qv706ytItNZ2L-',
@@ -1517,8 +1517,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: 'ERw5i5P_eKzQMItNZ2L-',
@@ -1528,8 +1528,8 @@ const demoData = {
         lastMessageTime: 1519726880913,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: 'F0RTOSxY4f460JtNZ2L-',
@@ -1539,8 +1539,8 @@ const demoData = {
         lastMessageTime: 1517752367929,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
         reverse: true,
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: 'FEiGtEQ4ZuN-GItNZ2L-',
@@ -1550,8 +1550,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: 'FJ5V27Qv706ytItNZ2L-',
@@ -1561,8 +1561,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'I4x9hXzQWpDUyItNZ2L-',
@@ -1572,8 +1572,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'IseFCS7kxVBfMJtNZ2L-',
@@ -1583,8 +1583,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'oFqcOM6FjsS1XACsCVwv',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'Itd-PFLFPrXb4JtNZ2L-',
@@ -1594,8 +1594,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: 'J8fdEden1ITXfItNZ2L-',
@@ -1605,8 +1605,8 @@ const demoData = {
         lastMessageTime: 1520245460917,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'JFduvt4c6tuidItNZ2L-',
@@ -1616,8 +1616,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: 'KFduvt4c6tuidItNZ2L-',
@@ -1627,8 +1627,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'LaZiXIsniWThwItNZ2L-',
@@ -1638,8 +1638,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'LajEizVjq1Q5nItNZ2L-',
@@ -1649,8 +1649,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: 'MAh_UaHU4z_DRItNZ2L-',
@@ -1660,8 +1660,8 @@ const demoData = {
         lastMessageTime: 1518422325235,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: 'MaZiXIsniWThwItNZ2L-',
@@ -1671,8 +1671,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
         reverse: true,
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: 'MsJJ0vHHDOIW7JtNZ2L-',
@@ -1682,8 +1682,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: 'N5V5TBn-SGS1QItNZ2L-',
@@ -1693,8 +1693,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: 'NAh_UaHU4z_DRItNZ2L-',
@@ -1704,8 +1704,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: 'NF6_0YXeEaD46JtNZ2L-',
@@ -1715,8 +1715,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
         reverse: true,
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: 'NY65eM_aGPMFAItNZ2L-',
@@ -1726,8 +1726,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: '3M9ySG4N5RBGYmmiopy5',
-      },
+        userId: '3M9ySG4N5RBGYmmiopy5'
+      }
     },
     {
       key: 'NaZiXIsniWThwItNZ2L-',
@@ -1737,8 +1737,8 @@ const demoData = {
         lastMessageTime: 1519673204490,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
         reverse: true,
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: 'NycpG6hFZrWBKItNZ2L-',
@@ -1748,8 +1748,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: 'O5V5TBn-SGS1QItNZ2L-',
@@ -1759,8 +1759,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: 'OF6_0YXeEaD46JtNZ2L-',
@@ -1770,8 +1770,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: 'OKR1oMUu1FQ_EJtNZ2L-',
@@ -1781,8 +1781,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'OycpG6hFZrWBKItNZ2L-',
@@ -1792,8 +1792,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'PF6_0YXeEaD46JtNZ2L-',
@@ -1803,8 +1803,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'PetDaCMgeCfngItNZ2L-',
@@ -1814,8 +1814,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: 'PlvSZt-4S5myvItNZ2L-',
@@ -1825,8 +1825,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: 'PycpG6hFZrWBKItNZ2L-',
@@ -1836,8 +1836,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: 'QAgFTVNutT2QlItNZ2L-',
@@ -1847,8 +1847,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: 'QPQdOCKeB9OcrItNZ2L-',
@@ -1858,8 +1858,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: 'QetDaCMgeCfngItNZ2L-',
@@ -1869,8 +1869,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: 'QlvSZt-4S5myvItNZ2L-',
@@ -1880,8 +1880,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'QycpG6hFZrWBKItNZ2L-',
@@ -1891,8 +1891,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'RBY_hIauge9DIItNZ2L-',
@@ -1902,8 +1902,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: 'RPQdOCKeB9OcrItNZ2L-',
@@ -1913,8 +1913,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'RetDaCMgeCfngItNZ2L-',
@@ -1924,8 +1924,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: 'SBY_hIauge9DIItNZ2L-',
@@ -1935,8 +1935,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: 'TBY_hIauge9DIItNZ2L-',
@@ -1946,8 +1946,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: 'TgxVlcZlwDHasItNZ2L-',
@@ -1957,8 +1957,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'UgxVlcZlwDHasItNZ2L-',
@@ -1968,8 +1968,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
         reverse: true,
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: 'VgxVlcZlwDHasItNZ2L-',
@@ -1979,8 +1979,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'JsEFKqIquyMk645chSFd',
         reverse: true,
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: 'VnRRNXA-IHgR9JtNZ2L-',
@@ -1990,8 +1990,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'Vs_uuUFc2VehLJtNZ2L-',
@@ -2001,8 +2001,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: 'VxqbIfi-IM0fHItNZ2L-',
@@ -2012,8 +2012,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: 'WmLH_c2uAqRoOItNZ2L-',
@@ -2023,8 +2023,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'WnRRNXA-IHgR9JtNZ2L-',
@@ -2034,8 +2034,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'UAXUbX1Ox4WQXRJJV6AA',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'Ws_uuUFc2VehLJtNZ2L-',
@@ -2045,8 +2045,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'XmLH_c2uAqRoOItNZ2L-',
@@ -2056,8 +2056,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'Xs_uuUFc2VehLJtNZ2L-',
@@ -2067,8 +2067,8 @@ const demoData = {
         lastMessageTime: 1520246267108,
         otherUserId: 'nlE90pVpMPA4idOBD1cP',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'YmLH_c2uAqRoOItNZ2L-',
@@ -2078,8 +2078,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: 'ZsusSCh1_Po3NItNZ2L-',
@@ -2089,8 +2089,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: '_CxHHNpaqqiu_ItNZ2L-',
@@ -2100,8 +2100,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'PoMf0N2iwPGczS14EsMA',
-      },
+        userId: 'PoMf0N2iwPGczS14EsMA'
+      }
     },
     {
       key: '_fDCTemqne-zJJtNZ2L-',
@@ -2111,8 +2111,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: '_susSCh1_Po3NItNZ2L-',
@@ -2122,8 +2122,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: 'aAfSVDkGcUDY3JtNZ2L-',
@@ -2133,8 +2133,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'QXYdLx0iVUXyEaU9tLhz',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'asusSCh1_Po3NItNZ2L-',
@@ -2144,8 +2144,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'bDi6kE2w9ctVJItNZ2L-',
@@ -2155,8 +2155,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'QXYdLx0iVUXyEaU9tLhz',
-      },
+        userId: 'QXYdLx0iVUXyEaU9tLhz'
+      }
     },
     {
       key: 'bOODLmCWPl9aYItNZ2L-',
@@ -2166,8 +2166,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'bsusSCh1_Po3NItNZ2L-',
@@ -2177,8 +2177,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'oFqcOM6FjsS1XACsCVwv',
-      },
+        userId: 'oFqcOM6FjsS1XACsCVwv'
+      }
     },
     {
       key: 'cDi6kE2w9ctVJItNZ2L-',
@@ -2188,8 +2188,8 @@ const demoData = {
         lastMessageTime: 1517318066860,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: 'cIHcohFPHxkaLItNZ2L-',
@@ -2199,8 +2199,8 @@ const demoData = {
         lastMessageTime: 1520246531720,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'ceeYsXMr6XVmTItNZ2L-',
@@ -2210,8 +2210,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: 'dDi6kE2w9ctVJItNZ2L-',
@@ -2221,8 +2221,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '0lAR4PcX71m7MPOTRIFF',
         reverse: true,
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: 'dIHcohFPHxkaLItNZ2L-',
@@ -2232,8 +2232,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'FBKMBWcz3WEqQOk7JTjQ',
-      },
+        userId: 'FBKMBWcz3WEqQOk7JTjQ'
+      }
     },
     {
       key: 'eIHcohFPHxkaLItNZ2L-',
@@ -2243,8 +2243,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'FFdV0wFq1hkW01TPd7lG',
-      },
+        userId: 'FFdV0wFq1hkW01TPd7lG'
+      }
     },
     {
       key: 'f8jhUNrkiOPpFJtNZ2L-',
@@ -2254,8 +2254,8 @@ const demoData = {
         lastMessageTime: 1520245807251,
         otherUserId: 'bkmdgtmwa4eb1pMomNDt',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
     },
     {
       key: 'fIHcohFPHxkaLItNZ2L-',
@@ -2265,8 +2265,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: '3M9ySG4N5RBGYmmiopy5',
         reverse: true,
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: 'fyizeXy0C0QTxItNZ2L-',
@@ -2276,8 +2276,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
         reverse: true,
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: 'gyizeXy0C0QTxItNZ2L-',
@@ -2287,8 +2287,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: 'lT8HHhEhl-lVhItNZ2L-',
@@ -2298,8 +2298,8 @@ const demoData = {
         lastMessageTime: 1519675520969,
         otherUserId: 'Ids5pjPKD5tEEkLsZ6mu',
         reverse: true,
-        userId: 'UAXUbX1Ox4WQXRJJV6AA',
-      },
+        userId: 'UAXUbX1Ox4WQXRJJV6AA'
+      }
     },
     {
       key: 'mIBPab2-S4xIVItNZ2L-',
@@ -2309,8 +2309,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FBKMBWcz3WEqQOk7JTjQ',
         reverse: true,
-        userId: 'nlE90pVpMPA4idOBD1cP',
-      },
+        userId: 'nlE90pVpMPA4idOBD1cP'
+      }
     },
     {
       key: 'poH3YWHiFupNHJtNZ2L-',
@@ -2320,8 +2320,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'd3RlA7hw2hoUb3bBfzi2',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'qPVTE0sNMASlZItNZ2L-',
@@ -2331,8 +2331,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'Ids5pjPKD5tEEkLsZ6mu',
-      },
+        userId: 'Ids5pjPKD5tEEkLsZ6mu'
+      }
     },
     {
       key: 'rPVTE0sNMASlZItNZ2L-',
@@ -2342,8 +2342,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'JsEFKqIquyMk645chSFd',
-      },
+        userId: 'JsEFKqIquyMk645chSFd'
+      }
     },
     {
       key: 'rzOpu4G0Wd39-JtNZ2L-',
@@ -2353,8 +2353,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'PoMf0N2iwPGczS14EsMA',
         reverse: true,
-        userId: 'pGgXVBOQtd2Zjlwzjo0w',
-      },
+        userId: 'pGgXVBOQtd2Zjlwzjo0w'
+      }
     },
     {
       key: 'w272ipSf1g80bItNZ2L-',
@@ -2364,8 +2364,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'bkmdgtmwa4eb1pMomNDt',
-      },
+        userId: 'bkmdgtmwa4eb1pMomNDt'
+      }
     },
     {
       key: 'x272ipSf1g80bItNZ2L-',
@@ -2375,8 +2375,8 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'FFdV0wFq1hkW01TPd7lG',
         reverse: true,
-        userId: 'd3RlA7hw2hoUb3bBfzi2',
-      },
+        userId: 'd3RlA7hw2hoUb3bBfzi2'
+      }
     },
     {
       key: 'z68gasHfeUSTPJtNZ2L-',
@@ -2386,9 +2386,9 @@ const demoData = {
         lastMessageTime: 0,
         otherUserId: 'pGgXVBOQtd2Zjlwzjo0w',
         reverse: true,
-        userId: 'wt4TiasxgPrQ3dNwVZ55',
-      },
-    },
+        userId: 'wt4TiasxgPrQ3dNwVZ55'
+      }
+    }
   ],
   messages: [
     {
@@ -2397,8 +2397,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1515660387407,
         sender: '3M9ySG4N5RBGYmmiopy5',
-        text: 'hello there',
-      },
+        text: 'hello there'
+      }
     },
     {
       key: '-L2ZObljUUtWahSi32yg',
@@ -2406,8 +2406,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1515660410654,
         sender: '3M9ySG4N5RBGYmmiopy5',
-        text: 'how are you',
-      },
+        text: 'how are you'
+      }
     },
     {
       key: '-L455iHTp6CL1t22CAMN',
@@ -2415,8 +2415,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1517299623054,
         sender: '3M9ySG4N5RBGYmmiopy5',
-        text: 'laksldaslkda',
-      },
+        text: 'laksldaslkda'
+      }
     },
     {
       key: '-L455m0dfz5OLJQJEPtp',
@@ -2424,8 +2424,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1517299638486,
         sender: '3M9ySG4N5RBGYmmiopy5',
-        text: 'asdasd',
-      },
+        text: 'asdasd'
+      }
     },
     {
       key: '-L45qZpMKkGoUftPUav5',
@@ -2433,8 +2433,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1517312167245,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'something',
-      },
+        text: 'something'
+      }
     },
     {
       key: '-L45vfStWXkUp5pAd15Q',
@@ -2442,8 +2442,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1517313505136,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'more text',
-      },
+        text: 'more text'
+      }
     },
     {
       key: '-L461Uk8Ol8P1fNNgiuw',
@@ -2451,9 +2451,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1517315292159,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text:
-          "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-      },
+        text: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+      }
     },
     {
       key: '-L462WyAZv82zarfCsNe',
@@ -2461,8 +2460,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1517315563391,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'pioneer',
-      },
+        text: 'pioneer'
+      }
     },
     {
       key: '-L464Aj39joyhk-DaH64',
@@ -2470,8 +2469,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIJVtc9w2Ek6iDc',
         messageTime: 1517315996959,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'somthing',
-      },
+        text: 'somthing'
+      }
     },
     {
       key: '-L46C49mTlICf8DiDDCD',
@@ -2479,8 +2478,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIJVtc9w2Ek6iDc',
         messageTime: 1517318066860,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'hello',
-      },
+        text: 'hello'
+      }
     },
     {
       key: '-L46H7rjAqjZdXh3ooqV',
@@ -2488,8 +2487,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1517319392742,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'awesome....',
-      },
+        text: 'awesome....'
+      }
     },
     {
       key: '-L4AzqkxQsdSV4ii7t-T',
@@ -2497,9 +2496,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1517398486068,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text:
-          "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-      },
+        text: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+      }
     },
     {
       key: '-L4W4jKgGJyttXOq2p40',
@@ -2507,8 +2505,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1517752350048,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'Something goes here....',
-      },
+        text: 'Something goes here....'
+      }
     },
     {
       key: '-L4W4nTn1bV5Ty9lpAg2',
@@ -2516,8 +2514,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJ064f4YxSOTR0F',
         messageTime: 1517752367929,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'sasdas sadasd',
-      },
+        text: 'sasdas sadasd'
+      }
     },
     {
       key: '-L4W4vZJqUH1iIb-oEtw',
@@ -2525,8 +2523,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIty607vQ72V5JC',
         messageTime: 1517752401050,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'something goes here...',
-      },
+        text: 'something goes here...'
+      }
     },
     {
       key: '-L4W4zyFN5c_owJE-ma_',
@@ -2534,8 +2532,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIty607vQ72V5JC',
         messageTime: 1517752419094,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'awesomeness loaded',
-      },
+        text: 'awesomeness loaded'
+      }
     },
     {
       key: '-L4W53KENyLvMVT1Mxsr',
@@ -2543,8 +2541,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIRD_z4UHaU_hAM',
         messageTime: 1517752436950,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'move forward with the chat',
-      },
+        text: 'move forward with the chat'
+      }
     },
     {
       key: '-L4W598HpKnc09C5kFfu',
@@ -2552,8 +2550,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIwhTWinsIXiZaN',
         messageTime: 1517752460760,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'look into the sky',
-      },
+        text: 'look into the sky'
+      }
     },
     {
       key: '-L53LvJns1mnDWYt_Zz4',
@@ -2561,8 +2559,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1518344058149,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'testing...',
-      },
+        text: 'testing...'
+      }
     },
     {
       key: '-L53fBtPN0uqsniO7twd',
@@ -2570,8 +2568,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1518349373006,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'lkkklkl',
-      },
+        text: 'lkkklkl'
+      }
     },
     {
       key: '-L53vcKbkXXQ9uajPl_Z',
@@ -2579,8 +2577,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIwhTWinsIXiZaN',
         messageTime: 1518353679706,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'hi there',
-      },
+        text: 'hi there'
+      }
     },
     {
       key: '-L580UUzkGj4zHtrxdOF',
@@ -2588,8 +2586,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIRD_z4UHaU_hAM',
         messageTime: 1518422325235,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'hello there',
-      },
+        text: 'hello there'
+      }
     },
     {
       key: '-L58klZuobboQJbYqPRf',
@@ -2597,8 +2595,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1518434720046,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'asaasdsd',
-      },
+        text: 'asaasdsd'
+      }
     },
     {
       key: '-L5D5FE4qLY2l1CWtQIo',
@@ -2606,8 +2604,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1518507459514,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'something.',
-      },
+        text: 'something.'
+      }
     },
     {
       key: '-L5D5Hd8A_NRaxYgjVzH',
@@ -2615,8 +2613,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1518507469492,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'check again',
-      },
+        text: 'check again'
+      }
     },
     {
       key: '-L5D5n29HY1jb_mj4JKY',
@@ -2624,8 +2622,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1518507602229,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'hi there.....',
-      },
+        text: 'hi there.....'
+      }
     },
     {
       key: '-L5DWKeuHE4S6LrlqRUc',
@@ -2633,8 +2631,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1518514559654,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'nknl',
-      },
+        text: 'nknl'
+      }
     },
     {
       key: '-L5DWPKVUgeN_x0YUieP',
@@ -2642,8 +2640,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1518514578992,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: ';o',
-      },
+        text: ';o'
+      }
     },
     {
       key: '-L6GzlTi6jqX3BMB6uto',
@@ -2651,8 +2649,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1519646611333,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'hello Alis',
-      },
+        text: 'hello Alis'
+      }
     },
     {
       key: '-L6H-V05WQ_R0Mc6S1WA',
@@ -2660,8 +2658,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1519646801980,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: "hi'",
-      },
+        text: "hi'"
+      }
     },
     {
       key: '-L6HC62_DnYcH6iv6GFj',
@@ -2669,8 +2667,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1519650107611,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'sdsDS',
-      },
+        text: 'sdsDS'
+      }
     },
     {
       key: '-L6HC6H0ba_HH27uduTT',
@@ -2678,8 +2676,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1519650108544,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'sd',
-      },
+        text: 'sd'
+      }
     },
     {
       key: '-L6HC6vDRwCMMeNic-Q1',
@@ -2687,8 +2685,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1519650111308,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'dsd',
-      },
+        text: 'dsd'
+      }
     },
     {
       key: '-L6HDSU7NnhZgfeKWlQ8',
@@ -2696,9 +2694,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1519650461630,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text:
-          'sdkasdskadsadks;akd;kas;k s;d ;ask;dkas;kdas; d;sk;dka;kdaskd;ask;dkas;kd;skdksa;dkas;kd;sk;das;dk;askd;s;dksa;dkas;kd;ak;dka;dks;akd;s kd;ask;das;kd;askd;as;dkas;kd;ksa;dkas;dkas;dk;asd;k as;dk;ask d;kdask;kd;asds;akd;sak;dksa;dk;sakd;asd;aksd;ks;d;askdska;dkas;dk;askd;askd;k;d;d;askd;ask;dkas;kdas;kd;askd;ask;d kas;kd ;ksd;k;sd;skd;askd;kas;dk as;dk;skd; aks;d kk dk;s;kd;ask;dkas;kdskdks;',
-      },
+        text: 'sdkasdskadsadks;akd;kas;k s;d ;ask;dkas;kdas; d;sk;dka;kdaskd;ask;dkas;kd;skdksa;dkas;kd;sk;das;dk;askd;s;dksa;dkas;kd;ak;dka;dks;akd;s kd;ask;das;kd;askd;as;dkas;kd;ksa;dkas;dkas;dk;asd;k as;dk;ask d;kdask;kd;asds;akd;sak;dksa;dk;sakd;asd;aksd;ks;d;askdska;dkas;dk;askd;askd;k;d;d;askd;ask;dkas;kdas;kd;askd;ask;d kas;kd ;ksd;k;sd;skd;askd;kas;dk as;dk;skd; aks;d kk dk;s;kd;ask;dkas;kdskdks;'
+      }
     },
     {
       key: '-L6HUUF6HZ8IwzrTIoW0',
@@ -2706,9 +2703,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1519654925310,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text:
-          'll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l l',
-      },
+        text: 'll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l lll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l ll l l l l l l l l l l l l l l l l l l l l l . l ll l l ll l l l l'
+      }
     },
     {
       key: '-L6I_CwIBclFtLgdkfSn',
@@ -2716,8 +2712,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIwhTWinsIXiZaN',
         messageTime: 1519673204490,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'sds',
-      },
+        text: 'sds'
+      }
     },
     {
       key: '-L6Ii0weYcF95VMLA1Nl',
@@ -2725,8 +2721,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1519675514656,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'sdsa ds dsad sd asdsdsadasd asa dsasadasdsadsdsdsd',
-      },
+        text: 'sdsa ds dsad sd asdsdsadasd asa dsasadasdsadsdsdsd'
+      }
     },
     {
       key: '-L6Ii2SVhAZ_Na03poJe',
@@ -2734,8 +2730,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIhVl-lhEhHH8Tl',
         messageTime: 1519675520969,
         sender: 'UAXUbX1Ox4WQXRJJV6AA',
-        text: 'sdsdsdsdsddsdsdsdsdsdsdsddsdsdsdd',
-      },
+        text: 'sdsdsdsdsddsdsdsdsdsdsdsddsdsdsdd'
+      }
     },
     {
       key: '-L6LlyXRXb5gUIhl0S7l',
@@ -2743,8 +2739,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIMQzKe_P5i5wRE',
         messageTime: 1519726880913,
         sender: '3M9ySG4N5RBGYmmiopy5',
-        text: 'hi people',
-      },
+        text: 'hi people'
+      }
     },
     {
       key: '-L6fjaC8tvmFIhP2soKb',
@@ -2752,8 +2748,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIcXnshXBbGR-aA',
         messageTime: 1520078578497,
         sender: 'FFdV0wFq1hkW01TPd7lG',
-        text: 'Hello',
-      },
+        text: 'Hello'
+      }
     },
     {
       key: '-L6flOcj1KZ9_3DZHTeI',
@@ -2761,8 +2757,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520079051303,
         sender: 'FFdV0wFq1hkW01TPd7lG',
-        text: 'Hello there!',
-      },
+        text: 'Hello there!'
+      }
     },
     {
       key: '-L6foPCN_DG1XDFf7kff',
@@ -2770,8 +2766,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520079840071,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Hi,',
-      },
+        text: 'Hi,'
+      }
     },
     {
       key: '-L6fofWm4gvE_grzGKWe',
@@ -2779,8 +2775,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520079911116,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'How may i assist you ?',
-      },
+        text: 'How may i assist you ?'
+      }
     },
     {
       key: '-L6fuvStgiPHTGRxxQ-2',
@@ -2788,8 +2784,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520081549165,
         sender: '0lAR4PcX71m7MPOTRIFF',
-        text: 'Hello!',
-      },
+        text: 'Hello!'
+      }
     },
     {
       key: '-L6fvtoO0XhlqSYaJijc',
@@ -2797,8 +2793,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520081804552,
         sender: 'bkmdgtmwa4eb1pMomNDt',
-        text: 'Hi there.',
-      },
+        text: 'Hi there.'
+      }
     },
     {
       key: '-L6fwNyLyiyR72T7VNVI',
@@ -2806,8 +2802,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520081932171,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Hello',
-      },
+        text: 'Hello'
+      }
     },
     {
       key: '-L6fwt4ZGwCy3IyPzDYC',
@@ -2815,8 +2811,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520082063844,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text: 'Hello',
-      },
+        text: 'Hello'
+      }
     },
     {
       key: '-L6fyonADv_kDM9IlHx_',
@@ -2824,8 +2820,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520082570436,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'hello there, how are you ?',
-      },
+        text: 'hello there, how are you ?'
+      }
     },
     {
       key: '-L6pD3-LMhWtb67x1GJM',
@@ -2833,8 +2829,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520237559815,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Hello There ! ',
-      },
+        text: 'Hello There ! '
+      }
     },
     {
       key: '-L6pFsKiGzJSa9tB2nB0',
@@ -2842,8 +2838,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520238298464,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text: "I'm fine, thanks :) ",
-      },
+        text: "I'm fine, thanks :) "
+      }
     },
     {
       key: '-L6pFvd_iZyWiP7fRvAF',
@@ -2851,8 +2847,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520238312171,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text: 'how about you?',
-      },
+        text: 'how about you?'
+      }
     },
     {
       key: '-L6pHvZ86eksfYEyyQJK',
@@ -2860,8 +2856,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520238835966,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'I am doing good.',
-      },
+        text: 'I am doing good.'
+      }
     },
     {
       key: '-L6pHyDpJ2tqfJrFlRhl',
@@ -2869,8 +2865,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520238847003,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'How may i assist you?',
-      },
+        text: 'How may i assist you?'
+      }
     },
     {
       key: '-L6pICzjgRi9zwytAnA_',
@@ -2878,8 +2874,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520238911459,
         sender: 'FFdV0wFq1hkW01TPd7lG',
-        text: 'Yes, well, I’m having trouble with product purchase',
-      },
+        text: 'Yes, well, I’m having trouble with product purchase'
+      }
     },
     {
       key: '-L6pJImsjBpYcI1NEYA7',
@@ -2887,8 +2883,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520239197471,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Ok. Can you please tell me the name of the product ?',
-      },
+        text: 'Ok. Can you please tell me the name of the product ?'
+      }
     },
     {
       key: '-L6pJPZ4v2w6yEeuBf8e',
@@ -2896,9 +2892,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520239225196,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          'Any link or screenshot will be helpful for proper understanding.',
-      },
+        text: 'Any link or screenshot will be helpful for proper understanding.'
+      }
     },
     {
       key: '-L6pJVt0flC9z4Hsxx0i',
@@ -2906,8 +2901,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520239251112,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'How can i help you?',
-      },
+        text: 'How can i help you?'
+      }
     },
     {
       key: '-L6pJ_pOieB_ReYyx82f',
@@ -2915,9 +2910,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520239271381,
         sender: 'FFdV0wFq1hkW01TPd7lG',
-        text:
-          'Yes, I have bought this product "360fly - Panoramic 360° HD Video Camera". But it says there are some special offer on purchase.',
-      },
+        text: 'Yes, I have bought this product "360fly - Panoramic 360° HD Video Camera". But it says there are some special offer on purchase.'
+      }
     },
     {
       key: '-L6pJm8FTxDt1pHk_3lf',
@@ -2925,9 +2919,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520239321666,
         sender: 'bkmdgtmwa4eb1pMomNDt',
-        text:
-          'I was looking for the information of packages available in your restaurant.',
-      },
+        text: 'I was looking for the information of packages available in your restaurant.'
+      }
     },
     {
       key: '-L6pJoDPEEie-iOUUCs4',
@@ -2935,9 +2928,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520239330326,
         sender: 'FFdV0wFq1hkW01TPd7lG',
-        text:
-          "But As I bought it with the coupon code, but the discount wasn't applied. Would you please check that ?",
-      },
+        text: "But As I bought it with the coupon code, but the discount wasn't applied. Would you please check that ?"
+      }
     },
     {
       key: '-L6pJqDRPOZLlGAedhme',
@@ -2945,8 +2937,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520239338533,
         sender: 'bkmdgtmwa4eb1pMomNDt',
-        text: 'Do you think you could help me with ?',
-      },
+        text: 'Do you think you could help me with ?'
+      }
     },
     {
       key: '-L6pKAfs_QNj_2kEbNq7',
@@ -2954,8 +2946,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520239426396,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Sure. Please wait a moment. ',
-      },
+        text: 'Sure. Please wait a moment. '
+      }
     },
     {
       key: '-L6pKO_EZzW3iuZTf4R0',
@@ -2963,8 +2955,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520239483339,
         sender: 'FFdV0wFq1hkW01TPd7lG',
-        text: 'Ok, thank you. ',
-      },
+        text: 'Ok, thank you. '
+      }
     },
     {
       key: '-L6pKqsYNxBsEPMHwfCO',
@@ -2972,9 +2964,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520239603223,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text:
-          'I like the design of this template very much, i want to confirm some information before i purchase your template',
-      },
+        text: 'I like the design of this template very much, i want to confirm some information before i purchase your template'
+      }
     },
     {
       key: '-L6pLF9skj6_DT_gMPYI',
@@ -2982,8 +2973,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520239706911,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Yes, sure. You can ask any kind of related questions.',
-      },
+        text: 'Yes, sure. You can ask any kind of related questions.'
+      }
     },
     {
       key: '-L6pVhnLfcfEJ6btCu2k',
@@ -2991,8 +2982,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520242449926,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Sure sir',
-      },
+        text: 'Sure sir'
+      }
     },
     {
       key: '-L6pVk_8w9pAbcQXwcQq',
@@ -3000,8 +2991,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520242461312,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'when would you like to come our restaurant?',
-      },
+        text: 'when would you like to come our restaurant?'
+      }
     },
     {
       key: '-L6pW4I6vx4gTY9iYfLT',
@@ -3009,8 +3000,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520242546169,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'We are extremely sorry for this Occurrence.',
-      },
+        text: 'We are extremely sorry for this Occurrence.'
+      }
     },
     {
       key: '-L6pWMdleIBDdRf5eGac',
@@ -3018,8 +3009,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520242621353,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: "For some technical issues, your discount wasn't applied.",
-      },
+        text: "For some technical issues, your discount wasn't applied."
+      }
     },
     {
       key: '-L6pWe04LiZat2jABGS3',
@@ -3027,8 +3018,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520242696573,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'We informed our vendors. They will assure your discounts.',
-      },
+        text: 'We informed our vendors. They will assure your discounts.'
+      }
     },
     {
       key: '-L6pWhETDywAyZ11zDuK',
@@ -3036,8 +3027,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520242709781,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Thank you for your patience.',
-      },
+        text: 'Thank you for your patience.'
+      }
     },
     {
       key: '-L6pbkCF-yZJG-F0t1yq',
@@ -3045,8 +3036,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520244294055,
         sender: 'bkmdgtmwa4eb1pMomNDt',
-        text: 'Yes. we want to arrange our official diner in your restaurant. ',
-      },
+        text: 'Yes. we want to arrange our official diner in your restaurant. '
+      }
     },
     {
       key: '-L6pbtl6PBxhyRd-ljA0',
@@ -3054,8 +3045,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520244333763,
         sender: 'FFdV0wFq1hkW01TPd7lG',
-        text: 'Thanks for the feedback. I am waiting.',
-      },
+        text: 'Thanks for the feedback. I am waiting.'
+      }
     },
     {
       key: '-L6pc_qTS2QdZXSRN5bx',
@@ -3063,8 +3054,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520244514518,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Excellent Sir ',
-      },
+        text: 'Excellent Sir '
+      }
     },
     {
       key: '-L6pdLv2sGhiX9M1fxWB',
@@ -3072,9 +3063,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520244715513,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          ' You can take advantage of the hotel’s convenient and delicious on-site dining .',
-      },
+        text: ' You can take advantage of the hotel’s convenient and delicious on-site dining .'
+      }
     },
     {
       key: '-L6pdUlmEeUW5Kpy0rPI',
@@ -3082,8 +3072,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520244751786,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'We recommend DINNER BUFFET package for you',
-      },
+        text: 'We recommend DINNER BUFFET package for you'
+      }
     },
     {
       key: '-L6pdZPI6NbqZq37lyHk',
@@ -3091,9 +3081,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520244770762,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          'Starters\nSoup of the day\nNicoise salad with egg and tuna\nCherrytomatoes, mozzarella and basil\nCaesar salad with chicken and croutons\nPotatoesalad with capers, red onion and herbs\nRed beet and apple\nSmoked salmon and horseradish sauce\nGravad lax and sauce\nMarinated seafood chevice',
-      },
+        text: 'Starters\nSoup of the day\nNicoise salad with egg and tuna\nCherrytomatoes, mozzarella and basil\nCaesar salad with chicken and croutons\nPotatoesalad with capers, red onion and herbs\nRed beet and apple\nSmoked salmon and horseradish sauce\nGravad lax and sauce\nMarinated seafood chevice'
+      }
     },
     {
       key: '-L6pduR81hQgU2nIJX2j',
@@ -3101,9 +3090,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520244860993,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          'Hot main courses are included with \nMeat of the day, \nLeg of lamb, \nFish of the day, \nPotatoes, \nGratinated potatoes,\nVegetables ,\nSauces .',
-      },
+        text: 'Hot main courses are included with \nMeat of the day, \nLeg of lamb, \nFish of the day, \nPotatoes, \nGratinated potatoes,\nVegetables ,\nSauces .'
+      }
     },
     {
       key: '-L6pe8j5sCNzB5atSSqW',
@@ -3111,9 +3099,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520244923646,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          'At the end, There are some delicious deserts.\nCake of the day,\nChocolate cake,\nApple cake,\nCreme Brulée,\nFruit salad,\nIcecream bar.',
-      },
+        text: 'At the end, There are some delicious deserts.\nCake of the day,\nChocolate cake,\nApple cake,\nCreme Brulée,\nFruit salad,\nIcecream bar.'
+      }
     },
     {
       key: '-L6peDKVJVMPgO855xoZ',
@@ -3121,9 +3108,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520244942160,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text:
-          'I was looking for an admin dashboard built on top of React, Redux & Material Ui',
-      },
+        text: 'I was looking for an admin dashboard built on top of React, Redux & Material Ui'
+      }
     },
     {
       key: '-L6peHHhchXix4wXe1-T',
@@ -3131,8 +3117,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520244958693,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Price per person ---> EUR 54\n',
-      },
+        text: 'Price per person ---> EUR 54\n'
+      }
     },
     {
       key: '-L6peg0eio1LLhTpeYYU',
@@ -3140,8 +3126,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520245064095,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'You can Check our Mate Admin Template.',
-      },
+        text: 'You can Check our Mate Admin Template.'
+      }
     },
     {
       key: '-L6pelREWdGOcvDv-BlG',
@@ -3149,9 +3135,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520245086278,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          'It is a react-redux powered single page admin dashboard with material Ui Next. Used progressive web application pattern, highly optimized for your next react application. ',
-      },
+        text: 'It is a react-redux powered single page admin dashboard with material Ui Next. Used progressive web application pattern, highly optimized for your next react application. '
+      }
     },
     {
       key: '-L6pewyhC-HEc_V51IUD',
@@ -3159,8 +3144,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520245132805,
         sender: 'bkmdgtmwa4eb1pMomNDt',
-        text: 'That is very reasonable. Can you arrange for 30 persons? ',
-      },
+        text: 'That is very reasonable. Can you arrange for 30 persons? '
+      }
     },
     {
       key: '-L6pexq6gyAXb5gtj4X3',
@@ -3168,8 +3153,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520245136911,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text: 'great, exactly what i was looking for',
-      },
+        text: 'great, exactly what i was looking for'
+      }
     },
     {
       key: '-L6pf93oyv9H_80PO3vu',
@@ -3177,8 +3162,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520245187179,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Sure Sir. Can you please tell me your reservation date?',
-      },
+        text: 'Sure Sir. Can you please tell me your reservation date?'
+      }
     },
     {
       key: '-L6pfI6kdvg5HhObawPy',
@@ -3186,9 +3171,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520245224232,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          'If you want, we can arrange your meal in a private meeting room.',
-      },
+        text: 'If you want, we can arrange your meal in a private meeting room.'
+      }
     },
     {
       key: '-L6pfXUNHF-oRRQ7c2pB',
@@ -3196,9 +3180,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520245286862,
         sender: 'FFdV0wFq1hkW01TPd7lG',
-        text:
-          'Your vendor confirm my discount issue. Now, my problem is solved. Thanks for your great support.',
-      },
+        text: 'Your vendor confirm my discount issue. Now, my problem is solved. Thanks for your great support.'
+      }
     },
     {
       key: '-L6pfYcdmvhoZI2p0Ii-',
@@ -3206,8 +3189,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520245291685,
         sender: 'FFdV0wFq1hkW01TPd7lG',
-        text: 'Cheers!',
-      },
+        text: 'Cheers!'
+      }
     },
     {
       key: '-L6pfZsRCCa0ybTi3w47',
@@ -3215,9 +3198,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520245296244,
         sender: 'bkmdgtmwa4eb1pMomNDt',
-        text:
-          'Yes. We are planning to reserve for the last Thursday of this month',
-      },
+        text: 'Yes. We are planning to reserve for the last Thursday of this month'
+      }
     },
     {
       key: '-L6pfcOzpxCouh-GQOJl',
@@ -3225,9 +3207,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520245311239,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text:
-          'Does this template have any app example so that i can see the data flow clearly?',
-      },
+        text: 'Does this template have any app example so that i can see the data flow clearly?'
+      }
     },
     {
       key: '-L6pfjhiySJ6h3IjUR6C',
@@ -3235,8 +3216,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520245341349,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Thank you for your co-operation.',
-      },
+        text: 'Thank you for your co-operation.'
+      }
     },
     {
       key: '-L6pg8YdhQOUfLms9u85',
@@ -3244,9 +3225,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520245447026,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text:
-          'also, i want to know if this template using the latest version of React Js, Redux etc',
-      },
+        text: 'also, i want to know if this template using the latest version of React Js, Redux etc'
+      }
     },
     {
       key: '-L6pgBtyVkMD0BIOJsml',
@@ -3254,8 +3234,8 @@ const demoData = {
         chatRoomId: '-L2ZNtIfXTI1nedEdf8J',
         messageTime: 1520245460917,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Happy Shopping :)',
-      },
+        text: 'Happy Shopping :)'
+      }
     },
     {
       key: '-L6pgZfeTaFwMr8TblgK',
@@ -3263,9 +3243,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520245558302,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          'Yes, You can check our demo by going on this url  https://mate.redq.io/',
-      },
+        text: 'Yes, You can check our demo by going on this url  https://mate.redq.io/'
+      }
     },
     {
       key: '-L6ph4yzZc-RID9qS-vu',
@@ -3273,9 +3252,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520245694710,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          ' We use the latest version of React Js and Redux. We always try to provide regular updates to our templates.',
-      },
+        text: ' We use the latest version of React Js and Redux. We always try to provide regular updates to our templates.'
+      }
     },
     {
       key: '-L6phENV1XIrb0sRuSXD',
@@ -3283,8 +3261,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520245733207,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Thank you sir. Your reservation is completed.',
-      },
+        text: 'Thank you sir. Your reservation is completed.'
+      }
     },
     {
       key: '-L6phPDgeL2kMDisgzpD',
@@ -3292,8 +3270,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520245777635,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'We are waiting to welcome you.',
-      },
+        text: 'We are waiting to welcome you.'
+      }
     },
     {
       key: '-L6phWcwN7zf2E2N5znq',
@@ -3301,8 +3279,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJFpPOikrNUhj8f',
         messageTime: 1520245807251,
         sender: 'bkmdgtmwa4eb1pMomNDt',
-        text: 'Thank you.',
-      },
+        text: 'Thank you.'
+      }
     },
     {
       key: '-L6phjhhr1Yo4SxracPr',
@@ -3310,8 +3288,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520245865309,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text: 'Thanks for your information that was really helpful',
-      },
+        text: 'Thanks for your information that was really helpful'
+      }
     },
     {
       key: '-L6pi1Pj0Sa8vQ5ogQyg',
@@ -3319,8 +3297,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520245942245,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Thanks a lot.',
-      },
+        text: 'Thanks a lot.'
+      }
     },
     {
       key: '-L6piIOzsn-KPrCQlidF',
@@ -3328,9 +3306,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520246011506,
         sender: '0lAR4PcX71m7MPOTRIFF',
-        text:
-          "Hi, Why can't we add another project in our account. Not sure what's going on.",
-      },
+        text: "Hi, Why can't we add another project in our account. Not sure what's going on."
+      }
     },
     {
       key: '-L6piMZi7BwVg5V6Kq5C',
@@ -3338,9 +3315,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520246028726,
         sender: 'nlE90pVpMPA4idOBD1cP',
-        text:
-          "I'm going to purchase this template now, thanks again for your time",
-      },
+        text: "I'm going to purchase this template now, thanks again for your time"
+      }
     },
     {
       key: '-L6piXdWmJJiLAZoOPvU',
@@ -3348,8 +3324,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520246074264,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Sorry about that ! Can i have your account number?',
-      },
+        text: 'Sorry about that ! Can i have your account number?'
+      }
     },
     {
       key: '-L6picIG9T-IB97_i4SQ',
@@ -3357,8 +3333,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520246097225,
         sender: '0lAR4PcX71m7MPOTRIFF',
-        text: 'where can i find that?',
-      },
+        text: 'where can i find that?'
+      }
     },
     {
       key: '-L6pj-VeDV-ikaZxzm18',
@@ -3366,8 +3342,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520246196577,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'Please go to Account -> Settings -> Plan .',
-      },
+        text: 'Please go to Account -> Settings -> Plan .'
+      }
     },
     {
       key: '-L6pjGih1LTCjmypBnd5',
@@ -3375,8 +3351,8 @@ const demoData = {
         chatRoomId: '-L2ZNtJLheV2cFUuu_sX',
         messageTime: 1520246267108,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: "You're most welcome !",
-      },
+        text: "You're most welcome !"
+      }
     },
     {
       key: '-L6pjWPirGpBGDwVDxYL',
@@ -3384,8 +3360,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520246331174,
         sender: '0lAR4PcX71m7MPOTRIFF',
-        text: 'Oh thanks! It is BE007.',
-      },
+        text: 'Oh thanks! It is BE007.'
+      }
     },
     {
       key: '-L6pjypB-6Kw2sYCXXSY',
@@ -3393,9 +3369,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520246451843,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text:
-          'Hi, you are almost there. You have to complete one more step to add another project. Just go to Third step and click on "Complete & Save" .',
-      },
+        text: 'Hi, you are almost there. You have to complete one more step to add another project. Just go to Third step and click on "Complete & Save" .'
+      }
     },
     {
       key: '-L6pk20KeO898jK5_rHv',
@@ -3403,8 +3378,8 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520246468813,
         sender: '0lAR4PcX71m7MPOTRIFF',
-        text: 'You just saved my day. Thank you very much',
-      },
+        text: 'You just saved my day. Thank you very much'
+      }
     },
     {
       key: '-L6pkHKG3fkPN0FEEvKc',
@@ -3412,16 +3387,16 @@ const demoData = {
         chatRoomId: '-L2ZNtILakxHPFhocHIc',
         messageTime: 1520246531720,
         sender: 'wt4TiasxgPrQ3dNwVZ55',
-        text: 'You are Welcome.',
-      },
-    },
-  ],
+        text: 'You are Welcome.'
+      }
+    }
+  ]
 };
 
 export async function deleteDocuments(collectionName) {
   const collectionRef = db.collection(collectionName);
   var batch = db.batch();
-  await collectionRef.get().then(querySnapshot =>
+  await collectionRef.get().then((querySnapshot) =>
     querySnapshot.docs.map((doc, idx) => {
       console.log(doc);
       if (idx < 499) batch.delete(collectionRef.doc(doc.id));
@@ -3440,19 +3415,19 @@ export const addCollectionAndDocuments = async (
   const collectionRef = db.collection(collectionKey);
   const batch = db.batch();
   if (collectionKey === 'chatRooms') {
-    objectsToAdd.forEach(room => {
+    objectsToAdd.forEach((room) => {
       const doc = collectionRef.doc(room.key);
       if (room.data.otherUserId) {
         batch.set(doc, {
           ...room.data,
           otherUserInfo: demoData.users.find(
-            user => user.key === room.data.otherUserId
-          ).data,
+            (user) => user.key === room.data.otherUserId
+          ).data
         });
       }
     });
   } else {
-    objectsToAdd.forEach(obj => {
+    objectsToAdd.forEach((obj) => {
       const newDocRef = collectionRef.doc(obj.key);
       batch.set(newDocRef, obj.data);
     });

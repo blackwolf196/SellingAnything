@@ -3,7 +3,7 @@ import { palette } from 'styled-tools';
 import {
   boxShadow,
   borderRadius,
-  transition,
+  transition
 } from '@iso/lib/helpers/style_utils';
 import WithDirection from '@iso/lib/helpers/rtl';
 
@@ -95,22 +95,20 @@ const MailBox = styled.div`
       background-color: ${palette('grayscale', 6)};
       border-bottom: 1px solid ${palette('border', 0)};
 
-      .isoSearchEmail{
+      .isoSearchEmail {
         max-height: none;
         border: 0;
         padding: 0;
 
-        &.ant-input-affix-wrapper{
-          &:focus{
+        &.ant-input-affix-wrapper {
+          &:focus {
             box-shadow: none;
           }
         }
 
-        &.ant-input-affix-wrapper-focused{
+        &.ant-input-affix-wrapper-focused {
           box-shadow: none;
         }
-
-
       }
 
       input {

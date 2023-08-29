@@ -11,7 +11,7 @@ const Following = ({ data }) => {
       </h3>
       <FollowingList>
         {data.length > 0 &&
-          data.map(follower => (
+          data.map((follower) => (
             <ListItem key={`follower-key${follower.id}`}>
               <AvatarCard avatar={follower.avatar} name={follower.name} />
               <Button>Following</Button>

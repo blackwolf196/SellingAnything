@@ -51,7 +51,7 @@ import {
   IoMdClose,
   IoMdMic,
   IoIosSquare,
-  IoMdCreate,
+  IoMdCreate
 } from 'react-icons/io';
 
 // TopBar Icons

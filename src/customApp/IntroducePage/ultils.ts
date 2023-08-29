@@ -1,22 +1,22 @@
 interface listFeatureType {
-  id: number,
+  id: number;
   name: string;
 }
 export const listFeature: listFeatureType[] = [
   {
     id: 1,
-    name: "Quản lý học viên"
+    name: 'Quản lý học viên'
   },
   {
     id: 2,
-    name: "Quản lý học phí"
+    name: 'Quản lý học phí'
   },
   {
     id: 3,
-    name: "Quản lý trạng thái"
+    name: 'Quản lý trạng thái'
   },
   {
     id: 4,
-    name: "Theo dõi qua biểu đồ"
+    name: 'Theo dõi qua biểu đồ'
   }
-]
+];

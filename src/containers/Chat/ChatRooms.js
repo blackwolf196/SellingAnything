@@ -12,18 +12,18 @@ import {
   UserLists,
   SidebarSearchBox,
   Input,
-  ChatSidebar,
+  ChatSidebar
 } from './Messages.styles';
 const { setSelectedChatroom, toggleMobileList, toggleCompose } = chatActions;
 function filteredChatRooms(chatrooms) {
-  return chatrooms.filter(chatroom => chatroom.lastMessageTime > 0);
+  return chatrooms.filter((chatroom) => chatroom.lastMessageTime > 0);
 }
 export default function ChatRooms() {
   const dispatch = useDispatch();
   const { users, chatRooms, selectedChatRoom } = useSelector(
-    state => state.Chat
+    (state) => state.Chat
   );
-  const { view } = useSelector(state => state.App);
+  const { view } = useSelector((state) => state.App);
   const [currentChatRooms, setCurrentChatRooms] = React.useState(
     filteredChatRooms(chatRooms)
   );
@@ -33,12 +33,12 @@ export default function ChatRooms() {
 
   const currentChatRoom = view === 'DesktopView' ? selectedChatRoom : {};
 
-  const onSearch = event => {
+  const onSearch = (event) => {
     const value = event.target.value;
 
     let searchedChatRooms = filteredChatRooms(chatRooms);
     if (value.trim()) {
-      searchedChatRooms = searchedChatRooms.filter(chatRoom =>
+      searchedChatRooms = searchedChatRooms.filter((chatRoom) =>
         chatRoom.otherUserInfo.name.toLowerCase().includes(value.toLowerCase())
       );
     }
@@ -49,9 +49,9 @@ export default function ChatRooms() {
     const { name, profileImageUrl } = otherUserInfo;
     const selected = currentChatRoom.id === chatRoom.id;
     const style = {
-      background: selected ? '#f7f7f7' : 'rgba(0,0,0,0)',
+      background: selected ? '#f7f7f7' : 'rgba(0,0,0,0)'
     };
-    const selectChatroom = event => {
+    const selectChatroom = (event) => {
       event.stopPropagation();
 
       if (!selected) {

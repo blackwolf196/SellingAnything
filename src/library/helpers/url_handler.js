@@ -1,7 +1,7 @@
 export function createUrl(urlData) {
   const keys = Object.keys(urlData);
   let search = '?';
-  keys.forEach(key => {
+  keys.forEach((key) => {
     if (urlData[key] !== null && urlData[key] !== '') {
       search += `${key}=${urlData[key]}&`;
     }
@@ -16,7 +16,7 @@ export function getUrl(location) {
       ? location.search.slice(location.search.indexOf('?') + 1).split('&')
       : [];
   const urlData = {};
-  data.forEach(data => {
+  data.forEach((data) => {
     try {
       data = data.split('=');
       const dataVal = decodeURIComponent(data[1]);
@@ -149,7 +149,7 @@ export function getStateFromUrl(location) {
             min: 0,
             max: 100,
             defaultMin: 0,
-            defaultMax: 100,
+            defaultMax: 100
           };
           const price = urlData[key] ? urlData[key].split(',') : defaultPrice;
           if (price) {
@@ -161,7 +161,7 @@ export function getStateFromUrl(location) {
                 min: min,
                 max: max,
                 defaultMin: 0,
-                defaultMax: 100,
+                defaultMax: 100
               };
             } else {
               state[key] = '';

@@ -7,7 +7,7 @@ const ImageWrapper = styled('img')(
   {
     display: 'block',
     maxWidth: '100%',
-    height: 'auto',
+    height: 'auto'
   },
   base,
   themed('Image')
@@ -21,9 +21,9 @@ export default Image;
 
 Image.propTypes = {
   src: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired
 };
 
 Image.defaultProps = {
-  m: 0,
+  m: 0
 };

@@ -4,14 +4,14 @@ import GlobalStyles from '@iso/assets/styles/globalStyle';
 import Boot from '@iso/redux/boot';
 import Routes from './router';
 import AppProvider from './AppProvider';
-import {store} from "@iso/redux/store";
-import {theme} from "styled-tools";
+import { store } from '@iso/redux/store';
+import { theme } from 'styled-tools';
 
 const App = () => (
   <Provider store={store}>
     <AppProvider>
       <>
-        <GlobalStyles theme={theme}/>
+        <GlobalStyles theme={theme} />
         <Routes />
       </>
     </AppProvider>
@@ -19,6 +19,6 @@ const App = () => (
 );
 Boot()
   .then(() => App())
-  .catch(error => console.error(error));
+  .catch((error) => console.error(error));
 
 export default App;

@@ -1,5 +1,5 @@
-import {AppReducerInterface} from "./app/reducer";
+import { AppReducerInterface } from './app/reducer';
 
 export interface RootState {
-  App: AppReducerInterface
+  App: AppReducerInterface;
 }

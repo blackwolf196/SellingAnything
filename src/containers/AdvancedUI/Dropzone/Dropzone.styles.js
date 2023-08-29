@@ -3,7 +3,7 @@ import { palette } from 'styled-tools';
 import {
   borderRadius,
   boxShadow,
-  transition,
+  transition
 } from '@iso/lib/helpers/style_utils';
 
 const DropzoneWrapper = styled.div`

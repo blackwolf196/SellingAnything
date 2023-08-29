@@ -6,7 +6,7 @@ export const getView = (width: number | undefined) => {
     newView = 'TabView';
   }
   return newView;
-}
+};
 
 const actions = {
   COLLPSE_CHANGE: 'COLLPSE_CHANGE',
@@ -16,7 +16,7 @@ const actions = {
   CHANGE_CURRENT: 'CHANGE_CURRENT',
   CLEAR_MENU: 'CLEAR_MENU',
   toggleCollapsed: () => ({
-    type: actions.COLLPSE_CHANGE,
+    type: actions.COLLPSE_CHANGE
   }),
   toggleAll: (width: number | undefined, height?: number) => {
     const view = getView(width);
@@ -25,20 +25,20 @@ const actions = {
       type: actions.TOGGLE_ALL,
       collapsed,
       view,
-      height,
+      height
     };
   },
   toggleOpenDrawer: () => ({
-    type: actions.COLLPSE_OPEN_DRAWER,
+    type: actions.COLLPSE_OPEN_DRAWER
   }),
   changeOpenKeys: (openKeys: string[]) => ({
     type: actions.CHANGE_OPEN_KEYS,
-    openKeys,
+    openKeys
   }),
   changeCurrent: (current: string[]) => ({
     type: actions.CHANGE_CURRENT,
-    current,
+    current
   }),
-  clearMenu: () => ({type: actions.CLEAR_MENU}),
+  clearMenu: () => ({ type: actions.CLEAR_MENU })
 };
 export default actions;

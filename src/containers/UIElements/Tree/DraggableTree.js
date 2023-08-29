@@ -32,7 +32,7 @@ generateData(z);
 class DraggableTree extends React.Component {
   state = {
     gData,
-    expandedKeys: ['0-0', '0-0-0', '0-0-0-0'],
+    expandedKeys: ['0-0', '0-0-0', '0-0-0-0']
   };
 
   onDragEnter = (info) => {
@@ -102,7 +102,7 @@ class DraggableTree extends React.Component {
     }
 
     this.setState({
-      gData: data,
+      gData: data
     });
   };
 

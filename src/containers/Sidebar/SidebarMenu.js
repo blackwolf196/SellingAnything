@@ -5,7 +5,7 @@ import Menu from '@iso/components/uielements/menu';
 import IntlMessages from '@iso/components/utility/intlMessages';
 const SubMenu = Menu.SubMenu;
 
-const stripTrailingSlash = str => {
+const stripTrailingSlash = (str) => {
   if (str.substr(-1) === '/') {
     return str.substr(0, str.length - 1);
   }
@@ -36,7 +36,7 @@ export default React.memo(function SidebarMenu({
         }
         {...rest}
       >
-        {children.map(child => {
+        {children.map((child) => {
           const linkTo = child.withoutDashboard
             ? `/${child.key}`
             : `${url}/${child.key}`;

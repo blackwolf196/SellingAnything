@@ -32,5 +32,5 @@ export {
   CustomActiveShapePieChart,
   SpecifiedDomainRadarChart,
   SimpleRadialBarChart,
-  LegendEffectOpacity,
+  LegendEffectOpacity
 };

@@ -18,8 +18,8 @@ const AntAutoComplete = styled(AutoComplete)`
           .ant-select-search__field__placeholder {
             top: 8px;
             margin: 0 10px;
-            left: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-            right: ${props =>
+            left: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
+            right: ${(props) =>
               props['data-rtl'] === 'rtl' ? '9px' : 'inherit'};
             color: ${palette('grayscale', 1)};
           }
@@ -29,7 +29,7 @@ const AntAutoComplete = styled(AutoComplete)`
             width: 100%;
             height: 35px;
             font-size: 13px;
-            text-align: ${props =>
+            text-align: ${(props) =>
               props['data-rtl'] === 'rtl' ? 'right' : 'left'};
             line-height: 1.5;
             color: ${palette('text', 1)};
@@ -56,7 +56,7 @@ const AntAutoComplete = styled(AutoComplete)`
   }
 `;
 
-const AntAutoCompleteOption = ComponentName => styled(ComponentName)`
+const AntAutoCompleteOption = (ComponentName) => styled(ComponentName)`
   color: #000000;
 `;
 

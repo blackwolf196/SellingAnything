@@ -1,7 +1,7 @@
 import React from 'react';
 import TableWrapper from '../AntTables.styles';
 
-export default function({ dataList, tableInfo }) {
+export default function ({ dataList, tableInfo }) {
   const [state, setState] = React.useState(dataList.getAll());
 
   function onChange(pagination, filters, sorter) {

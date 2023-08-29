@@ -482,5 +482,5 @@ export {
   AddUserBtn,
   Fieldset,
   Label,
-  Form,
+  Form
 };

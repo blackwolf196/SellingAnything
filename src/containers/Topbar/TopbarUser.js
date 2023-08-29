@@ -13,7 +13,7 @@ export default function TopbarUser() {
   const [visible, setVisibility] = React.useState(false);
   const dispatch = useDispatch();
   function handleVisibleChange() {
-    setVisibility(visible => !visible);
+    setVisibility((visible) => !visible);
   }
 
   const content = (

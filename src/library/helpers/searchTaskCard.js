@@ -16,7 +16,7 @@ export const filterSearchedComponents = (
       distance: 100,
       maxPatternLength: 32,
       minMatchCharLength: 1,
-      keys: ['title', 'labels', 'assignee'],
+      keys: ['title', 'labels', 'assignee']
     });
     let results = fuse.search(searchText);
     const resultTasks = results

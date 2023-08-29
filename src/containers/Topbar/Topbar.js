@@ -14,18 +14,21 @@ const { toggleCollapsed } = appActions;
 
 export default function Topbar() {
   const [selectedItem, setSelectedItem] = React.useState('');
-  const customizedTheme = useSelector(state => state.ThemeSwitcher.topbarTheme);
-  const { collapsed, openDrawer } = useSelector(state => state.App);
+  const customizedTheme = useSelector(
+    (state) => state.ThemeSwitcher.topbarTheme
+  );
+  const { collapsed, openDrawer } = useSelector((state) => state.App);
   const dispatch = useDispatch();
-  const handleToggle = React.useCallback(() => dispatch(toggleCollapsed()), [
-    dispatch,
-  ]);
+  const handleToggle = React.useCallback(
+    () => dispatch(toggleCollapsed()),
+    [dispatch]
+  );
   const isCollapsed = collapsed && !openDrawer;
   const styling = {
     background: customizedTheme.backgroundColor,
     position: 'fixed',
     width: '100%',
-    height: 70,
+    height: 70
   };
   return (
     <TopbarWrapper>

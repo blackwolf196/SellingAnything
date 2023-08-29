@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { IoIosStar, IoIosStarOutline } from 'react-icons/io';
 
-const Rating = props => {
+const Rating = (props) => {
   const { rating, ratingCount, type, ratingFieldName } = props;
   let i, floorValue;
   let ratingView = [];
@@ -60,7 +60,7 @@ Rating.propTypes = {
   type: PropTypes.string.isRequired,
   ratingCount: PropTypes.number,
   rating: PropTypes.number,
-  ratingFieldName: PropTypes.string,
+  ratingFieldName: PropTypes.string
 };
 
 export default Rating;

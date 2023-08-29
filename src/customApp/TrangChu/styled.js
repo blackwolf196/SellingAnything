@@ -1,22 +1,20 @@
 import styled from 'styled-components';
-import StardewWallpaper from '../../assets/CustomImages/WallpaperStardew.jpg';
 
 export default styled.div`
   padding: 10px;
- 
+
   .box-filter {
     width: 100%;
     display: flex;
     justify-content: center;
-    
+
     .ant-select-auto-complete {
       width: 90%;
       .ant-select-selection-search-input {
-        
       }
     }
   }
-  
+
   .placeholder {
     text-align: center;
     display: flex;

@@ -4,7 +4,7 @@ import Switch from '@iso/components/uielements/switch';
 import Form from '@iso/components/uielements/form';
 const FormItem = Form.Item;
 
-const expandedRowRender = record => (
+const expandedRowRender = (record) => (
   <p>{`${record.firstName} lives in ${record.city}`}</p>
 );
 const title = () => 'Here is title';
@@ -16,50 +16,50 @@ const toggleOptions = [
   {
     defaultValue: true,
     title: 'Bordered',
-    key: 'bordered',
+    key: 'bordered'
   },
   {
     defaultValue: true,
     title: 'Loading',
-    key: 'loading',
+    key: 'loading'
   },
   {
     defaultValue: true,
     title: 'Pagination',
-    key: 'pagination',
+    key: 'pagination'
   },
   {
     defaultValue: title,
     title: 'Title',
-    key: 'title',
+    key: 'title'
   },
   {
     defaultValue: showHeader,
     title: 'Show Header',
-    key: 'showHeader',
+    key: 'showHeader'
   },
   {
     defaultValue: footer,
     title: 'Footer',
-    key: 'footer',
+    key: 'footer'
   },
   {
     defaultValue: expandedRowRender,
     title: 'Expanded Row Render',
-    key: 'expandedRowRender',
+    key: 'expandedRowRender'
   },
   {
     defaultValue: {},
     title: 'Checkbox',
-    key: 'rowSelection',
+    key: 'rowSelection'
   },
   {
     defaultValue: scroll,
     title: 'Scrollable',
-    key: 'scroll',
-  },
+    key: 'scroll'
+  }
 ];
-export default function(props) {
+export default function (props) {
   const [state, setState] = React.useState({
     bordered: undefined,
     loading: undefined,
@@ -70,7 +70,7 @@ export default function(props) {
     showHeader,
     footer,
     rowSelection: {},
-    scroll: undefined,
+    scroll: undefined
   });
 
   function renderSwitch(option) {
@@ -92,7 +92,7 @@ export default function(props) {
     <CustomizedTableWrapper className="isoCustomizedTableWrapper">
       <div className="isoCustomizedTableControlBar">
         <Form layout="inline">
-          {toggleOptions.map(option => renderSwitch(option))}
+          {toggleOptions.map((option) => renderSwitch(option))}
         </Form>
       </div>
       <TableWrapper

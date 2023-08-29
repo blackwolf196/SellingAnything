@@ -25,7 +25,7 @@ export default function ({ contact, otherAttributes, editContact }) {
   const extraInfos = [];
   const names = [
     { value: 'firstName', title: 'First Name' },
-    { value: 'lastName', title: 'Last Name' },
+    { value: 'lastName', title: 'Last Name' }
   ];
   [...names, ...otherAttributes].forEach((attribute) => {
     const value = contact[attribute.value];

@@ -3,13 +3,13 @@ import customTheme from './custom';
 
 const themes = {
   defaultTheme,
-  customTheme,
+  customTheme
 };
 
 export const themeConfig = {
   topbar: 'defaultTheme',
   sidebar: 'defaultTheme',
   layout: 'defaultTheme',
-  theme: 'customTheme',
+  theme: 'customTheme'
 };
 export default themes;

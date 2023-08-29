@@ -9,8 +9,8 @@ export default function SwiperFreeMode(props) {
     freeMode: true,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true,
-    },
+      clickable: true
+    }
   };
   return <Swiper {...params}>{children}</Swiper>;
 }

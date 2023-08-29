@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 
-const AntTransfer = ComponentName => styled(ComponentName)`
+const AntTransfer = (ComponentName) => styled(ComponentName)`
   display: flex;
 
   @media only screen and (max-width: 560px) {
@@ -99,7 +99,7 @@ const AntTransfer = ComponentName => styled(ComponentName)`
     }
 
     .ant-checkbox-wrapper:not(:last-child) {
-      margin: ${props =>
+      margin: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 0 0 8px' : '0 8px 0 0'};
     }
   }
@@ -142,7 +142,7 @@ const AntTransfer = ComponentName => styled(ComponentName)`
     .ant-btn {
       .anticon-left,
       .anticon-right {
-        transform: ${props =>
+        transform: ${(props) =>
           props['data-rtl'] === 'rtl' ? 'rotate(180deg)' : 'rotate(0)'};
       }
     }
@@ -151,8 +151,8 @@ const AntTransfer = ComponentName => styled(ComponentName)`
   .ant-transfer-list-search-action {
     width: 28px;
     line-height: 28px;
-    right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '4px')};
-    left: ${props => (props['data-rtl'] === 'rtl' ? '4px' : 'inherit')};
+    right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '4px')};
+    left: ${(props) => (props['data-rtl'] === 'rtl' ? '4px' : 'inherit')};
   }
 `;
 

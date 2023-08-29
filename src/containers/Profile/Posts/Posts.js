@@ -4,14 +4,14 @@ import {
   IoIosArrowBack,
   IoIosArrowForward,
   IoIosArrowDropleftCircle,
-  IoIosArrowDroprightCircle,
+  IoIosArrowDroprightCircle
 } from 'react-icons/io';
 import {
   FiHeart,
   FiShare,
   FiBookmark,
   FiMessageCircle,
-  FiMoreHorizontal,
+  FiMoreHorizontal
 } from 'react-icons/fi';
 import GlideCarousel, { GlideSlide } from '@iso/ui/GlideCarousel/GlideCarousel';
 import Modal from '@iso/ui/Antd/Modal/Modal';
@@ -21,19 +21,19 @@ import Comments from './Comments';
 import PostsWrapper, { Button, ContentWrapper } from './Posts.styles';
 
 const galleryOptions = {
-  gap: 0,
+  gap: 0
 };
 
 const Posts = ({ data, avatar, username }) => {
   const [currentPost, setCurrentPost] = useState(1);
   const [visible, setVisible] = useState(false);
 
-  const showSelectedPost = data => {
+  const showSelectedPost = (data) => {
     setCurrentPost(data.id);
     setVisible(true);
   };
 
-  const renderHtml = data => {
+  const renderHtml = (data) => {
     return { __html: data };
   };
 
@@ -51,7 +51,7 @@ const Posts = ({ data, avatar, username }) => {
 
   let newData = {};
 
-  data.forEach(item => {
+  data.forEach((item) => {
     if (item.id === currentPost) {
       newData = item;
     }
@@ -59,7 +59,7 @@ const Posts = ({ data, avatar, username }) => {
 
   return (
     <PostsWrapper>
-      {data.map(item => (
+      {data.map((item) => (
         <PostCard
           key={item.id}
           variant="instagram"
@@ -139,7 +139,7 @@ const Posts = ({ data, avatar, username }) => {
             <div className="body">
               <div className="comments">
                 {newData.comments !== undefined && newData.comments.length > 0
-                  ? newData.comments.map(item => (
+                  ? newData.comments.map((item) => (
                       <Comments
                         key={`comment-key${item.id}`}
                         role={item.role}

@@ -13,7 +13,7 @@ import {
   UpOutlined,
   DownOutlined,
   ShakeOutlined,
-  ReloadOutlined,
+  ReloadOutlined
 } from '@ant-design/icons';
 export default function () {
   const [state, setState] = React.useState({
@@ -22,14 +22,14 @@ export default function () {
     order: 'asc',
     sortingMethod: 'chronological',
     enterLeaveAnimation: 'accordionVertical',
-    articles,
+    articles
   });
 
   function toggleList() {
     setState({
       ...state,
       view: 'list',
-      enterLeaveAnimation: 'accordionVertical',
+      enterLeaveAnimation: 'accordionVertical'
     });
   }
 
@@ -37,7 +37,7 @@ export default function () {
     setState({
       ...state,
       view: 'grid',
-      enterLeaveAnimation: 'accordionHorizontal',
+      enterLeaveAnimation: 'accordionHorizontal'
     });
   }
 
@@ -49,7 +49,7 @@ export default function () {
       ...state,
       order: state.order === 'asc' ? 'desc' : 'asc',
       sortingMethod: 'chronological',
-      articles: state.articles.sort(state.order === 'asc' ? sortDesc : sortAsc),
+      articles: state.articles.sort(state.order === 'asc' ? sortDesc : sortAsc)
     });
   }
 
@@ -57,7 +57,7 @@ export default function () {
     setState({
       ...state,
       sortingMethod: 'shuffle',
-      articles: shuffle(state.articles),
+      articles: shuffle(state.articles)
     });
   }
 
@@ -79,7 +79,7 @@ export default function () {
     setState({
       ...state,
       [source]: sourceArticles,
-      [dest]: destArticles,
+      [dest]: destArticles
     });
   }
 
@@ -90,7 +90,7 @@ export default function () {
     setState({
       ...state,
       sortingMethod: 'rotate',
-      articles,
+      articles
     });
   }
 

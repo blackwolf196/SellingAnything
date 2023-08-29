@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { PieChart, Pie, Sector } from 'recharts';
 import ChartWrapper from '../../Charts.styles';
 
-const renderActiveShape = props => {
+const renderActiveShape = (props) => {
   const RADIAN = Math.PI / 180;
   const {
     cx,
@@ -15,7 +15,7 @@ const renderActiveShape = props => {
     fill,
     payload,
     percent,
-    value,
+    value
   } = props;
   const sin = Math.sin(-RADIAN * midAngle);
   const cos = Math.cos(-RADIAN * midAngle);
@@ -77,19 +77,14 @@ const renderActiveShape = props => {
 export default class extends Component {
   constructor(props) {
     super(props);
-    this.onPieEnter = this.onPieEnter.bind(this);
     this.state = { activeIndex: 0 };
   }
-  onPieEnter(data, index) {
-    // this.setState({
-    //   activeIndex: index,
-    // });
-  }
+
   render() {
     const { datas, width, height, colors } = this.props;
     return (
       <ChartWrapper className="isoChartWrapper">
-        <PieChart width={width} height={height} onMouseEnter={this.onPieEnter}>
+        <PieChart width={width} height={height}>
           <Pie
             activeIndex={this.state.activeIndex}
             activeShape={renderActiveShape}

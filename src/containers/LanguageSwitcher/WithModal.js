@@ -9,7 +9,7 @@ const { switchActivation, changeLanguage } = actions;
 
 export default function LanguageSwitcher({ isActivated }) {
   const dispatch = useDispatch();
-  const { language } = useSelector(state => state.LanguageSwitcher);
+  const { language } = useSelector((state) => state.LanguageSwitcher);
   // const {
   //   isActivated,
   //   switchActivation,
@@ -33,7 +33,7 @@ export default function LanguageSwitcher({ isActivated }) {
         footer={[]}
       >
         <div>
-          {config.options.map(option => {
+          {config.options.map((option) => {
             const { languageId, text } = option;
             const type =
               languageId === language.languageId ? 'primary' : 'success';

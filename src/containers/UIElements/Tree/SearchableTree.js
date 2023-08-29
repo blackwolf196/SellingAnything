@@ -63,13 +63,13 @@ class SearchTree extends React.Component {
   state = {
     expandedKeys: [],
     searchValue: '',
-    autoExpandParent: true,
+    autoExpandParent: true
   };
 
   onExpand = (expandedKeys) => {
     this.setState({
       expandedKeys,
-      autoExpandParent: false,
+      autoExpandParent: false
     });
   };
 
@@ -86,7 +86,7 @@ class SearchTree extends React.Component {
     this.setState({
       expandedKeys,
       searchValue: value,
-      autoExpandParent: true,
+      autoExpandParent: true
     });
   };
 
@@ -113,7 +113,7 @@ class SearchTree extends React.Component {
 
         return {
           title,
-          key: item.key,
+          key: item.key
         };
       });
     return (

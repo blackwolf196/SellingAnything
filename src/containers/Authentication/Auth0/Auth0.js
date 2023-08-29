@@ -21,11 +21,11 @@ class Auth0 extends EventEmitter {
     // Add callback Lock's `authenticated` event
     this.lock.on('authenticated', this.setSession);
     // Add callback for Lock's `authorization_error` event
-    this.lock.on('authorization_error', error =>
+    this.lock.on('authorization_error', () =>
       notification('error', 'Wrong mail or password')
     );
   };
-  setSession = authResult => {
+  setSession = (authResult) => {
     // Set the time that the access token will expire at
     let expiresAt = JSON.stringify(
       authResult.expiresIn * 1000 + new Date().getTime()

@@ -6,11 +6,11 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
+  Legend
 } from 'recharts';
 import ChartWrapper from '../../Charts.styles';
 
-const CustomizedDot = props => {
+const CustomizedDot = (props) => {
   const { cx, cy, payload } = props;
   return (
     <svg

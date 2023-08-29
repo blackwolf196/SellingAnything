@@ -5,7 +5,7 @@ import { Textarea as Input } from './uielements/input';
 export default function EditableComponent(props) {
   const [state, setState] = React.useState({
     value: props.value,
-    editable: false,
+    editable: false
   });
 
   function handleChange(event) {

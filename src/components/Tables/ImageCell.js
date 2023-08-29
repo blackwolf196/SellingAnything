@@ -49,7 +49,7 @@ export default function ImageCell({ src }) {
         backgroundImage: `url(${src})`,
         width: '70px',
         height: '70px',
-        backgroundSize: 'cover',
+        backgroundSize: 'cover'
       }
     : undefined;
   return <div className="exampleImage" style={style} />;

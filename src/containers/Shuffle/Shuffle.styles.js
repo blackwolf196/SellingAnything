@@ -3,7 +3,7 @@ import { palette } from 'styled-tools';
 import {
   transition,
   borderRadius,
-  boxShadow,
+  boxShadow
 } from '@iso/lib/helpers/style_utils';
 import WithDirection from '@iso/lib/helpers/rtl';
 
@@ -94,8 +94,10 @@ const WDSingleCardWrapper = styled.li`
 
     @media only screen and (max-width: 480px) {
       width: 100%;
-      margin-right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-      margin-left: ${props => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
+      margin-right: ${(props) =>
+        props['data-rtl'] === 'rtl' ? 'inherit' : '0'};
+      margin-left: ${(props) =>
+        props['data-rtl'] === 'rtl' ? '0' : 'inherit'};
     }
 
     @media only screen and (min-width: 1400px) {
@@ -121,8 +123,8 @@ const WDSingleCardWrapper = styled.li`
     .isoDeleteBtn {
       position: absolute;
       top: 0;
-      right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-      left: ${props => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
+      right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
+      left: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
     }
   }
 `;
@@ -163,8 +165,9 @@ const WDSortableCardWrapper = styled.div`
         align-items: center;
         height: 35px;
         padding: 0 15px;
-        margin-right: ${props => (props['data-rtl'] === 'rtl' ? '0' : '10px')};
-        margin-left: ${props => (props['data-rtl'] === 'rtl' ? '10px' : '0')};
+        margin-right: ${(props) =>
+          props['data-rtl'] === 'rtl' ? '0' : '10px'};
+        margin-left: ${(props) => (props['data-rtl'] === 'rtl' ? '10px' : '0')};
         cursor: pointer;
         ${borderRadius('3px')};
         ${transition()};
@@ -174,15 +177,15 @@ const WDSortableCardWrapper = styled.div`
         }
 
         i {
-          padding-right: ${props =>
+          padding-right: ${(props) =>
             props['data-rtl'] === 'rtl' ? '0' : '10px'};
-          padding-left: ${props =>
+          padding-left: ${(props) =>
             props['data-rtl'] === 'rtl' ? '10px' : '0'};
         }
 
         &:last-child {
-          margin-right: ${props => (props['data-rtl'] === 'rtl' ? '0' : '0')};
-          margin-left: ${props => (props['data-rtl'] === 'rtl' ? '0' : '0')};
+          margin-right: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : '0')};
+          margin-left: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : '0')};
         }
 
         &:hover {
@@ -191,15 +194,15 @@ const WDSortableCardWrapper = styled.div`
       }
 
       &.isoControlBtnGroup {
-        margin-left: ${props =>
+        margin-left: ${(props) =>
           props['data-rtl'] === 'rtl' ? 'inherit' : 'auto'};
-        margin-right: ${props =>
+        margin-right: ${(props) =>
           props['data-rtl'] === 'rtl' ? 'auto' : 'inherit'};
 
         @media only screen and (max-width: 767px) {
-          margin-left: ${props =>
+          margin-left: ${(props) =>
             props['data-rtl'] === 'rtl' ? 'inherit' : '0'};
-          margin-right: ${props =>
+          margin-right: ${(props) =>
             props['data-rtl'] === 'rtl' ? '0' : 'inherit'};
           margin-top: 20px;
         }
@@ -228,16 +231,17 @@ const WDSortableCardWrapper = styled.div`
         outline: 0;
         height: 30px;
         padding: 0 15px;
-        margin-right: ${props => (props['data-rtl'] === 'rtl' ? '0' : '10px')};
-        margin-left: ${props => (props['data-rtl'] === 'rtl' ? '10px' : '0')};
+        margin-right: ${(props) =>
+          props['data-rtl'] === 'rtl' ? '0' : '10px'};
+        margin-left: ${(props) => (props['data-rtl'] === 'rtl' ? '10px' : '0')};
         cursor: pointer;
         ${borderRadius('3px')};
         ${transition()};
 
         i {
-          padding-right: ${props =>
+          padding-right: ${(props) =>
             props['data-rtl'] === 'rtl' ? '0' : '10px'};
-          padding-left: ${props =>
+          padding-left: ${(props) =>
             props['data-rtl'] === 'rtl' ? '10px' : '0'};
         }
 

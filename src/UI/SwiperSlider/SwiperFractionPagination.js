@@ -6,12 +6,12 @@ export default function SwiperFractionPagination(props) {
   const params = {
     pagination: {
       el: '.swiper-pagination',
-      type: 'fraction',
+      type: 'fraction'
     },
     navigation: {
       nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+      prevEl: '.swiper-button-prev'
+    }
   };
   return <Swiper {...params}>{children}</Swiper>;
 }

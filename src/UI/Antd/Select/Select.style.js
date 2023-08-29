@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 
-const AntSelect = ComponentName => styled(ComponentName)`
+const AntSelect = (ComponentName) => styled(ComponentName)`
   &.ant-select {
     box-sizing: border-box;
     display: inline-block;
@@ -26,15 +26,15 @@ const AntSelect = ComponentName => styled(ComponentName)`
         line-height: 33px;
 
         .ant-select-selection-selected-value {
-          float: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
-          padding: ${props =>
+          float: ${(props) => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+          padding: ${(props) =>
             props['data-rtl'] === 'rtl' ? '0 0 0 14px' : '0 14px 0 0'};
         }
       }
 
       .ant-select-arrow {
-        right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '7px')};
-        left: ${props => (props['data-rtl'] === 'rtl' ? '7px' : 'inherit')};
+        right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '7px')};
+        left: ${(props) => (props['data-rtl'] === 'rtl' ? '7px' : 'inherit')};
       }
 
       &:hover {
@@ -80,7 +80,7 @@ const AntSelect = ComponentName => styled(ComponentName)`
   }
 `;
 
-const AntSelectOption = ComponentName => styled(ComponentName)`
+const AntSelectOption = (ComponentName) => styled(ComponentName)`
   color: #000000;
   .ant-select-dropdown-menu-item {
     color: ${palette('text', 1)};

@@ -21,20 +21,20 @@ const {
   selectMail,
   changeComposeMail,
   changeReplyMail,
-  changeSearchString,
+  changeSearchString
 } = mailActions;
 
 export default function MobileView(props) {
   const [open, setOpen] = React.useState(false);
   const [listVisible, setListVisibility] = React.useState(true);
-  const mail = useSelector(state => state.Mails);
+  const mail = useSelector((state) => state.Mails);
   const {
     allMails,
     selectedMail,
     filterAttr,
     composeMail,
     replyMail,
-    searchString,
+    searchString
   } = mail;
   const [search, setSearch] = React.useState(searchString);
   const filterMails = mailSelector(mail);
@@ -47,7 +47,7 @@ export default function MobileView(props) {
   }
 
   function toggleListVisible() {
-    setListVisibility(listVisible => !listVisible);
+    setListVisibility((listVisible) => !listVisible);
   }
 
   let singleMailComponent = (
@@ -55,7 +55,7 @@ export default function MobileView(props) {
       <IntlMessages id="email.noMessage" />
     </p>
   );
-  const index = allMails.findIndex(mail => mail.id === selectedMail);
+  const index = allMails.findIndex((mail) => mail.id === selectedMail);
   if (index !== -1) {
     singleMailComponent = singleMail(
       allMails,
@@ -99,8 +99,8 @@ export default function MobileView(props) {
                   placeholder="Search Email"
                   value={search}
                   className="isoSearchEmail"
-                  onChange={event => setSearch(event.target.value)}
-                  onSearch={value => changeSearchString(value)}
+                  onChange={(event) => setSearch(event.target.value)}
+                  onSearch={(value) => changeSearchString(value)}
                 />
               </div>
               <Scrollbars style={{ height: props.height - 70 }}>

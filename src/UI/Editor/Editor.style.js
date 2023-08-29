@@ -5,27 +5,27 @@ import WithDirection from '../../hocs/withDirection';
 const QuillEditor = styled.div`
   .ql-editor {
     min-height: 215px;
-    text-align: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+    text-align: ${(props) => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
   }
 
   .ql-toolbar.ql-snow,
   .ql-container.ql-snow {
     border: 1px solid ${palette('border', 0)};
-    text-align: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+    text-align: ${(props) => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
 
     .ql-formats {
-      margin: ${props =>
+      margin: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 0 0 15px' : '0 15px 0 0'};
     }
 
     .ql-picker-label {
-      padding: ${props =>
+      padding: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 8px 0 2px' : '0 2px 0 8px'};
 
       &:not(.ql-color-picker):not(.ql-icon-picker) {
         svg {
-          right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-          left: ${props => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
+          right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
+          left: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
         }
       }
     }

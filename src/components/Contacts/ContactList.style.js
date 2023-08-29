@@ -3,7 +3,7 @@ import { palette } from 'styled-tools';
 import {
   transition,
   borderRadius,
-  boxShadow,
+  boxShadow
 } from '@iso/lib/helpers/style_utils';
 import WithDirection from '@iso/lib/helpers/rtl';
 const WDContactListWrapper = styled.div`
@@ -23,59 +23,57 @@ const WDContactListWrapper = styled.div`
   .isoSearchBar {
     flex-shrink: 0;
     max-height: none;
-      width: 100%;
-      height: 69px;
-      padding: 0 20px;
-      padding-left: ${(props) =>
-        props['data-rtl'] === 'rtl' ? 'inherit' : '35px'};
-      padding-right: ${(props) =>
-        props['data-rtl'] === 'rtl' ? '35px' : 'inherit'};
-      border: 0;
-      border-bottom: 1px solid ${palette('border', 0)};
-      outline: 0 !important;
-      overflow: hidden;
-      background-color: #ffffff;
-      ${boxShadow('none')};
-      ${borderRadius()};
-      ${transition()};
+    width: 100%;
+    height: 69px;
+    padding: 0 20px;
+    padding-left: ${(props) =>
+      props['data-rtl'] === 'rtl' ? 'inherit' : '35px'};
+    padding-right: ${(props) =>
+      props['data-rtl'] === 'rtl' ? '35px' : 'inherit'};
+    border: 0;
+    border-bottom: 1px solid ${palette('border', 0)};
+    outline: 0 !important;
+    overflow: hidden;
+    background-color: #ffffff;
+    ${boxShadow('none')};
+    ${borderRadius()};
+    ${transition()};
 
-      @media only screen and (max-width: 767px) {
-        height: 50px;
-      }
+    @media only screen and (max-width: 767px) {
+      height: 50px;
+    }
 
-      /* &:hover,
+    /* &:hover,
       &:focus {
         border-color: ${palette('border', 0)} !important;
       } */
 
-      &.ant-input-affix-wrapper:focus,
-      &.ant-input-affix-wrapper-focused {
-        border-color: rgba(230, 230, 230, 0.7);
+    &.ant-input-affix-wrapper:focus,
+    &.ant-input-affix-wrapper-focused {
+      border-color: rgba(230, 230, 230, 0.7);
+    }
+
+    .ant-input {
+      font-size: 14px;
+      font-weight: 400;
+      color: ${palette('text', 0)};
+      line-height: inherit;
+
+      &::-webkit-input-placeholder {
+        color: ${palette('grayscale', 0)};
       }
 
-      .ant-input {
-        font-size: 14px;
-        font-weight: 400;
-        color: ${palette('text', 0)};
-        line-height: inherit;
-
-
-        &::-webkit-input-placeholder {
-          color: ${palette('grayscale', 0)};
-        }
-
-        &:-moz-placeholder {
-          color: ${palette('grayscale', 0)};
-        }
-
-        &::-moz-placeholder {
-          color: ${palette('grayscale', 0)};
-        }
-        &:-ms-input-placeholder {
-          color: ${palette('grayscale', 0)};
-        }
+      &:-moz-placeholder {
+        color: ${palette('grayscale', 0)};
       }
 
+      &::-moz-placeholder {
+        color: ${palette('grayscale', 0)};
+      }
+      &:-ms-input-placeholder {
+        color: ${palette('grayscale', 0)};
+      }
+    }
 
     .ant-input-suffix {
       left: 10px;

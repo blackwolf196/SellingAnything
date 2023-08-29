@@ -1,6 +1,6 @@
 import qs from 'qs';
 import options from './options';
-import {isServer} from './isServer';
+import { isServer } from './isServer';
 
 export const getInitData = () => {
   if (!isServer) {
@@ -11,25 +11,25 @@ export const getInitData = () => {
     return initData;
   }
   return false;
-}
+};
 
 export const setUrl = (searchState: any) => {
   if (!isServer) {
     const search = searchState
       ? `${window.location.pathname}?${qs.stringify(searchState)}`
       : '';
-    window.history.pushState(searchState, "", search);
+    window.history.pushState(searchState, '', search);
   }
-}
+};
 
 export const getDefaultPath = () => {
   const getParent = (lastRoute: any) => {
     const parent: any = [];
     if (!lastRoute) return parent;
     parent.push(lastRoute);
-    options.forEach(option => {
+    options.forEach((option) => {
       if (option.children) {
-        option.children.forEach(child => {
+        option.children.forEach((child) => {
           if (child.key === lastRoute) {
             parent.push(option.key);
           }
@@ -46,4 +46,4 @@ export const getDefaultPath = () => {
     }
   }
   return [];
-}
+};

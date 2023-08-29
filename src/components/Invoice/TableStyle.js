@@ -16,7 +16,7 @@ const Table = styled(Tables)`
 
     &.ant-table-column-sort {
       background: ${palette('secondary', 1)};
-      margin: ${props =>
+      margin: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 4px 0 0' : '0 0 0 4px'};
     }
   }
@@ -25,7 +25,7 @@ const Table = styled(Tables)`
   .ant-table-tbody > tr > td {
     padding: 16px 15px;
     white-space: nowrap;
-    text-align: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+    text-align: ${(props) => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
 
     p {
       margin-bottom: 0;

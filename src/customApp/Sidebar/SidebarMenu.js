@@ -1,10 +1,10 @@
 import React from 'react';
-import {Link, useRouteMatch} from 'react-router-dom';
-import {Menu} from 'antd';
+import { Link, useRouteMatch } from 'react-router-dom';
+import { Menu } from 'antd';
 
 const SubMenu = Menu.SubMenu;
 
-const stripTrailingSlash = str => {
+const stripTrailingSlash = (str) => {
   if (str.substr(-1) === '/') {
     return str.substr(0, str.length - 1);
   }
@@ -12,9 +12,9 @@ const stripTrailingSlash = str => {
 };
 
 const SidebarMenu = (props) => {
-  const {singleOption, submenuStyle, submenuColor, ...rest} = props;
+  const { singleOption, submenuStyle, submenuColor, ...rest } = props;
   let match = useRouteMatch();
-  const {key, label, leftIcon, children} = singleOption;
+  const { key, label, leftIcon, children } = singleOption;
   const url = stripTrailingSlash(match.url);
 
   if (children) {
@@ -23,15 +23,13 @@ const SidebarMenu = (props) => {
         key={key}
         title={
           <span className="isoMenuHolder" style={submenuColor}>
-            <i className={leftIcon}/>
-            <span className="nav-text">
-              {label}
-            </span>
+            <i className={leftIcon} />
+            <span className="nav-text">{label}</span>
           </span>
         }
         {...rest}
       >
-        {children.map(child => {
+        {children.map((child) => {
           const linkTo = child.withoutDashboard
             ? `/${child.key}`
             : `${url}/${child.key}`;
@@ -50,10 +48,8 @@ const SidebarMenu = (props) => {
     <Menu.Item key={key} {...rest}>
       <Link to={`${url}/${key}`}>
         <span className="isoMenuHolder" style={submenuColor}>
-          <i className={leftIcon}/>
-          <span className="nav-text">
-            {label}
-          </span>
+          <i className={leftIcon} />
+          <span className="nav-text">{label}</span>
         </span>
       </Link>
     </Menu.Item>

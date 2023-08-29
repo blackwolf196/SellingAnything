@@ -7,8 +7,10 @@ import themes from '@iso/config/theme/theme.config';
 import AppLocale from '@iso/config/translation';
 
 export default function AppProvider({ children }) {
-  const { locale } = useSelector(state => state.LanguageSwitcher.language);
-  const { themeName } = useSelector(state => state.ThemeSwitcher.changeThemes);
+  const { locale } = useSelector((state) => state.LanguageSwitcher.language);
+  const { themeName } = useSelector(
+    (state) => state.ThemeSwitcher.changeThemes
+  );
   const currentAppLocale = AppLocale[locale];
   return (
     <ConfigProvider locale={currentAppLocale.antd}>

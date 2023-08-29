@@ -5,7 +5,7 @@ import Button from '@iso/components/uielements/button';
 import IntlMessages from '@iso/components/utility/intlMessages';
 import ForgotPasswordStyleWrapper from './ForgotPassword.styles';
 
-export default function() {
+export default function () {
   return (
     <ForgotPasswordStyleWrapper className="isoForgotPassPage">
       <div className="isoFormContentWrapper">

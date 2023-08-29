@@ -25,8 +25,8 @@ export const reorderTasks = ({ columns, source, destination, draggableId }) => {
       ...columns,
       [source.droppableId]: {
         ...sourceColumn,
-        task_orders: sourceColumnTaskOrders,
-      },
+        task_orders: sourceColumnTaskOrders
+      }
     };
     return newColumns;
   }
@@ -42,12 +42,12 @@ export const reorderTasks = ({ columns, source, destination, draggableId }) => {
     ...columns,
     [source.droppableId]: {
       ...sourceColumn,
-      task_orders: sourceColumnTaskOrders,
+      task_orders: sourceColumnTaskOrders
     },
     [destination.droppableId]: {
       ...destinationColumn,
-      task_orders: destinationColumnTaskOrders,
-    },
+      task_orders: destinationColumnTaskOrders
+    }
   };
 
   return newColumns;

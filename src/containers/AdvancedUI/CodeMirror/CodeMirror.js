@@ -14,7 +14,7 @@ import CodeMirror, { CodeMirrorToolbar } from './CodeMirror.styles';
 const FormItem = Form.Item;
 const Option = SelectOption;
 
-export default function() {
+export default function () {
   const [state, setState] = React.useState({
     ...defaultValues,
     basicOptions: {
@@ -22,19 +22,19 @@ export default function() {
       readOnly: false,
       tabSize: 4,
       mode: 'javascript',
-      theme: 'zenburn',
-    },
+      theme: 'zenburn'
+    }
   });
 
   function updateCode(mode, value) {
     setState({
       ...state,
-      [mode]: value,
+      [mode]: value
     });
   }
   function toggleOptions() {
     const { basicOptions } = state;
-    return switchOptions.map((option, index) => {
+    return switchOptions.map((option) => {
       const id = option.id;
       const onChange = () => {
         basicOptions[id] = !basicOptions[id];
@@ -52,16 +52,16 @@ export default function() {
   }
   function selctOptions() {
     const { basicOptions } = state;
-    return selectOptions.map((option, index) => {
+    return selectOptions.map((option) => {
       const id = option.id;
-      const handleChange = value => {
+      const handleChange = (value) => {
         basicOptions[id] = isNaN(value) ? value : parseInt(value, 10);
         setState({ ...state, basicOptions });
       };
       return (
         <FormItem label={option.title} key={option.id}>
           <Select defaultValue={`${basicOptions[id]}`} onChange={handleChange}>
-            {option.options.map(opt => (
+            {option.options.map((opt) => (
               <Option value={opt} key={opt}>
                 {opt}
               </Option>
@@ -85,7 +85,7 @@ export default function() {
               </CodeMirrorToolbar>
               <CodeMirror
                 value={state.basic}
-                onChange={value => updateCode('basic', value)}
+                onChange={(value) => updateCode('basic', value)}
                 options={state.basicOptions}
               />
             </ContentHolder>
@@ -98,7 +98,7 @@ export default function() {
             <ContentHolder>
               <CodeMirror
                 value={state.ruby}
-                onChange={value => updateCode('ruby', value)}
+                onChange={(value) => updateCode('ruby', value)}
                 options={{ lineNumbers: true, theme: 'hopscotch' }}
               />
             </ContentHolder>
@@ -109,7 +109,7 @@ export default function() {
             <ContentHolder>
               <CodeMirror
                 value={state.javascript}
-                onChange={value => updateCode('javascript', value)}
+                onChange={(value) => updateCode('javascript', value)}
                 options={{ lineNumbers: true, theme: 'twilight' }}
               />
             </ContentHolder>
@@ -122,7 +122,7 @@ export default function() {
             <ContentHolder>
               <CodeMirror
                 value={state.markdown}
-                onChange={value => updateCode('markdown', value)}
+                onChange={(value) => updateCode('markdown', value)}
                 options={{ lineNumbers: true, theme: 'rubyblue' }}
               />
             </ContentHolder>
@@ -133,7 +133,7 @@ export default function() {
             <ContentHolder>
               <CodeMirror
                 value={state.xml}
-                onChange={value => updateCode('xml', value)}
+                onChange={(value) => updateCode('xml', value)}
                 options={{ lineNumbers: true, theme: 'paraiso-dark' }}
               />
             </ContentHolder>
@@ -146,7 +146,7 @@ export default function() {
             <ContentHolder>
               <CodeMirror
                 value={state.php}
-                onChange={value => updateCode('php', value)}
+                onChange={(value) => updateCode('php', value)}
                 options={{ lineNumbers: true, theme: 'midnight' }}
               />
             </ContentHolder>
@@ -157,7 +157,7 @@ export default function() {
             <ContentHolder>
               <CodeMirror
                 value={state.python}
-                onChange={value => updateCode('python', value)}
+                onChange={(value) => updateCode('python', value)}
                 options={{ lineNumbers: true, theme: 'material' }}
               />
             </ContentHolder>

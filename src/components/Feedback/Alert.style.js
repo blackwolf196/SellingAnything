@@ -3,7 +3,7 @@ import { Alert } from 'antd';
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 import WithDirection from '@iso/lib/helpers/rtl';
-const AntAlert = props => <Alert {...props} />;
+const AntAlert = (props) => <Alert {...props} />;
 
 const Alerts = styled(AntAlert)`
   && {
@@ -24,7 +24,7 @@ const Alerts = styled(AntAlert)`
   }
 
   &&.ant-alert-with-description {
-    padding: ${props =>
+    padding: ${(props) =>
       props['data-rtl'] === 'rtl'
         ? '16px 60px 16px 16px'
         : '16px 16px 16px 60px'};
@@ -40,29 +40,29 @@ const Alerts = styled(AntAlert)`
 
     .ant-alert-icon {
       top: 20px;
-      left: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '20px')};
-      right: ${props => (props['data-rtl'] === 'rtl' ? '20px' : 'inherit')};
+      left: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '20px')};
+      right: ${(props) => (props['data-rtl'] === 'rtl' ? '20px' : 'inherit')};
     }
     &&.ant-alert-no-icon {
-      padding: ${props =>
+      padding: ${(props) =>
         props['data-rtl'] === 'rtl'
           ? '12px 16px 12px 48px'
           : '12px 48px 12px 16px'};
     }
     .ant-alert-close-icon {
-      right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '16px')};
-      left: ${props => (props['data-rtl'] === 'rtl' ? '16px' : 'inherit')};
+      right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '16px')};
+      left: ${(props) => (props['data-rtl'] === 'rtl' ? '16px' : 'inherit')};
     }
   }
   &&.ant-alert-no-icon {
-    padding: ${props =>
+    padding: ${(props) =>
       props['data-rtl'] === 'rtl'
         ? '12px 16px 12px 48px'
         : '12px 48px 12px 16px'};
   }
   .ant-alert-close-icon {
-    right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '16px')};
-    left: ${props => (props['data-rtl'] === 'rtl' ? '16px' : 'inherit')};
+    right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '16px')};
+    left: ${(props) => (props['data-rtl'] === 'rtl' ? '16px' : 'inherit')};
   }
 `;
 

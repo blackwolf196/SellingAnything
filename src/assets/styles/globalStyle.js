@@ -1,6 +1,6 @@
-import {createGlobalStyle} from 'styled-components';
-import {palette} from 'styled-tools';
-import {font} from "styled-theme";
+import { createGlobalStyle } from 'styled-components';
+import { palette } from 'styled-tools';
+import { font } from 'styled-theme';
 // import 'antd/dist/antd.css';
 
 const GlobalStyles = createGlobalStyle`
@@ -170,8 +170,10 @@ svg {
 }
 
 .ant-row:not(.ant-form-item) {
-  ${'' /* margin-left: -8px;
-  margin-right: -8px; */};
+  ${
+    '' /* margin-left: -8px;
+  margin-right: -8px; */
+  };
   &:before,
   &:after {
     display: none;

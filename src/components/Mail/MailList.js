@@ -23,12 +23,12 @@ export default function mailList(
       splitLet: recpName
         .match(/\b(\w)/g)
         .join('')
-        .split('', 2),
+        .split('', 2)
     };
     const activeClass = isSelected ? 'activeMail' : '';
     const unreadClass = !mail.read ? 'unreadMail' : '';
     const tagOption = mail.tags
-      ? tagColor[tags.findIndex(tags => tags === mail.tags)]
+      ? tagColor[tags.findIndex((tags) => tags === mail.tags)]
       : 'transparent';
     return (
       <div

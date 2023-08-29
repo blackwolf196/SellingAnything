@@ -7,7 +7,7 @@ import config from './config';
 const { changeLanguage } = actions;
 
 export default function LanguageSwitcher() {
-  const { language } = useSelector(state => state.LanguageSwitcher);
+  const { language } = useSelector((state) => state.LanguageSwitcher);
   const dispatch = useDispatch();
   return (
     <div className="themeSwitchBlock">
@@ -15,7 +15,7 @@ export default function LanguageSwitcher() {
         <IntlMessages id="languageSwitcher.label" />
       </h4>
       <div className="themeSwitchBtnWrapper">
-        {config.options.map(option => {
+        {config.options.map((option) => {
           const { languageId, icon } = option;
           const customClass =
             languageId === language.languageId

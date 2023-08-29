@@ -6,7 +6,7 @@ export const PUBLIC_ROUTE = {
   RESET_PASSWORD: '/resetpassword',
   PAGE_404: '/404',
   PAGE_500: '/500',
-  AUTH0_CALLBACK: '/auth0loginCallback',
+  AUTH0_CALLBACK: '/auth0loginCallback'
 };
 
 export const PRIVATE_ROUTE = {
@@ -75,5 +75,5 @@ export const PRIVATE_ROUTE = {
   INVOICE: '/invoice',
   CHAT: '/chat',
   PROFILE: '/my-profile',
-  SWIPER_SLIDER: '/swiperslider',
+  SWIPER_SLIDER: '/swiperslider'
 };

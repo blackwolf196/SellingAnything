@@ -1,7 +1,7 @@
 import React from 'react';
 import { BoxTitle, BoxSubTitle } from './boxTitle.style';
 
-export default props => {
+export default (props) => {
   return (
     <div>
       {props.title ? (

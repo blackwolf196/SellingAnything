@@ -1,7 +1,7 @@
 import moment from 'moment';
 import { dateFormat } from './fieldFormats';
 
-export const validateDate = value => {
+export const validateDate = (value) => {
   let errors;
   if (!value) {
     errors = 'Required!';

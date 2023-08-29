@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { palette } from 'styled-tools';
 
-const AntInputNumber = ComponentName => styled(ComponentName)`
+const AntInputNumber = (ComponentName) => styled(ComponentName)`
   &.ant-input-number {
     color: ${palette('texy', 1)};
     padding: 0;
@@ -15,7 +15,8 @@ const AntInputNumber = ComponentName => styled(ComponentName)`
       height: 33px;
       color: ${palette('text', 1)};
       padding: 0 10px;
-      text-align: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+      text-align: ${(props) =>
+        props['data-rtl'] === 'rtl' ? 'right' : 'left'};
     }
 
     &.ant-input-number-focused {
@@ -23,13 +24,13 @@ const AntInputNumber = ComponentName => styled(ComponentName)`
     }
 
     .ant-input-number-handler-wrap {
-      left: ${props => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
-      right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-      border-radius: ${props =>
+      left: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
+      right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
+      border-radius: ${(props) =>
         props['data-rtl'] === 'rtl' ? '4px 0 0 4px' : '0 4px 4px 0'};
-      border-left: ${props => (props['data-rtl'] === 'rtl' ? 0 : 1)}px solid
+      border-left: ${(props) => (props['data-rtl'] === 'rtl' ? 0 : 1)}px solid
         ${palette('border', 1)};
-      border-right: ${props => (props['data-rtl'] === 'rtl' ? 1 : 0)}px solid
+      border-right: ${(props) => (props['data-rtl'] === 'rtl' ? 1 : 0)}px solid
         ${palette('border', 1)};
     }
 

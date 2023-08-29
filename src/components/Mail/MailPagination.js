@@ -2,7 +2,7 @@ import React from 'react';
 import MailPagination from './MailPagination.style';
 import { direction } from '@iso/lib/helpers/rtl';
 
-export default function() {
+export default function () {
   return (
     <MailPagination className="isoMailPagination">
       <button type="button" className="prevPage">

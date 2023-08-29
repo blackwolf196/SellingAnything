@@ -5,7 +5,7 @@ export default {
   enableAnimatedRoute: false,
   apiUrl: 'https://pokeapi.co/api/v2/',
   google: {
-    analyticsKey: 'UA-xxxxxxxxx-1',
+    analyticsKey: 'UA-xxxxxxxxx-1'
   },
-  dashboard: '/trang-chu',
+  dashboard: '/trang-chu'
 };

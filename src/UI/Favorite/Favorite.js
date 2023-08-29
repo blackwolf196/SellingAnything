@@ -15,14 +15,14 @@ const Favorite = ({ className, content, onClick }) => {
     addAllClass.push(className);
   }
 
-  const handelClick = event => {
+  const handleClick = () => {
     toggleHandler();
     onClick(!toggleValue);
   };
 
   return (
     <FavoriteWrapper
-      onClick={handelClick}
+      onClick={handleClick}
       className={`${addAllClass.join(' ')} ${toggleValue ? 'active' : ''}`}
     >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.64 18.232">
@@ -47,11 +47,11 @@ Favorite.propTypes = {
    * @param {object} event The event source of the callback.
    * You can pull out the new value by accessing `event.target.value`.
    */
-  onClick: PropTypes.func,
+  onClick: PropTypes.func
 };
 
 Favorite.defaultProps = {
-  onClick: () => {},
+  onClick: () => {}
 };
 
 export default Favorite;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { palette } from 'styled-tools';
 import { borderRadius } from '@iso/lib/helpers/style_utils';
 
-const Modals = ComponentName => styled(ComponentName)`
+const Modals = (ComponentName) => styled(ComponentName)`
   .ant-modal-header {
     padding: 13px 16px;
     background: ${palette('grayscale', 5)};
@@ -20,8 +20,8 @@ const Modals = ComponentName => styled(ComponentName)`
   }
 
   .ant-modal-close {
-    right: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-    left: ${props => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
+    right: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
+    left: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
   }
 
   .ant-modal-body {
@@ -44,7 +44,7 @@ const Modals = ComponentName => styled(ComponentName)`
     }
 
     button + button {
-      margin: ${props =>
+      margin: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 8px 0 0' : '0 0 0 8px'};
     }
   }

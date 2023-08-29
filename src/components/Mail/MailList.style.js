@@ -18,7 +18,7 @@ const MailListWrapper = styled.div`
     border-bottom: 1px solid ${palette('border', 0)};
     overflow: hidden;
     position: relative;
-    text-align: ${props => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
+    text-align: ${(props) => (props['data-rtl'] === 'rtl' ? 'right' : 'left')};
     cursor: pointer;
     ${transition()};
 
@@ -26,13 +26,13 @@ const MailListWrapper = styled.div`
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: ${props =>
+      border-width: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 15px 15px 0;' : '15px 15px 0 0'};
       border-color: transparent transparent transparent transparent;
       position: absolute;
       top: 0;
-      left: ${props => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
-      right: ${props => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
+      left: ${(props) => (props['data-rtl'] === 'rtl' ? 'inherit' : '0')};
+      right: ${(props) => (props['data-rtl'] === 'rtl' ? '0' : 'inherit')};
     }
 
     &:last-child {
@@ -73,7 +73,7 @@ const MailListWrapper = styled.div`
 
     .isoMailInfo {
       width: 100%;
-      padding: ${props =>
+      padding: ${(props) =>
         props['data-rtl'] === 'rtl' ? '0 20px 0 0' : '0 0 0 20px'};
 
       .infoHead {

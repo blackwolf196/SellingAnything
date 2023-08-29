@@ -1,7 +1,7 @@
 import React from 'react';
 import ContentLoader from 'react-content-loader';
 
-export const SinglePageLoader = props => {
+export const SinglePageLoader = (props) => {
   return (
     <ContentLoader
       height={1000}
@@ -51,7 +51,7 @@ export const SinglePageLoader = props => {
   );
 };
 
-export const HotelPostGridLoader = props => {
+export const HotelPostGridLoader = (props) => {
   return (
     <ContentLoader
       height={400}
